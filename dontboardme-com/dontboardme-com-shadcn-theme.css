@@ -1,0 +1,24 @@
+/* shadcn/ui Theme — extracted from https://dontboardme.com/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 352 63% 88%;
+    --foreground: 0 0% 0%;
+    --primary: 200 51% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 4 77% 53%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 351 66% 83%;
+    --accent-foreground: 0 0% 0%;
+    --muted: 0 0% 100%;
+    --muted-foreground: 0 0% 0%;
+    --border: 0 0% 100%;
+    --radius: 9px;
+  }
+  .dark {
+    --background: 352 63% 88%;
+    --foreground: 0 0% 0%;
+    --primary: 200 51% 35%;
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://www.roberttran.com.au/",
+  "generated": "2026-08-22T02:59:54.852Z",
+  "count": 5,
+  "gradients": [
+    {
+      "raw": "radial-gradient(circle, rgba(0, 0, 0, 0) 92px, rgba(22, 20, 15, 0.26) 296px, rgba(22, 20, 15, 0.42) 58%)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "92px"
+        },
+        {
+          "color": "rgba(22, 20, 15, 0.26)",
+          "position": "296px"
+        },
+        {
+          "color": "rgba(22, 20, 15, 0.42)",
+          "position": "58%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle at 32% 28%, rgba(251, 250, 245, 0.5), rgba(251, 250, 245, 0) 46%)",
+      "type": "radial",
+      "direction": "circle at 32% 28%",
+      "stops": [
+        {
+          "color": "rgba(251, 250, 245, 0.5)",
+          "position": null
+        },
+        {
+          "color": "rgba(251, 250, 245, 0)",
+          "position": "46%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "radial-gradient(circle at 70% 78%, rgba(22, 20, 15, 0.06), rgba(22, 20, 15, 0) 40%)",
+      "type": "radial",
+      "direction": "circle at 70% 78%",
+      "stops": [
+        {
+          "color": "rgba(22, 20, 15, 0.06)",
+          "position": null
+        },
+        {
+          "color": "rgba(22, 20, 15, 0)",
+          "position": "40%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "radial-gradient(rgba(22, 20, 15, 0.16) 0.6px, rgba(0, 0, 0, 0) 0.7px)",
+      "type": "radial",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(22, 20, 15, 0.16)",
+          "position": "0.6px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0.7px"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "radial-gradient(rgba(166, 56, 44, 0.5) 0.7px, rgba(0, 0, 0, 0) 0.8px)",
+      "type": "radial",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(166, 56, 44, 0.5)",
+          "position": "0.7px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0.8px"
+        }
+      ],
+      "classification": "brand"
+    }
+  ]
+}

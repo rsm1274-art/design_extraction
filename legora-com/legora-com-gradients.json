@@ -1,0 +1,88 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://legora.com/",
+  "generated": "2026-08-23T01:33:05.298Z",
+  "count": 4,
+  "gradients": [
+    {
+      "raw": "linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 0) 50%, rgba(250, 250, 250, 0) 100%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(250, 250, 250, 0)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(250, 250, 250, 0)",
+          "position": "50%"
+        },
+        {
+          "color": "rgba(250, 250, 250, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 13.1176%, rgba(0, 0, 0, 0.1) 72.2498%, rgba(0, 0, 0, 0.5) 100%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0.5)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.1)",
+          "position": "13.1176%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.1)",
+          "position": "72.2498%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.5)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(67, 81, 112, 0.2) 15%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0.4)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(67, 81, 112, 0.2)",
+          "position": "15%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 75%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0.6)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "75%"
+        }
+      ],
+      "classification": "brand"
+    }
+  ]
+}

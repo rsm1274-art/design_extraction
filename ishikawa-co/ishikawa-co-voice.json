@@ -1,0 +1,38 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Sentence case",
+  "headingLengthClass": "balanced",
+  "ctaVerbs": [
+    {
+      "value": "analytics",
+      "count": 1
+    },
+    {
+      "value": "walk",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "♪",
+      "count": 1
+    },
+    {
+      "value": "analytics settings",
+      "count": 1
+    },
+    {
+      "value": "walk the worlds again",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+    "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa"
+  ],
+  "stats": {
+    "buttons": 3,
+    "headings": 2
+  }
+}

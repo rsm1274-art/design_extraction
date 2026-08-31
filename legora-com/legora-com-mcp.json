@@ -1,0 +1,339 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 1251,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 238,
+          "a": 1
+        },
+        "hsl": {
+          "h": 240,
+          "s": 100,
+          "l": 47
+        },
+        "count": 266,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#005032",
+        "rgb": {
+          "r": 0,
+          "g": 80,
+          "b": 50,
+          "a": 1
+        },
+        "hsl": {
+          "h": 158,
+          "s": 100,
+          "l": 16
+        },
+        "count": 176,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 115,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#0d1016",
+        "rgb": {
+          "r": 13,
+          "g": 16,
+          "b": 22,
+          "a": 1
+        },
+        "hsl": {
+          "h": 220,
+          "s": 26,
+          "l": 7
+        },
+        "count": 73,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#68655e",
+        "rgb": {
+          "r": 104,
+          "g": 101,
+          "b": 94,
+          "a": 1
+        },
+        "hsl": {
+          "h": 42,
+          "s": 5,
+          "l": 39
+        },
+        "count": 52,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e6e6e6",
+        "rgb": {
+          "r": 230,
+          "g": 230,
+          "b": 230,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 90
+        },
+        "count": 19,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#343434",
+        "rgb": {
+          "r": 52,
+          "g": 52,
+          "b": 52,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 20
+        },
+        "count": 6,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#8f8d8a",
+        "rgb": {
+          "r": 143,
+          "g": 141,
+          "b": 138,
+          "a": 1
+        },
+        "hsl": {
+          "h": 36,
+          "s": 2,
+          "l": 55
+        },
+        "count": 6,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#003d26",
+        "rgb": {
+          "r": 0,
+          "g": 61,
+          "b": 38,
+          "a": 1
+        },
+        "hsl": {
+          "h": 157,
+          "s": 100,
+          "l": 12
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 1261.421875,
+        "w": 1280,
+        "h": 4416
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": null
+    }
+  ],
+  "componentClusters": [],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 109,
+        "usedBytes": 105,
+        "unusedBytes": 4,
+        "unusedPercent": 4
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 27904,
+        "usedBytes": 0,
+        "unusedBytes": 27904,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 214636,
+        "usedBytes": 75663,
+        "unusedBytes": 138973,
+        "unusedPercent": 65
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 135,
+        "usedBytes": 131,
+        "unusedBytes": 4,
+        "unusedPercent": 3
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 262,
+        "usedBytes": 0,
+        "unusedBytes": 262,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 634,
+        "usedBytes": 0,
+        "unusedBytes": 634,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 1222,
+        "usedBytes": 0,
+        "unusedBytes": 1222,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 1222,
+        "usedBytes": 0,
+        "unusedBytes": 1222,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 96,
+        "usedBytes": 96,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 97,
+        "usedBytes": 97,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 69,
+        "usedBytes": 0,
+        "unusedBytes": 69,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://legora.com/",
+        "totalBytes": 1222,
+        "usedBytes": 0,
+        "unusedBytes": 1222,
+        "unusedPercent": 100
+      }
+    ],
+    "totalBytes": 247608,
+    "usedBytes": 76092,
+    "unusedBytes": 171516,
+    "unusedPercent": 69,
+    "importantCount": 18,
+    "duplicates": 4131,
+    "vendorPrefixes": {
+      "webkit": 60,
+      "moz": 3,
+      "ms": 0,
+      "o": 0
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        5,
+        4
+      ],
+      "average": [
+        0.01,
+        2.16,
+        0.36
+      ],
+      "count": 1383
+    },
+    "issues": [
+      "18 !important rules",
+      "4131 duplicate declarations",
+      "69% unused CSS"
+    ]
+  }
+}

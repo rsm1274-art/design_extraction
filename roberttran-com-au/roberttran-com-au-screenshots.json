@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "cluster": "button--default",
+      "variant": 0,
+      "path": "screenshots/button-default-0.png",
+      "bounds": {
+        "w": 127,
+        "h": 33
+      },
+      "kind": "button",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "button--default",
+      "variant": 1,
+      "path": "screenshots/button-default-1.png",
+      "bounds": {
+        "w": 212,
+        "h": 55
+      },
+      "kind": "button",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "button--default",
+      "variant": 2,
+      "path": "screenshots/button-default-2.png",
+      "bounds": {
+        "w": 40,
+        "h": 40
+      },
+      "kind": "button",
+      "variantHint": "default",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "input--outline",
+      "variant": 0,
+      "path": "screenshots/input-outline-0.png",
+      "bounds": {
+        "w": 276,
+        "h": 52
+      },
+      "kind": "input",
+      "variantHint": "outline",
+      "sizeHint": "",
+      "retina": true
+    },
+    {
+      "cluster": "input--outline",
+      "variant": 1,
+      "path": "screenshots/input-outline-1.png",
+      "bounds": {
+        "w": 568,
+        "h": 120
+      },
+      "kind": "input",
+      "variantHint": "outline",
+      "sizeHint": "",
+      "retina": true
+    }
+  ],
+  "fullPage": {
+    "path": "screenshots/full-page.png",
+    "retina": true
+  },
+  "count": 5
+}

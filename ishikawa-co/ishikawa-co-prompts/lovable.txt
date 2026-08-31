@@ -1,0 +1,12 @@
+Clone the design language of this blog-post page and build a fresh equivalent.
+Visual feel: material-you. Tone: friendly · Headings: Sentence case · CTA verbs: [object Object], [object Object]
+Primary palette: #1f1f1f, #333735, #2f302d, #000000, #486c62.
+Typography: [object Object], [object Object], [object Object], [object Object].
+Corner radius vocabulary: 1, 6, 50, 53, 56, 70.
+Shadow vocabulary: rgba(188, 194, 104, 0.08) 0px 0px 0px 2px inset | rgba(91, 139, 112, 0) 0px 0px 0px 4px | rgba(212, 81, 153, 0) 0px 0px 0px 4px.
+Page structure:
+- testimonial — heading: "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa"
+- testimonial — heading: "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa"
+- sidebar
+- sidebar
+- footer

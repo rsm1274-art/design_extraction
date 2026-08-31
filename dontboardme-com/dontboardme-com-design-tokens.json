@@ -1,0 +1,310 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://dontboardme.com/",
+    "generatedAt": "2026-08-22T01:58:20.780Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#2b6786",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "#e33529",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#f6f6ed",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#ede2e2",
+          "$type": "color"
+        },
+        "n400": {
+          "$value": "#ffffff",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#f4ced3",
+          "$type": "color"
+        },
+        "bg1": {
+          "$value": "#f3f3e9",
+          "$type": "color"
+        },
+        "bg2": {
+          "$value": "#f0b5be",
+          "$type": "color"
+        },
+        "bg3": {
+          "$value": "#f3c3cb",
+          "$type": "color"
+        },
+        "bg4": {
+          "$value": "#f6d2d8",
+          "$type": "color"
+        },
+        "bg5": {
+          "$value": "#f3f3f3",
+          "$type": "color"
+        },
+        "bg6": {
+          "$value": "#e6dfe7",
+          "$type": "color"
+        },
+        "bg7": {
+          "$value": "#ead9ec",
+          "$type": "color"
+        },
+        "bg8": {
+          "$value": "#eacdef",
+          "$type": "color"
+        },
+        "bg9": {
+          "$value": "#d8b3df",
+          "$type": "color"
+        },
+        "bg10": {
+          "$value": "#f6f6ed",
+          "$type": "color"
+        },
+        "bg11": {
+          "$value": "#afd8fb",
+          "$type": "color"
+        },
+        "bg12": {
+          "$value": "#2b6786",
+          "$type": "color"
+        },
+        "bg13": {
+          "$value": "#f3f0ef",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#e33529",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#0000ee",
+          "$type": "color"
+        },
+        "text3": {
+          "$value": "#f3f3e9",
+          "$type": "color"
+        },
+        "text4": {
+          "$value": "#ede2e2",
+          "$type": "color"
+        },
+        "text5": {
+          "$value": "#925026",
+          "$type": "color"
+        },
+        "text6": {
+          "$value": "#693413",
+          "$type": "color"
+        },
+        "text7": {
+          "$value": "#edbdd1",
+          "$type": "color"
+        },
+        "text8": {
+          "$value": "#2b6786",
+          "$type": "color"
+        },
+        "text9": {
+          "$value": "#f6f6ed",
+          "$type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "21px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "28px",
+        "$type": "dimension"
+      },
+      "s5": {
+        "$value": "36px",
+        "$type": "dimension"
+      },
+      "s6": {
+        "$value": "39px",
+        "$type": "dimension"
+      },
+      "s7": {
+        "$value": "43px",
+        "$type": "dimension"
+      },
+      "s8": {
+        "$value": "50px",
+        "$type": "dimension"
+      },
+      "s9": {
+        "$value": "57px",
+        "$type": "dimension"
+      },
+      "s10": {
+        "$value": "60px",
+        "$type": "dimension"
+      },
+      "s11": {
+        "$value": "64px",
+        "$type": "dimension"
+      },
+      "s12": {
+        "$value": "76px",
+        "$type": "dimension"
+      },
+      "s13": {
+        "$value": "84px",
+        "$type": "dimension"
+      },
+      "s14": {
+        "$value": "89px",
+        "$type": "dimension"
+      },
+      "s15": {
+        "$value": "94px",
+        "$type": "dimension"
+      },
+      "s16": {
+        "$value": "101px",
+        "$type": "dimension"
+      },
+      "s17": {
+        "$value": "107px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "3px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "9px",
+        "$type": "dimension"
+      },
+      "r2": {
+        "$value": "50px",
+        "$type": "dimension"
+      },
+      "r3": {
+        "$value": "133px",
+        "$type": "dimension"
+      },
+      "r4": {
+        "$value": "662px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgba(221, 198, 202, 0.4) -3px 4px 14px 0px",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "Times New Roman",
+        "$type": "fontFamily"
+      },
+      "f1": {
+        "$value": "Bayon",
+        "$type": "fontFamily"
+      },
+      "f2": {
+        "$value": "Neue Montreal",
+        "$type": "fontFamily"
+      },
+      "f3": {
+        "$value": "Arial",
+        "$type": "fontFamily"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "Times New Roman",
+          "fontSize": "260.444px",
+          "fontWeight": "400",
+          "lineHeight": "203.147px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}",
+        "$type": "shadow"
+      }
+    }
+  }
+}

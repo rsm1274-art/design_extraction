@@ -1,0 +1,1561 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#1f1f1f",
+        "rgb": {
+          "r": 31,
+          "g": 31,
+          "b": 31,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 12
+        },
+        "count": 565,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#333735",
+        "rgb": {
+          "r": 51,
+          "g": 55,
+          "b": 53,
+          "a": 0.9
+        },
+        "hsl": {
+          "h": 150,
+          "s": 4,
+          "l": 21
+        },
+        "count": 315,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#2f302d",
+        "rgb": {
+          "r": 47,
+          "g": 48,
+          "b": 45,
+          "a": 1
+        },
+        "hsl": {
+          "h": 80,
+          "s": 3,
+          "l": 18
+        },
+        "count": 194,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 128,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#486c62",
+        "rgb": {
+          "r": 72,
+          "g": 108,
+          "b": 98,
+          "a": 0.38
+        },
+        "hsl": {
+          "h": 163,
+          "s": 20,
+          "l": 35
+        },
+        "count": 41,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 38,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#bcc268",
+        "rgb": {
+          "r": 188,
+          "g": 194,
+          "b": 104,
+          "a": 0.72
+        },
+        "hsl": {
+          "h": 64,
+          "s": 42,
+          "l": 58
+        },
+        "count": 36,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#5b8b70",
+        "rgb": {
+          "r": 91,
+          "g": 139,
+          "b": 112,
+          "a": 1
+        },
+        "hsl": {
+          "h": 146,
+          "s": 21,
+          "l": 45
+        },
+        "count": 28,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#dcf6f2",
+        "rgb": {
+          "r": 220,
+          "g": 246,
+          "b": 242,
+          "a": 0.88
+        },
+        "hsl": {
+          "h": 171,
+          "s": 59,
+          "l": 91
+        },
+        "count": 27,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ebe8c1",
+        "rgb": {
+          "r": 235,
+          "g": 232,
+          "b": 193,
+          "a": 0.92
+        },
+        "hsl": {
+          "h": 56,
+          "s": 51,
+          "l": 84
+        },
+        "count": 27,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#444444",
+        "rgb": {
+          "r": 68,
+          "g": 68,
+          "b": 68,
+          "a": 0.42
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 27
+        },
+        "count": 25,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#30654a",
+        "rgb": {
+          "r": 48,
+          "g": 101,
+          "b": 74,
+          "a": 1
+        },
+        "hsl": {
+          "h": 149,
+          "s": 36,
+          "l": 29
+        },
+        "count": 25,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#4ee8dd",
+        "rgb": {
+          "r": 78,
+          "g": 232,
+          "b": 221,
+          "a": 0.32
+        },
+        "hsl": {
+          "h": 176,
+          "s": 77,
+          "l": 61
+        },
+        "count": 22,
+        "contexts": [
+          "border",
+          "background",
+          "text"
+        ]
+      },
+      {
+        "hex": "#50a4b4",
+        "rgb": {
+          "r": 80,
+          "g": 164,
+          "b": 180,
+          "a": 0.7
+        },
+        "hsl": {
+          "h": 190,
+          "s": 40,
+          "l": 51
+        },
+        "count": 21,
+        "contexts": [
+          "background",
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#924437",
+        "rgb": {
+          "r": 146,
+          "g": 68,
+          "b": 55,
+          "a": 1
+        },
+        "hsl": {
+          "h": 9,
+          "s": 45,
+          "l": 39
+        },
+        "count": 19,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#914652",
+        "rgb": {
+          "r": 145,
+          "g": 70,
+          "b": 82,
+          "a": 1
+        },
+        "hsl": {
+          "h": 350,
+          "s": 35,
+          "l": 42
+        },
+        "count": 19,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#7e561c",
+        "rgb": {
+          "r": 126,
+          "g": 86,
+          "b": 28,
+          "a": 1
+        },
+        "hsl": {
+          "h": 36,
+          "s": 64,
+          "l": 30
+        },
+        "count": 19,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#423737",
+        "rgb": {
+          "r": 66,
+          "g": 55,
+          "b": 55,
+          "a": 0.9
+        },
+        "hsl": {
+          "h": 0,
+          "s": 9,
+          "l": 24
+        },
+        "count": 17,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#d45199",
+        "rgb": {
+          "r": 212,
+          "g": 81,
+          "b": 153,
+          "a": 1
+        },
+        "hsl": {
+          "h": 327,
+          "s": 60,
+          "l": 57
+        },
+        "count": 16,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#30443d",
+        "rgb": {
+          "r": 48,
+          "g": 68,
+          "b": 61,
+          "a": 0.58
+        },
+        "hsl": {
+          "h": 159,
+          "s": 17,
+          "l": 23
+        },
+        "count": 15,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#62aabe",
+        "rgb": {
+          "r": 98,
+          "g": 170,
+          "b": 190,
+          "a": 1
+        },
+        "hsl": {
+          "h": 193,
+          "s": 41,
+          "l": 56
+        },
+        "count": 14,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#d5809b",
+        "rgb": {
+          "r": 213,
+          "g": 128,
+          "b": 155,
+          "a": 1
+        },
+        "hsl": {
+          "h": 341,
+          "s": 50,
+          "l": 67
+        },
+        "count": 14,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#696b74",
+        "rgb": {
+          "r": 105,
+          "g": 107,
+          "b": 116,
+          "a": 1
+        },
+        "hsl": {
+          "h": 229,
+          "s": 5,
+          "l": 43
+        },
+        "count": 10,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#cea02e",
+        "rgb": {
+          "r": 206,
+          "g": 160,
+          "b": 46,
+          "a": 0.46
+        },
+        "hsl": {
+          "h": 43,
+          "s": 63,
+          "l": 49
+        },
+        "count": 8,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#101010",
+        "rgb": {
+          "r": 16,
+          "g": 16,
+          "b": 16,
+          "a": 0.3
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 6
+        },
+        "count": 6,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#5c9788",
+        "rgb": {
+          "r": 92,
+          "g": 151,
+          "b": 136,
+          "a": 0.72
+        },
+        "hsl": {
+          "h": 165,
+          "s": 24,
+          "l": 48
+        },
+        "count": 5,
+        "contexts": [
+          "background",
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#4a8a94",
+        "rgb": {
+          "r": 74,
+          "g": 138,
+          "b": 148,
+          "a": 0.3
+        },
+        "hsl": {
+          "h": 188,
+          "s": 33,
+          "l": 44
+        },
+        "count": 4,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#744d80",
+        "rgb": {
+          "r": 116,
+          "g": 77,
+          "b": 128,
+          "a": 0.28
+        },
+        "hsl": {
+          "h": 286,
+          "s": 25,
+          "l": 40
+        },
+        "count": 4,
+        "contexts": [
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#bf9225",
+        "rgb": {
+          "r": 191,
+          "g": 146,
+          "b": 37,
+          "a": 0.38
+        },
+        "hsl": {
+          "h": 42,
+          "s": 68,
+          "l": 45
+        },
+        "count": 4,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#3e5c52",
+        "rgb": {
+          "r": 62,
+          "g": 92,
+          "b": 82,
+          "a": 0.58
+        },
+        "hsl": {
+          "h": 160,
+          "s": 19,
+          "l": 30
+        },
+        "count": 4,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#be747b",
+        "rgb": {
+          "r": 190,
+          "g": 116,
+          "b": 123,
+          "a": 0.52
+        },
+        "hsl": {
+          "h": 354,
+          "s": 36,
+          "l": 60
+        },
+        "count": 3,
+        "contexts": [
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#f0f0f0",
+        "rgb": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 94
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#60626c",
+        "rgb": {
+          "r": 96,
+          "g": 98,
+          "b": 108,
+          "a": 0.7
+        },
+        "hsl": {
+          "h": 230,
+          "s": 6,
+          "l": 40
+        },
+        "count": 2,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#d7da8e",
+        "rgb": {
+          "r": 215,
+          "g": 218,
+          "b": 142,
+          "a": 0.94
+        },
+        "hsl": {
+          "h": 62,
+          "s": 51,
+          "l": 71
+        },
+        "count": 2,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#34534a",
+        "rgb": {
+          "r": 52,
+          "g": 83,
+          "b": 74,
+          "a": 0.6
+        },
+        "hsl": {
+          "h": 163,
+          "s": 23,
+          "l": 26
+        },
+        "count": 2,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#5c4d23",
+        "rgb": {
+          "r": 92,
+          "g": 77,
+          "b": 35,
+          "a": 0.8
+        },
+        "hsl": {
+          "h": 44,
+          "s": 45,
+          "l": 25
+        },
+        "count": 2,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#140a1b",
+        "rgb": {
+          "r": 20,
+          "g": 10,
+          "b": 27,
+          "a": 0.28
+        },
+        "hsl": {
+          "h": 275,
+          "s": 46,
+          "l": 7
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#b8873f",
+        "rgb": {
+          "r": 184,
+          "g": 135,
+          "b": 63,
+          "a": 0.42
+        },
+        "hsl": {
+          "h": 36,
+          "s": 49,
+          "l": 48
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#5a96a5",
+        "rgb": {
+          "r": 90,
+          "g": 150,
+          "b": 165,
+          "a": 0.36
+        },
+        "hsl": {
+          "h": 192,
+          "s": 29,
+          "l": 50
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#767676",
+        "rgb": {
+          "r": 118,
+          "g": 118,
+          "b": 118,
+          "a": 0.3
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 46
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#bf914b",
+        "rgb": {
+          "r": 191,
+          "g": 145,
+          "b": 75,
+          "a": 0.68
+        },
+        "hsl": {
+          "h": 36,
+          "s": 48,
+          "l": 52
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 172.875,
+        "y": 4,
+        "w": 149.78125,
+        "h": 44
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "home-language-switch"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "analytics-consent analytics-consent--home"
+    },
+    {
+      "role": "content",
+      "tag": "main",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 800
+      },
+      "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+      "buttonCount": 18,
+      "cardCount": 32,
+      "className": "home-game home-game--moss-focus home-game--journey"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 800
+      },
+      "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+      "buttonCount": 13,
+      "cardCount": 5,
+      "className": "home-game__stage"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 4,
+      "cardCount": 0,
+      "className": "game-touch-controls"
+    },
+    {
+      "role": "sidebar",
+      "tag": "aside",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 2,
+      "className": "game-card"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 7,
+      "cardCount": 0,
+      "className": "game-map"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 180,
+        "y": 72,
+        "w": 920,
+        "h": 4293.046875
+      },
+      "heading": null,
+      "buttonCount": 4,
+      "cardCount": 27,
+      "className": "home-fallback living-atlas"
+    },
+    {
+      "role": "sidebar",
+      "tag": "aside",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 6,
+      "className": "living-atlas__margin"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 310,
+        "y": 72,
+        "w": 790,
+        "h": 467.203125
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 6,
+      "className": "home-fallback__intro"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 310,
+        "y": 539.203125,
+        "w": 790,
+        "h": 289.671875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "home-fallback__section"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 310,
+        "y": 828.875,
+        "w": 790,
+        "h": 1108.734375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 6,
+      "className": "home-fallback__section home-fallback__section--media"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 310,
+        "y": 1937.609375,
+        "w": 790,
+        "h": 562.484375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 2,
+      "className": "home-fallback__section"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 310,
+        "y": 2500.09375,
+        "w": 790,
+        "h": 608.796875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 3,
+      "className": "home-fallback__section"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 310,
+        "y": 3108.890625,
+        "w": 790,
+        "h": 552.15625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "home-fallback__section home-fallback__section--recognition"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 310,
+        "y": 3661.046875,
+        "w": 790,
+        "h": 704
+      },
+      "heading": null,
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "living-atlas__footer"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 310,
+        "y": 4002.890625,
+        "w": 429.0625,
+        "h": 24
+      },
+      "heading": null,
+      "buttonCount": 1,
+      "cardCount": 0,
+      "className": "living-atlas__legal"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgba(46, 50, 47, 0.46)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgba(46, 50, 47, 0.46)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgba(38, 49, 45, 0.8)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px 0px 1px none none solid rgba(38, 49, 45, 0.8) rgba(38, 49, 45, 0.8) rgba(45, 57, 53, 0.22)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://ishikawa.co/assets/css/site.css?v=1785660729",
+        "totalBytes": 43026,
+        "usedBytes": 3590,
+        "unusedBytes": 39436,
+        "unusedPercent": 92
+      },
+      {
+        "url": "https://ishikawa.co/assets/css/home-game.css?v=1785649401",
+        "totalBytes": 209919,
+        "usedBytes": 66785,
+        "unusedBytes": 143134,
+        "unusedPercent": 68
+      }
+    ],
+    "totalBytes": 252945,
+    "usedBytes": 70375,
+    "unusedBytes": 182570,
+    "unusedPercent": 72,
+    "importantCount": 59,
+    "duplicates": 2852,
+    "vendorPrefixes": {
+      "webkit": 35,
+      "moz": 0,
+      "ms": 0,
+      "o": 0
+    },
+    "keyframes": [
+      {
+        "name": "orb-a",
+        "steps": 3
+      },
+      {
+        "name": "orb-b",
+        "steps": 3
+      },
+      {
+        "name": "orb-c",
+        "steps": 2
+      },
+      {
+        "name": "trail-fade",
+        "steps": 2
+      },
+      {
+        "name": "ch-rise",
+        "steps": 1
+      },
+      {
+        "name": "scroll-cue",
+        "steps": 3
+      },
+      {
+        "name": "marquee",
+        "steps": 1
+      },
+      {
+        "name": "home-language-fail-open",
+        "steps": 1
+      },
+      {
+        "name": "game-boot-logo-form",
+        "steps": 1
+      },
+      {
+        "name": "game-boot-logo-breathe",
+        "steps": 2
+      },
+      {
+        "name": "game-boot-title-form",
+        "steps": 1
+      },
+      {
+        "name": "game-boot-logo-timeout",
+        "steps": 1
+      },
+      {
+        "name": "action-key-particles-gather",
+        "steps": 4
+      },
+      {
+        "name": "media-sign-signal",
+        "steps": 2
+      },
+      {
+        "name": "media-emblem-ember",
+        "steps": 2
+      },
+      {
+        "name": "media-emblem-signal",
+        "steps": 2
+      },
+      {
+        "name": "media-emblem-petal",
+        "steps": 2
+      },
+      {
+        "name": "journey-hub-threshold-breathe",
+        "steps": 2
+      },
+      {
+        "name": "journey-atlas-direction",
+        "steps": 2
+      },
+      {
+        "name": "character-action-alert-pop",
+        "steps": 2
+      },
+      {
+        "name": "character-action-approach",
+        "steps": 2
+      },
+      {
+        "name": "catch-note-arrive",
+        "steps": 2
+      },
+      {
+        "name": "catch-wash-in",
+        "steps": 2
+      },
+      {
+        "name": "catch-copy-in",
+        "steps": 2
+      },
+      {
+        "name": "catch-memory-in",
+        "steps": 2
+      },
+      {
+        "name": "catch-memory-static",
+        "steps": 2
+      },
+      {
+        "name": "journey-discovery-memory-in",
+        "steps": 2
+      },
+      {
+        "name": "journey-discovery-memory-static",
+        "steps": 2
+      },
+      {
+        "name": "catch-particle-arrive",
+        "steps": 2
+      },
+      {
+        "name": "catch-particle-drift",
+        "steps": 2
+      },
+      {
+        "name": "world-cursor-breathe",
+        "steps": 2
+      },
+      {
+        "name": "world-cursor-mote",
+        "steps": 2
+      },
+      {
+        "name": "journey-memory-dawn",
+        "steps": 3
+      },
+      {
+        "name": "journey-memory-dawn-traveler",
+        "steps": 2
+      },
+      {
+        "name": "journey-resonance-breathe",
+        "steps": 2
+      },
+      {
+        "name": "journey-constellation-rush",
+        "steps": 3
+      },
+      {
+        "name": "journey-constellation-traveler",
+        "steps": 2
+      },
+      {
+        "name": "journey-orchestra-bloom",
+        "steps": 4
+      },
+      {
+        "name": "journey-orchestra-title",
+        "steps": 2
+      },
+      {
+        "name": "journey-world-fold-canvas",
+        "steps": 2
+      },
+      {
+        "name": "journey-world-fold-traveler",
+        "steps": 2
+      },
+      {
+        "name": "journey-world-fold-field",
+        "steps": 4
+      },
+      {
+        "name": "journey-observatory-ready",
+        "steps": 2
+      },
+      {
+        "name": "journey-observatory-night",
+        "steps": 4
+      },
+      {
+        "name": "journey-ascension-ready",
+        "steps": 2
+      },
+      {
+        "name": "journey-ascension-field",
+        "steps": 4
+      },
+      {
+        "name": "journey-sky-rupture",
+        "steps": 2
+      },
+      {
+        "name": "journey-starstream",
+        "steps": 2
+      },
+      {
+        "name": "journey-pocket-world",
+        "steps": 2
+      },
+      {
+        "name": "journey-meteor-return",
+        "steps": 3
+      },
+      {
+        "name": "journey-depth-rush",
+        "steps": 2
+      },
+      {
+        "name": "journey-moment-bloom",
+        "steps": 2
+      },
+      {
+        "name": "journey-memory-shutter",
+        "steps": 3
+      },
+      {
+        "name": "journey-scan-pass",
+        "steps": 4
+      },
+      {
+        "name": "journey-hub-answer",
+        "steps": 2
+      },
+      {
+        "name": "journey-hub-link-awaken",
+        "steps": 3
+      },
+      {
+        "name": "journey-hub-replay",
+        "steps": 3
+      },
+      {
+        "name": "journey-hub-portal",
+        "steps": 2
+      },
+      {
+        "name": "journey-world-rewind",
+        "steps": 2
+      },
+      {
+        "name": "journey-memory-traveler",
+        "steps": 2
+      },
+      {
+        "name": "journey-memory-return-rush",
+        "steps": 2
+      },
+      {
+        "name": "journey-memory-return-pulse",
+        "steps": 2
+      },
+      {
+        "name": "journey-space-think",
+        "steps": 2
+      },
+      {
+        "name": "screen-tremor",
+        "steps": 5
+      },
+      {
+        "name": "character-breathe",
+        "steps": 2
+      },
+      {
+        "name": "character-touch",
+        "steps": 3
+      },
+      {
+        "name": "character-fall-pose",
+        "steps": 2
+      },
+      {
+        "name": "character-brace-launch-pose",
+        "steps": 2
+      },
+      {
+        "name": "character-launch-pose",
+        "steps": 2
+      },
+      {
+        "name": "character-land-pose",
+        "steps": 3
+      },
+      {
+        "name": "character-article-jump",
+        "steps": 6
+      },
+      {
+        "name": "journey-brace",
+        "steps": 2
+      },
+      {
+        "name": "journey-field-drift",
+        "steps": 2
+      },
+      {
+        "name": "journey-rise-islog",
+        "steps": 2
+      },
+      {
+        "name": "journey-city-breathe",
+        "steps": 2
+      },
+      {
+        "name": "journey-space-drift",
+        "steps": 2
+      },
+      {
+        "name": "journey-end-drift",
+        "steps": 2
+      },
+      {
+        "name": "moss-drift",
+        "steps": 2
+      },
+      {
+        "name": "moss-living",
+        "steps": 3
+      },
+      {
+        "name": "atlas-scroll-particle",
+        "steps": 4
+      },
+      {
+        "name": "atlas-scroll-cue-nudge",
+        "steps": 3
+      },
+      {
+        "name": "atlas-chapter-breathe",
+        "steps": 2
+      },
+      {
+        "name": "atlas-project-signal",
+        "steps": 2
+      },
+      {
+        "name": "atlas-signature-gather",
+        "steps": 2
+      },
+      {
+        "name": "atlas-current-breathe",
+        "steps": 2
+      },
+      {
+        "name": "mood-leaf-drift",
+        "steps": 2
+      },
+      {
+        "name": "mood-grass-sway",
+        "steps": 2
+      },
+      {
+        "name": "mood-ripple",
+        "steps": 3
+      },
+      {
+        "name": "mood-water-flow",
+        "steps": 2
+      },
+      {
+        "name": "cloud-drift",
+        "steps": 2
+      },
+      {
+        "name": "bird-glide",
+        "steps": 5
+      },
+      {
+        "name": "water-shimmer",
+        "steps": 2
+      },
+      {
+        "name": "ripple-loop",
+        "steps": 3
+      },
+      {
+        "name": "fish-patrol",
+        "steps": 5
+      },
+      {
+        "name": "smoke-loop",
+        "steps": 4
+      },
+      {
+        "name": "bobber-dip",
+        "steps": 1
+      },
+      {
+        "name": "plop-ring",
+        "steps": 3
+      },
+      {
+        "name": "splash-pop",
+        "steps": 3
+      },
+      {
+        "name": "thought-field-in",
+        "steps": 2
+      },
+      {
+        "name": "thought-field-breathe",
+        "steps": 2
+      },
+      {
+        "name": "thought-particle-in",
+        "steps": 3
+      },
+      {
+        "name": "thought-particle-float",
+        "steps": 2
+      },
+      {
+        "name": "space-breathe",
+        "steps": 2
+      },
+      {
+        "name": "sound-ready-pulse",
+        "steps": 2
+      },
+      {
+        "name": "journey-keepsake-arrive",
+        "steps": 1
+      },
+      {
+        "name": "touch-action-ready",
+        "steps": 2
+      },
+      {
+        "name": "touch-action-approach",
+        "steps": 2
+      },
+      {
+        "name": "media-sign-touch-action",
+        "steps": 2
+      },
+      {
+        "name": "tilt-walk-calibrating",
+        "steps": 2
+      },
+      {
+        "name": "tilt-walk-coaching",
+        "steps": 2
+      }
+    ],
+    "specificity": {
+      "max": [
+        0,
+        7,
+        18
+      ],
+      "average": [
+        0,
+        1.89,
+        0.54
+      ],
+      "count": 1749
+    },
+    "issues": [
+      "59 !important rules",
+      "2852 duplicate declarations",
+      "72% unused CSS"
+    ]
+  }
+}

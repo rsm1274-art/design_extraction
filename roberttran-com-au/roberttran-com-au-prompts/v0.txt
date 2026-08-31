@@ -1,0 +1,25 @@
+Build a landing page with this exact visual language.
+COLORS:
+  #16140f
+  #45413a
+  #000000
+  #f4f1e9
+  #a6382c
+  #e7e0d0
+  #fbfaf5
+  #ccbe9f
+  #c9503f
+FONTS: [object Object], [object Object], [object Object], [object Object]
+SPACING: 2, 48, 56, 76, 138
+RADIUS: 7, 50
+SHADOWS: rgb(244, 241, 233) 0px 0px 0px 3px inset, rgba(22, 20, 15, 0.5) 0px 0px 0px 4px inset | rgba(166, 56, 44, 0.35) 0px 0px 0px 2px inset, rgba(22, 20, 15, 0.22) 0px 10px 26px 0px | rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(22, 20, 15, 0.14) 0px 2px 14px 0px
+MATERIAL LANGUAGE: flat
+VOICE: Tone: friendly · Headings: Title Case · CTA verbs: [object Object], [object Object]
+SECTIONS (in order):
+- testimonial — heading: "A Brisbane web developer who likes building things — front to back."
+- testimonial — heading: "Selected Works"
+- testimonial — heading: "The Lab Report"
+- testimonial — heading: "The Career Ledger"
+- pricing — heading: "Letters & Commissions"
+- footer
+Use Tailwind. Match these tokens exactly. Keep the material language consistent.

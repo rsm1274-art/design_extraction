@@ -1,0 +1,42 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "skip",
+      "count": 1
+    },
+    {
+      "value": "send",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "skip intro →",
+      "count": 1
+    },
+    {
+      "value": "send the letter",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "Robert Tran\nTHE PERSONAL RECORD OF A WEB DEVELOPER",
+    "A Brisbane web developer who likes building things — front to back.",
+    "Selected Works",
+    "Caitlyn Nails Studio",
+    "Pakko Shop",
+    "Pakko Quote",
+    "Pakko IDP",
+    "The Lab Report",
+    "The Career Ledger",
+    "Letters & Commissions"
+  ],
+  "stats": {
+    "buttons": 2,
+    "headings": 11
+  }
+}

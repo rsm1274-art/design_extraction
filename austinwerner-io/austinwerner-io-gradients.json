@@ -1,0 +1,72 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://austinwerner.io/",
+  "generated": "2026-08-20T19:31:53.214Z",
+  "count": 4,
+  "gradients": [
+    {
+      "raw": "linear-gradient(90deg, rgba(255, 109, 54, 0.2) 0%, rgba(255, 109, 54, 0) 100%)",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgba(255, 109, 54, 0.2)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(255, 109, 54, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(90deg, rgba(79, 134, 240, 0) 0%, rgba(79, 134, 240, 0.2) 100%)",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgba(79, 134, 240, 0)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(79, 134, 240, 0.2)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(rgba(28, 28, 28, 0) 0%, rgb(28, 28, 28) 88.51%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(28, 28, 28, 0)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(28, 28, 28)",
+          "position": "88.51%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(179.99deg, rgb(27, 27, 27) 34.44%, rgb(19, 19, 19) 195.83%)",
+      "type": "linear",
+      "direction": "179.99deg",
+      "stops": [
+        {
+          "color": "rgb(27, 27, 27)",
+          "position": "34.44%"
+        },
+        {
+          "color": "rgb(19, 19, 19)",
+          "position": "195.83%"
+        }
+      ],
+      "classification": "brand"
+    }
+  ]
+}

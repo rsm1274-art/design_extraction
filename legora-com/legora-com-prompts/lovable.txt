@@ -1,0 +1,13 @@
+Clone the design language of this landing page and build a fresh equivalent.
+Visual feel: flat. Tone: neutral · Headings: unknown
+Primary palette: #000000, #0000ee, #005032, #ffffff, #0d1016.
+Typography: [object Object], [object Object], [object Object].
+Corner radius vocabulary: 2, 5, 15, 24, 32, 48.
+Shadow vocabulary: (none).
+Use: Use Vuetify 3 components with a custom theme object.
+Page structure:
+- hero
+- features
+- social proof
+- cta
+- footer

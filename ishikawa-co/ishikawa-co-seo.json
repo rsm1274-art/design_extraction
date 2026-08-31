@@ -1,0 +1,130 @@
+{
+  "openGraph": {
+    "type": "website",
+    "site_name": "ishikawa.co",
+    "title": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+    "description": "Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.",
+    "url": "https://ishikawa.co/en/",
+    "image": "https://ishikawa.co/assets/ogp-en.png?v=1785543074",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "A hand-drawn traveler following six colored paths through a white world",
+    "locale": "en_US",
+    "locale:alternate": "ja_JP"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+    "description": "Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.",
+    "image": "https://ishikawa.co/assets/ogp-en.png?v=1785543074",
+    "image:alt": "A hand-drawn traveler following six colored paths through a white world"
+  },
+  "description": "Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.",
+  "canonical": null,
+  "themeColor": "#ffffff",
+  "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://ishikawa.co/favicon.ico",
+      "sizes": "any",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://ishikawa.co/assets/icons/favicon.svg?v=1784537172",
+      "sizes": "",
+      "type": "image/svg+xml"
+    },
+    {
+      "rel": "icon",
+      "href": "https://ishikawa.co/assets/icons/favicon-32x32.png?v=1782431166",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://ishikawa.co/assets/icons/favicon-16x16.png?v=1782431166",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://ishikawa.co/assets/icons/apple-touch-icon.png?v=1782431165",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "manifest": "https://ishikawa.co/site.webmanifest",
+  "structuredData": [
+    {
+      "type": "WebSite",
+      "name": "ishikawa.co",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://ishikawa.co/#website\",\"name\":\"ishikawa.co\",\"url\":\"https://ishikawa.co/en/\",\"inLanguage\":[\"ja\",\"en\"],\"description\":\"Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"},\"about\":{\"@id\":\"https:/"
+    },
+    {
+      "type": "Person",
+      "name": "Hidekazu Ishikawa",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://ishikawa.co/#person\",\"name\":\"Hidekazu Ishikawa\",\"alternateName\":[\"イシカワヒデカズ\",\"Hide Ishikawa\",\"Ishikawa Hidekazu\"],\"jobTitle\":[\"Web developer\",\"Media operator\",\"Writer\"],\"description\":\"Profile of Hidekazu Ishikawa: more than 20 years in web and business-system development, six media publications, open source, SEO and LLM visibility, AI"
+    },
+    {
+      "type": "CollectionPage",
+      "name": "ishikawa.co",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"CollectionPage\",\"@id\":\"https://ishikawa.co/en/#activity-world\",\"name\":\"ishikawa.co\",\"url\":\"https://ishikawa.co/en/\",\"inLanguage\":\"en\",\"description\":\"Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.\",\"isPartOf\":{\"@id\":\"https://ishikawa.co/#website\"},\"about\":{\"@id"
+    },
+    {
+      "type": "ItemList",
+      "name": "Media operated by Hidekazu Ishikawa",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"@id\":\"https://ishikawa.co/en/#media-list\",\"name\":\"Media operated by Hidekazu Ishikawa\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"moss.fish\",\"url\":\"https://moss.fish/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"taupe\",\"url\":\"https://taupe.site/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"isLog\",\"url\":\"https://www.islog.jp/\"},{\"@ty"
+    },
+    {
+      "type": "ItemList",
+      "name": "Open-source projects by Hidekazu Ishikawa",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"@id\":\"https://ishikawa.co/en/#project-list\",\"name\":\"Open-source projects by Hidekazu Ishikawa\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"codex-healthkit\",\"url\":\"https://ishikawa.co/en/projects/#codex-healthkit\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"public-source-extractor\",\"url\":\"https://ishikawa.co/en/projects/#public-sour"
+    },
+    {
+      "type": "ItemList",
+      "name": "Ways to work with Hidekazu Ishikawa",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"@id\":\"https://ishikawa.co/en/#service-list\",\"name\":\"Ways to work with Hidekazu Ishikawa\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Web, systems, SEO, and LLM visibility\",\"url\":\"https://ishikawa.co/en/services/#consulting\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Media operations, AI, and automation\",\"url\":\"https://ishikawa.co/"
+    },
+    {
+      "type": "WebSite",
+      "name": "moss.fish",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://moss.fish/#website\",\"name\":\"moss.fish\",\"url\":\"https://moss.fish/\",\"description\":\"Field notes on fishing, outdoor tools, cooking the catch, and rural life, written from direct experience.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    },
+    {
+      "type": "WebSite",
+      "name": "taupe",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://taupe.site/#website\",\"name\":\"taupe\",\"url\":\"https://taupe.site/\",\"description\":\"Experiments and operating notes on web development, AI, automation, and the tools used in everyday work.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    },
+    {
+      "type": "WebSite",
+      "name": "isLog",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.islog.jp/#website\",\"name\":\"isLog\",\"url\":\"https://www.islog.jp/\",\"description\":\"Travel, meals, places, and ordinary days preserved in the order they were experienced.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    },
+    {
+      "type": "WebSite",
+      "name": "Ojicra",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://ojicra.tokyo/#website\",\"name\":\"Ojicra\",\"url\":\"https://ojicra.tokyo/\",\"description\":\"A long-running Minecraft record where a suited man builds, explores, and preserves the history of one world.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    },
+    {
+      "type": "WebSite",
+      "name": "Monoomoi",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://monoomoi.net/#website\",\"name\":\"Monoomoi\",\"url\":\"https://monoomoi.net/\",\"description\":\"A media publication about gifts, useful objects, and the feelings that pass from one person to another.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    },
+    {
+      "type": "WebSite",
+      "name": "Monoerabi Editorial",
+      "sample": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://monoerabi.jp/#website\",\"name\":\"Monoerabi Editorial\",\"url\":\"https://monoerabi.jp/\",\"description\":\"An editorial guide to comparing products and choosing tools that fit a particular use and way of living.\",\"inLanguage\":\"ja\",\"publisher\":{\"@id\":\"https://ishikawa.co/#person\"}}"
+    }
+  ],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": true,
+    "hasFavicon": true,
+    "hasThemeColor": true
+  }
+}

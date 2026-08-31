@@ -1,0 +1,20 @@
+{
+  "components": [
+    {
+      "cluster": "hero",
+      "variant": 0,
+      "path": "screenshots/undefined",
+      "bounds": {
+        "w": 1280,
+        "h": 4416
+      },
+      "retina": true,
+      "fallback": true
+    }
+  ],
+  "fullPage": {
+    "path": "screenshots/full-page.png",
+    "retina": true
+  },
+  "count": 1
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#2b6786",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#e33529",
+          "name": "Secondary"
+        },
+        {
+          "slug": "accent",
+          "color": "#f0b5be",
+          "name": "Accent"
+        },
+        {
+          "slug": "neutral-1",
+          "color": "#000000",
+          "name": "Neutral 1"
+        },
+        {
+          "slug": "neutral-2",
+          "color": "#f6f6ed",
+          "name": "Neutral 2"
+        },
+        {
+          "slug": "neutral-3",
+          "color": "#ede2e2",
+          "name": "Neutral 3"
+        },
+        {
+          "slug": "neutral-4",
+          "color": "#ffffff",
+          "name": "Neutral 4"
+        },
+        {
+          "slug": "bg-f4ced3",
+          "color": "#f4ced3",
+          "name": "Background #f4ced3"
+        },
+        {
+          "slug": "bg-f3f3e9",
+          "color": "#f3f3e9",
+          "name": "Background #f3f3e9"
+        },
+        {
+          "slug": "bg-f0b5be",
+          "color": "#f0b5be",
+          "name": "Background #f0b5be"
+        }
+      ],
+      "gradients": []
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Times New Roman",
+          "slug": "times-new-roman",
+          "name": "Times New Roman"
+        },
+        {
+          "fontFamily": "Bayon",
+          "slug": "bayon",
+          "name": "Bayon"
+        },
+        {
+          "fontFamily": "Neue Montreal",
+          "slug": "neue-montreal",
+          "name": "Neue Montreal"
+        },
+        {
+          "fontFamily": "Arial",
+          "slug": "arial",
+          "name": "Arial"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "260.444px",
+          "slug": "size-260.444",
+          "name": "260.444px"
+        },
+        {
+          "size": "209.778px",
+          "slug": "size-209.778",
+          "name": "209.778px"
+        },
+        {
+          "size": "165.333px",
+          "slug": "size-165.333",
+          "name": "165.333px"
+        },
+        {
+          "size": "112px",
+          "slug": "size-112",
+          "name": "112px"
+        },
+        {
+          "size": "85.3333px",
+          "slug": "size-85.3333",
+          "name": "85.3333px"
+        },
+        {
+          "size": "67.5556px",
+          "slug": "size-67.5556",
+          "name": "67.5556px"
+        },
+        {
+          "size": "64px",
+          "slug": "size-64",
+          "name": "64px"
+        },
+        {
+          "size": "62.2222px",
+          "slug": "size-62.2222",
+          "name": "62.2222px"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "1px",
+          "slug": "spacing-1",
+          "name": "1px"
+        },
+        {
+          "size": "18px",
+          "slug": "spacing-18",
+          "name": "18px"
+        },
+        {
+          "size": "21px",
+          "slug": "spacing-21",
+          "name": "21px"
+        },
+        {
+          "size": "24px",
+          "slug": "spacing-24",
+          "name": "24px"
+        },
+        {
+          "size": "28px",
+          "slug": "spacing-28",
+          "name": "28px"
+        },
+        {
+          "size": "36px",
+          "slug": "spacing-36",
+          "name": "36px"
+        },
+        {
+          "size": "39px",
+          "slug": "spacing-39",
+          "name": "39px"
+        },
+        {
+          "size": "43px",
+          "slug": "spacing-43",
+          "name": "43px"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f4ced3",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontSize": "12.4444px",
+      "lineHeight": "12.4444px",
+      "fontFamily": "Times New Roman"
+    },
+    "spacing": {}
+  }
+}

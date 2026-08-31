@@ -1,0 +1,46 @@
+{
+  "openGraph": {
+    "title": "Austin Werner | Tech Recruitment Agency | Since 2017",
+    "description": "Austin Werner is Leading tech recruitment agency specializing in Fintech, Web3 & Blockchain. We connect talented people with innovative businesses.",
+    "url": "https://austinwerner.io",
+    "type": "website",
+    "image": "https://austinwerner.io//head/AW_OG_image.jpg",
+    "site_name": "Austin Werner"
+  },
+  "twitter": {},
+  "description": "Austin Werner is Leading tech recruitment agency specializing in Fintech, Web3 & Blockchain. We connect talented people with innovative businesses.",
+  "canonical": null,
+  "themeColor": "#333333",
+  "viewport": "initial-scale=1.0, width=device-width",
+  "favicons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://austinwerner.io/head/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://austinwerner.io/head/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://austinwerner.io/head/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "manifest": "https://austinwerner.io/head/site.webmanifest",
+  "structuredData": [],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": false,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": true
+  }
+}

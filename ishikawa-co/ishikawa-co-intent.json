@@ -1,0 +1,407 @@
+{
+  "pageIntent": {
+    "type": "blog-post",
+    "confidence": 0.35,
+    "path": "/en",
+    "title": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+    "description": "Walk through six media worlds operated by Hidekazu Ishikawa, then open a Living Atlas of his web, AI, open-source, writing, and consulting work.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      }
+    ],
+    "alternates": [],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 172.875,
+          "y": 4,
+          "w": 149.78125,
+          "h": 44
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 2,
+          "lede": "We use analytics only with your permission.          \n            Details          \n        \n      \n      \n        \n          Decline        \n        \n          Allow"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 2,
+        "tag": "main",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 800
+        },
+        "buttonCount": 18,
+        "cardCount": 32,
+        "slots": {
+          "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+          "subheadings": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "ctaCount": 18,
+          "lede": "イシカワヒデカズ\nishikawa.co — Walkable Atlas by Hidekazu Ishikawa\nFIELD NOTES / OUTDOORS\nmoss.fish\nFishing and outdoor life from direct experience"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 800
+        },
+        "buttonCount": 13,
+        "cardCount": 5,
+        "slots": {
+          "heading": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa",
+          "ctaCount": 13,
+          "lede": "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa\nFIELD NOTES / OUTDOORS\nmoss.fish\nFishing and outdoor life from direct experience"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 4,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 4,
+          "lede": "Tilt left or right\n            \n          \n          \n            ○\n            Explore"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "aside",
+        "role": "sidebar",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 2,
+        "slots": {
+          "lede": "area\n          ishikawa.co\n          \n          \n          open media"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 7,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 7,
+          "lede": "moss.fish\n                      taupe\n                      isLog\n                      Ojicra\n                      Monoomoi\n                      Monoerabi Editorial\n                    Entrance to Act II\n          Projects\n          About\n          Services\n          Contact"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 180,
+          "y": 72,
+          "w": 920,
+          "h": 4293.046875
+        },
+        "buttonCount": 4,
+        "cardCount": 27,
+        "slots": {
+          "heading": "",
+          "subheadings": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "ctaCount": 4
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 8,
+        "tag": "aside",
+        "role": "sidebar",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 6,
+        "slots": {
+          "lede": "00entrance\n          \n            person\n            media\n            source\n            service\n            honors\n            now"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 9,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 72,
+          "w": 790,
+          "h": 467.203125
+        },
+        "buttonCount": 0,
+        "cardCount": 6,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 539.203125,
+          "w": 790,
+          "h": 289.671875
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 828.875,
+          "w": 790,
+          "h": 1108.734375
+        },
+        "buttonCount": 0,
+        "cardCount": 6,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 1937.609375,
+          "w": 790,
+          "h": 562.484375
+        },
+        "buttonCount": 0,
+        "cardCount": 2,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 2500.09375,
+          "w": 790,
+          "h": 608.796875
+        },
+        "buttonCount": 0,
+        "cardCount": 3,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 3108.890625,
+          "w": 790,
+          "h": 552.15625
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "heading": ""
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 15,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 3661.046875,
+          "w": 790,
+          "h": 704
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 3
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 16,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 310,
+          "y": 4002.890625,
+          "w": 429.0625,
+          "h": 24
+        },
+        "buttonCount": 1,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 1
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "nav": 5,
+      "content": 7,
+      "testimonial": 2,
+      "sidebar": 2,
+      "footer": 1
+    },
+    "readingOrder": [
+      "content",
+      "testimonial",
+      "testimonial",
+      "nav",
+      "sidebar",
+      "nav",
+      "sidebar",
+      "nav",
+      "content",
+      "nav",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "footer",
+      "nav"
+    ]
+  }
+}

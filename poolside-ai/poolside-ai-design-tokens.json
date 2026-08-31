@@ -1,0 +1,262 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://poolside.ai",
+    "generatedAt": "2026-08-22T02:53:20.493Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#fbfaf6",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "#3b2c00",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#6f6d69",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#93908b",
+          "$type": "color"
+        },
+        "n400": {
+          "$value": "#b3b0a9",
+          "$type": "color"
+        },
+        "n500": {
+          "$value": "#eeede6",
+          "$type": "color"
+        },
+        "n600": {
+          "$value": "#dad9d2",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#fbfaf6",
+          "$type": "color"
+        },
+        "bg1": {
+          "$value": "#f7f6ef",
+          "$type": "color"
+        },
+        "bg2": {
+          "$value": "#ffffff",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#fbfaf6",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#6f6d69",
+          "$type": "color"
+        },
+        "text3": {
+          "$value": "#b3b0a9",
+          "$type": "color"
+        },
+        "text4": {
+          "$value": "#ffffff",
+          "$type": "color"
+        },
+        "text5": {
+          "$value": "#93908b",
+          "$type": "color"
+        },
+        "text6": {
+          "$value": "#4137ff",
+          "$type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "28px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "32px",
+        "$type": "dimension"
+      },
+      "s5": {
+        "$value": "40px",
+        "$type": "dimension"
+      },
+      "s6": {
+        "$value": "48px",
+        "$type": "dimension"
+      },
+      "s7": {
+        "$value": "57px",
+        "$type": "dimension"
+      },
+      "s8": {
+        "$value": "76px",
+        "$type": "dimension"
+      },
+      "s9": {
+        "$value": "80px",
+        "$type": "dimension"
+      },
+      "s10": {
+        "$value": "117px",
+        "$type": "dimension"
+      },
+      "s11": {
+        "$value": "133px",
+        "$type": "dimension"
+      },
+      "s12": {
+        "$value": "196px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "r2": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "r3": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "r4": {
+        "$value": "23px",
+        "$type": "dimension"
+      },
+      "r5": {
+        "$value": "50px",
+        "$type": "dimension"
+      },
+      "r6": {
+        "$value": "9999px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgba(59, 44, 0, 0.08) 0px 0px 0px 1px, rgba(43, 38, 26, 0.02) 0px 1px 1px 0px, rgba(43, 39, 25, 0.02) 0px 2px 4px 0px",
+        "$type": "shadow"
+      },
+      "sh1": {
+        "$value": "color(srgb 0 0 0 / 0.12) 0px 0px 0px 0.5px inset",
+        "$type": "shadow"
+      },
+      "sh2": {
+        "$value": "rgba(43, 38, 26, 0.04) 0px 0px 0px 1px, rgba(43, 38, 26, 0.04) 0px 0px 5px 0px, rgba(43, 38, 26, 0.04) 0px 2px 3px 0px, rgba(43, 38, 26, 0.055) 0px 8px 16px 0px, rgba(43, 38, 26, 0.07) 0px 20px 36px 0px",
+        "$type": "shadow"
+      },
+      "sh3": {
+        "$value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(59, 44, 0, 0.08) 0px 0px 0px 1px inset",
+        "$type": "shadow"
+      },
+      "sh4": {
+        "$value": "rgb(238, 237, 230) 1px 1px 0px 0px",
+        "$type": "shadow"
+      },
+      "sh5": {
+        "$value": "rgba(0, 0, 0, 0.06) 0px 4px 4px 0px, rgba(0, 0, 0, 0.25) 0px 1px 2px 0px",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "Untitled Sans",
+        "$type": "fontFamily"
+      },
+      "f1": {
+        "$value": "Jetbrains Mono",
+        "$type": "fontFamily"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "Untitled Sans",
+          "fontSize": "32px",
+          "fontWeight": "400",
+          "lineHeight": "41.6px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}",
+        "$type": "shadow"
+      }
+    }
+  }
+}

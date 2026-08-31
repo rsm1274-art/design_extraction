@@ -1,0 +1,24 @@
+/* shadcn/ui Theme — extracted from https://ishikawa.co/en/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 171 59% 91%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 176 77% 61%;
+    --secondary-foreground: 0 0% 0%;
+    --accent: 327 60% 57%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 46%;
+    --muted-foreground: 0 0% 12%;
+    --border: 163 20% 35%;
+    --radius: 6px;
+  }
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 171 59% 91%;
+  }
+}

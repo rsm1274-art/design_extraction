@@ -1,0 +1,358 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.31,
+    "path": "/",
+    "title": "Poolside",
+    "description": "Poolside is a foundation model company bringing intelligence to everywhere work gets done. Our mission is to drive abundance for humanity by creating artificial general intelligence.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "cta",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "Poolside logo",
+        "bounds": {
+          "x": 80,
+          "y": 48,
+          "w": 160,
+          "h": 216
+        },
+        "buttonCount": 2,
+        "cardCount": 18,
+        "slots": {
+          "heading": "Poolside logo",
+          "subheadings": [
+            "Poolside logomark",
+            "Poolside press kit ZIP file"
+          ],
+          "ctaCount": 2,
+          "lede": "SKIP TO CONTENT\nPoolside\nPoolside\nModels\nModels\nGet Started\nGet Started\nResearch\nResearch\nGovernment\nGovernment\nBlog\nBlog\nCareers\nCareers"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": "Poolside logo",
+        "bounds": {
+          "x": 80,
+          "y": 48,
+          "w": 160,
+          "h": 216
+        },
+        "buttonCount": 2,
+        "cardCount": 18,
+        "slots": {
+          "heading": "Poolside logo",
+          "subheadings": [
+            "Poolside logomark",
+            "Poolside press kit ZIP file"
+          ],
+          "ctaCount": 2,
+          "lede": "Poolside\nPoolside\nModels\nModels\nGet Started\nGet Started\nResearch\nResearch\nGovernment\nGovernment\nBlog\nBlog\nCareers\nCareers"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 1,
+        "cardCount": 3,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "Poolside Menu"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 3,
+        "tag": "main",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+        "bounds": {
+          "x": 240,
+          "y": 48,
+          "w": 960,
+          "h": 3257.4375
+        },
+        "buttonCount": 5,
+        "cardCount": 19,
+        "slots": {
+          "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+          "subheadings": [
+            "We're building open-weight foundation models and the systems that refine and improve them.",
+            "Laguna\nS\n2.1",
+            "Laguna\nXS\n2.1",
+            "We work in the open. A closer look at the research, the engineering, and the ideas behind our models."
+          ],
+          "ctaCount": 5,
+          "lede": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.\nGet started (Desktop, CLI, and more)\n→\nUse on OpenRouter\n↗\nUse on Vercel AI Gateway\n↗\npool — website"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "header",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+        "bounds": {
+          "x": 240,
+          "y": 48,
+          "w": 960,
+          "h": 757.4375
+        },
+        "buttonCount": 5,
+        "cardCount": 8,
+        "slots": {
+          "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+          "ctaCount": 5,
+          "lede": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.\nGet started (Desktop, CLI, and more)\n→\nUse on OpenRouter\n↗\nUse on Vercel AI Gateway\n↗\npool — website"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "aside",
+        "role": "sidebar",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 280,
+          "y": 373.4375,
+          "w": 228.796875,
+          "h": 392
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 289,
+          "y": 464.4375,
+          "w": 210.796875,
+          "h": 82
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 289,
+          "y": 550.4375,
+          "w": 210.796875,
+          "h": 194
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "We're building open-weight foundation models and the systems that refine and improve them.",
+        "bounds": {
+          "x": 240,
+          "y": 1001.4375,
+          "w": 960,
+          "h": 586
+        },
+        "buttonCount": 0,
+        "cardCount": 5,
+        "slots": {
+          "heading": "We're building open-weight foundation models and the systems that refine and improve them.",
+          "subheadings": [
+            "Laguna\nS\n2.1",
+            "Laguna\nXS\n2.1"
+          ],
+          "lede": "We're building open-weight foundation models and the systems that refine and improve them.\nLaguna\nS\n2.1"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "We work in the open. A closer look at the research, the engineering, and the ideas behind our models.",
+        "bounds": {
+          "x": 240,
+          "y": 1783.4375,
+          "w": 960,
+          "h": 702
+        },
+        "buttonCount": 0,
+        "cardCount": 6,
+        "slots": {
+          "heading": "We work in the open. A closer look at the research, the engineering, and the ideas behind our models."
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Go further with us. From real-world missions to the path to AGI, and the people building it.",
+        "bounds": {
+          "x": 240,
+          "y": 2681.4375,
+          "w": 960,
+          "h": 624
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Go further with us. From real-world missions to the path to AGI, and the people building it.",
+          "subheadings": [
+            "Bring frontier AI to your mission.",
+            "Our vision—the fastest path to AGI runs through software.",
+            "Join the forefront of applied research and engineering."
+          ],
+          "lede": "Go further with us. From real-world missions to the path to AGI, and the people building it.\nBring frontier AI to your mission.\nGovernment →\nGovernment →\nOur vision—the fastest path to AGI runs through software.\nOur path to AGI →\nOur path to AGI →\nJoin the forefront of applied research and engineering.\nOpen roles →\nOpen roles →"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 11,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": "Poolside logo",
+        "bounds": {
+          "x": 80,
+          "y": 3501.4375,
+          "w": 1120,
+          "h": 226
+        },
+        "buttonCount": 3,
+        "cardCount": 21,
+        "slots": {
+          "heading": "Poolside logo",
+          "subheadings": [
+            "Poolside logomark",
+            "Poolside press kit ZIP file"
+          ],
+          "ctaCount": 3,
+          "lede": "Vision\nVision\nDocs\nDocs\nEvents\nEvents\nPress kit\nPress kit\nNewsroom\nNewsroom\nLegal\nLegal"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 12,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": "Poolside logo",
+        "bounds": {
+          "x": 80,
+          "y": 3501.4375,
+          "w": 160,
+          "h": 226
+        },
+        "buttonCount": 3,
+        "cardCount": 21,
+        "slots": {
+          "heading": "Poolside logo",
+          "subheadings": [
+            "Poolside logomark",
+            "Poolside press kit ZIP file"
+          ],
+          "ctaCount": 3,
+          "lede": "Vision\nVision\nDocs\nDocs\nEvents\nEvents\nPress kit\nPress kit\nNewsroom\nNewsroom\nLegal\nLegal"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "cta": 1,
+      "nav": 3,
+      "testimonial": 3,
+      "sidebar": 1,
+      "content": 3,
+      "testimonials": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "cta",
+      "nav",
+      "testimonial",
+      "testimonial",
+      "sidebar",
+      "content",
+      "content",
+      "content",
+      "testimonials",
+      "testimonial",
+      "footer",
+      "nav"
+    ]
+  }
+}

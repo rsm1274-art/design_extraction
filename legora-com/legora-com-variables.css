@@ -1,0 +1,78 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #005032;
+  --color-secondary: #0000ee;
+  --color-accent: #003d26;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #68655e;
+  --color-neutral-300: #e6e6e6;
+  --color-neutral-400: #343434;
+  --color-neutral-500: #8f8d8a;
+
+  /* Colors — Backgrounds */
+  --color-bg: #fafaf9;
+  --color-bg-1: #005032;
+  --color-bg-2: #e6e6e6;
+  --color-bg-3: #e1dfda;
+  --color-bg-4: #0d1016;
+  --color-bg-5: #003d26;
+  --color-bg-6: #000000;
+  --color-bg-7: #ffffff;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #0000ee;
+  --color-text-2: #ffffff;
+  --color-text-3: #68655e;
+  --color-text-4: #0d1016;
+
+  /* Typography — Families */
+  --font-sans: 'CUSTOMV2;Aktiv Grotesk VF Variable Regular', sans-serif;
+  --font-body: 'Times New Roman', sans-serif;
+  --font-font-2: 'Aktiv Grotesk VF Variable Regular', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-86.6611: 86.6611px;
+  --font-size-54.1632: 54.1632px;
+  --font-size-39.7197: 39.7197px;
+  --font-size-32.4979: 32.4979px;
+  --font-size-21.6653: 21.6653px;
+  --font-size-14.4435: 14.4435px;
+  --font-size-13: 13px;
+  --font-size-12.7103: 12.7103px;
+  --font-size-12: 12px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-20: 20px;
+  --spacing-30: 30px;
+  --spacing-45: 45px;
+  --spacing-60: 60px;
+  --spacing-80: 80px;
+  --spacing-90: 90px;
+  --spacing-200: 200px;
+  --spacing-346: 346px;
+
+  /* Border Radius */
+  --radius-xs: 2px;
+  --radius-sm: 5px;
+  --radius-lg: 15px;
+  --radius-xl: 24px;
+  --radius-full: 32px;
+  --radius-full: 48px;
+  --radius-full: 99px;
+  --radius-full: 999px;
+
+  /* Original Site Variables */
+  /* — other — */
+  --one-if-corner-shape-supported: 1;
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

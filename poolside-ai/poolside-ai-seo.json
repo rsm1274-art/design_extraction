@@ -1,0 +1,54 @@
+{
+  "openGraph": {
+    "video": "https://poolside.ai/og/og-home.mp4",
+    "video:type": "video/mp4",
+    "video:width": "1200",
+    "video:height": "628",
+    "site_name": "Poolside",
+    "type": "website",
+    "title": "Poolside: Frontier research to operational intelligence",
+    "image": "https://poolside.ai/og/og-home.png",
+    "description": "Poolside is a foundation model company bringing intelligence to everywhere work gets done. Our mission is to drive abundance for humanity by creating artificial general intelligence."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Poolside: Frontier research to operational intelligence",
+    "image": "https://poolside.ai/og/og-home.png",
+    "description": "Poolside is a foundation model company bringing intelligence to everywhere work gets done. Our mission is to drive abundance for humanity by creating artificial general intelligence."
+  },
+  "description": "Poolside is a foundation model company bringing intelligence to everywhere work gets done. Our mission is to drive abundance for humanity by creating artificial general intelligence.",
+  "canonical": null,
+  "themeColor": "#fbfaf6",
+  "viewport": "width=device-width, initial-scale=1",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://poolside.ai/favicon.ico",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://poolside.ai/favicon/favicon.svg",
+      "sizes": "",
+      "type": "image/svg+xml"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://poolside.ai/favicon/apple-touch-icon.png",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "manifest": "https://poolside.ai/site.webmanifest",
+  "structuredData": [],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": true
+  }
+}

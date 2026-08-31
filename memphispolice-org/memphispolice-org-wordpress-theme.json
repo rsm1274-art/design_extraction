@@ -1,0 +1,197 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#fcac00",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#0866ff",
+          "name": "Secondary"
+        },
+        {
+          "slug": "accent",
+          "color": "#ff0000",
+          "name": "Accent"
+        },
+        {
+          "slug": "neutral-1",
+          "color": "#3a3a3a",
+          "name": "Neutral 1"
+        },
+        {
+          "slug": "neutral-2",
+          "color": "#ffffff",
+          "name": "Neutral 2"
+        },
+        {
+          "slug": "neutral-3",
+          "color": "#191919",
+          "name": "Neutral 3"
+        },
+        {
+          "slug": "neutral-4",
+          "color": "#666666",
+          "name": "Neutral 4"
+        },
+        {
+          "slug": "neutral-5",
+          "color": "#e0e0e0",
+          "name": "Neutral 5"
+        },
+        {
+          "slug": "bg-ffffff",
+          "color": "#ffffff",
+          "name": "Background #ffffff"
+        },
+        {
+          "slug": "bg-fcac00",
+          "color": "#fcac00",
+          "name": "Background #fcac00"
+        },
+        {
+          "slug": "bg-0d2279",
+          "color": "#0d2279",
+          "name": "Background #0d2279"
+        }
+      ],
+      "gradients": []
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Lato",
+          "slug": "lato",
+          "name": "Lato"
+        },
+        {
+          "fontFamily": "Merriweather Sans",
+          "slug": "merriweather-sans",
+          "name": "Merriweather Sans"
+        },
+        {
+          "fontFamily": "Arial",
+          "slug": "arial",
+          "name": "Arial"
+        },
+        {
+          "fontFamily": "Hind",
+          "slug": "hind",
+          "name": "Hind"
+        },
+        {
+          "fontFamily": "vote-reward-badges",
+          "slug": "vote-reward-badges",
+          "name": "vote-reward-badges"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "45px",
+          "slug": "size-45",
+          "name": "45px"
+        },
+        {
+          "size": "32px",
+          "slug": "size-32",
+          "name": "32px"
+        },
+        {
+          "size": "30px",
+          "slug": "size-30",
+          "name": "30px"
+        },
+        {
+          "size": "25px",
+          "slug": "size-25",
+          "name": "25px"
+        },
+        {
+          "size": "24px",
+          "slug": "size-24",
+          "name": "24px"
+        },
+        {
+          "size": "22.4px",
+          "slug": "size-22.4",
+          "name": "22.4px"
+        },
+        {
+          "size": "22px",
+          "slug": "size-22",
+          "name": "22px"
+        },
+        {
+          "size": "20.48px",
+          "slug": "size-20.48",
+          "name": "20.48px"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "1px",
+          "slug": "spacing-1",
+          "name": "1px"
+        },
+        {
+          "size": "15px",
+          "slug": "spacing-15",
+          "name": "15px"
+        },
+        {
+          "size": "26px",
+          "slug": "spacing-26",
+          "name": "26px"
+        },
+        {
+          "size": "30px",
+          "slug": "spacing-30",
+          "name": "30px"
+        },
+        {
+          "size": "35px",
+          "slug": "spacing-35",
+          "name": "35px"
+        },
+        {
+          "size": "40px",
+          "slug": "spacing-40",
+          "name": "40px"
+        },
+        {
+          "size": "50px",
+          "slug": "spacing-50",
+          "name": "50px"
+        },
+        {
+          "size": "60px",
+          "slug": "spacing-60",
+          "name": "60px"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "100%",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#666666"
+    },
+    "typography": {
+      "fontSize": "16px",
+      "lineHeight": "27.2px",
+      "fontFamily": "Lato"
+    },
+    "spacing": {}
+  }
+}

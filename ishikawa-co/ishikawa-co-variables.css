@@ -1,0 +1,148 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #dcf6f2;
+  --color-secondary: #4ee8dd;
+  --color-accent: #d45199;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #1f1f1f;
+  --color-neutral-100: #333735;
+  --color-neutral-200: #2f302d;
+  --color-neutral-300: #000000;
+  --color-neutral-400: #486c62;
+  --color-neutral-500: #ffffff;
+  --color-neutral-600: #5b8b70;
+  --color-neutral-700: #444444;
+  --color-neutral-800: #423737;
+  --color-neutral-900: #30443d;
+
+  /* Colors — Backgrounds */
+  --color-bg: #ffffff;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #1f1f1f;
+  --color-text-2: #44695f;
+  --color-text-3: #444444;
+  --color-text-4: #212d29;
+
+  /* Typography — Families */
+  --font-sans: 'Avenir Next', sans-serif;
+  --font-body: 'Ishikawa Klee', sans-serif;
+  --font-body: 'Times New Roman', sans-serif;
+  --font-font-3: 'Helvetica Neue', sans-serif;
+  --font-body: 'SF Mono', sans-serif;
+  --font-body: 'Arial', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-58: 58px;
+  --font-size-52: 52px;
+  --font-size-34: 34px;
+  --font-size-31: 31px;
+  --font-size-28: 28px;
+  --font-size-26: 26px;
+  --font-size-25: 25px;
+  --font-size-23: 23px;
+  --font-size-21: 21px;
+  --font-size-19: 19px;
+  --font-size-18: 18px;
+  --font-size-16: 16px;
+
+  /* Spacing */
+  --spacing-1: 1px;
+  --spacing-42: 42px;
+  --spacing-52: 52px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-96: 96px;
+  --spacing-130: 130px;
+  --spacing-180: 180px;
+
+  /* Border Radius */
+  --radius-xs: 1px;
+  --radius-md: 6px;
+  --radius-full: 50px;
+  --radius-full: 53px;
+  --radius-full: 56px;
+  --radius-full: 70px;
+  --radius-full: 999px;
+
+  /* Box Shadows */
+  --shadow-sm: rgba(188, 194, 104, 0.08) 0px 0px 0px 2px inset;
+  --shadow-sm: rgba(91, 139, 112, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(212, 81, 153, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(98, 170, 190, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(178, 180, 100, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(213, 128, 155, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(105, 107, 116, 0) 0px 0px 0px 4px;
+  --shadow-sm: rgba(91, 139, 112, 0.74) 0px 0px 4px 0px;
+  --shadow-sm: rgba(212, 81, 153, 0.72) 0px 0px 4px 0px;
+  --shadow-sm: rgba(98, 170, 190, 0.74) 0px 0px 4px 0px;
+  --shadow-sm: rgba(178, 180, 100, 0.78) 0px 0px 4px 0px;
+  --shadow-sm: rgba(213, 128, 155, 0.74) 0px 0px 4px 0px;
+  --shadow-sm: rgba(105, 107, 116, 0.72) 0px 0px 4px 0px;
+  --shadow-md: rgba(80, 164, 180, 0.28) 0px 0px 9px 0px;
+  --shadow-md: rgba(73, 116, 94, 0.024) 8px 12px 0px 0px;
+  --shadow-lg: rgba(54, 50, 42, 0.035) 0px 5px 12px 0px, rgba(98, 88, 68, 0.08) 0px -1px 0px 0px inset;
+  --shadow-lg: rgba(80, 164, 180, 0.52) 17px -7px 0px -2px, rgba(80, 164, 180, 0.52) 31px 5px 0px -1px, rgba(80, 164, 180, 0.52) 47px -3px 0px -2px;
+
+  /* Original Site Variables */
+  /* — colors — */
+  --bg: #07090e;
+  --bg-soft: #0b0e15;
+  --utility-header-bg: rgba(253, 253, 252, 0.84);
+  /* — spacing — */
+  --utility-brand-size: 14px;
+  --utility-brand-spacing: 0.06em;
+  --utility-language-size: 10px;
+  --utility-language-gap: 2px;
+  /* — typography — */
+  --text: #edf0f7;
+  --text-soft: #a8b1c3;
+  --text-dim: #6d7689;
+  --font-sans: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+  --font-display: "Avenir Next", "Helvetica Neue", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", "SF Mono", Menlo, Consolas, monospace;
+  --utility-font-mono: "SF Mono", Menlo, Consolas, monospace;
+  --game-font-ui: "Avenir Next", "Helvetica Neue", "Hiragino Sans", "Yu Gothic UI", "Yu Gothic", Meiryo, "Noto Sans JP", sans-serif;
+  --game-font-poetic: "Ishikawa Klee", "Klee One", "Hannotate SC", "HanziPen SC", "YuKyokasho", "Yu Kyokasho", cursive;
+  --game-font-hand-latin: "Ishikawa Klee", "Klee One", "Comic Sans MS", "Bradley Hand", "Segoe Print", cursive;
+  --game-font-mono: "SF Mono", Menlo, Consolas, monospace;
+  /* — shadows — */
+  --game-shadow: rgba(33, 31, 28, 0.12);
+  /* — radii — */
+  --radius: 20px;
+  /* — other — */
+  --panel: rgba(255, 255, 255, 0.032);
+  --panel-strong: rgba(255, 255, 255, 0.06);
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.2);
+  --teal: #5eead4;
+  --indigo: #8b9cf9;
+  --pink: #f0a6ca;
+  --grad: linear-gradient(100deg, #5eead4 0%, #8b9cf9 52%, #f0a6ca 100%);
+  --grad-soft: linear-gradient(100deg, rgba(94, 234, 212, 0.7), rgba(139, 156, 249, 0.7));
+  --utility-header-height: 60px;
+  --utility-header-inline: 14px;
+  --utility-header-filter: blur(14px) saturate(0.9);
+  --shell: 1240px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snap: cubic-bezier(0.34, 1.3, 0.4, 1);
+  --head-h: 72px;
+  --game-ink: #444;
+  --game-ink-strong: #1f1f1f;
+  --game-paper: #fff;
+  --game-wash: #f7f5ef;
+  --game-blue: #6fb8c6;
+  --game-yellow: #d8b94c;
+  --game-red: #c56f5e;
+  --game-green: #7aa78e;
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

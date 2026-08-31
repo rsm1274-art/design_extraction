@@ -1,0 +1,11 @@
+{
+  "cms": [],
+  "analytics": [
+    "vercel-analytics"
+  ],
+  "experimentation": [],
+  "signals": {
+    "scriptCount": 1,
+    "metaCount": 18
+  }
+}

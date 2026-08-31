@@ -1,0 +1,24 @@
+/* shadcn/ui Theme — extracted from https://www.memphispolice.org/about/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 40%;
+    --primary: 41 100% 49%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 217 100% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 23%;
+    --border: 0 0% 88%;
+    --radius: 50px;
+  }
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 40%;
+    --primary: 41 100% 49%;
+  }
+}

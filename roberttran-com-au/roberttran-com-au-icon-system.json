@@ -1,0 +1,104 @@
+{
+  "library": "unknown",
+  "confidence": 0,
+  "alternates": [],
+  "stats": {
+    "count": 14,
+    "strokeOnly": 0,
+    "fillOnly": 13,
+    "mixed": 0,
+    "avgStrokeWidth": 2.94,
+    "gridDistribution": {},
+    "roundedCapsFraction": 0.57
+  },
+  "signals": [
+    "fillDominant",
+    "roundedCaps"
+  ],
+  "icons": [
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "pointer-events-none absolute -bottom-1.5 -left-2 -right-3 -top-1.5 h-[calc(100%+",
+      "grid": null,
+      "strokeWidth": 3,
+      "style": "fill"
+    },
+    {
+      "class": "h-[19px] w-[19px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "h-[19px] w-[19px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "h-[19px] w-[19px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "h-[18px] w-[18px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "h-[18px] w-[18px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "h-[22px] w-[22px]",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "drop-shadow-sm",
+      "grid": null,
+      "strokeWidth": 2.5,
+      "style": "mixed"
+    }
+  ]
+}

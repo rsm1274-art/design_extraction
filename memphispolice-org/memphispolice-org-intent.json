@@ -1,0 +1,60 @@
+{
+  "pageIntent": {
+    "type": "about",
+    "confidence": 0.61,
+    "path": "/about",
+    "title": "About the MPD - Memphis Police Department",
+    "description": "The mission of the Memphis Police Department is to provide safe environments for the citizens of Memphis, while fostering strong community partnerships.",
+    "signals": [
+      {
+        "kind": "url",
+        "type": "about",
+        "weight": 0.85
+      },
+      {
+        "kind": "meta",
+        "type": "blog-post",
+        "weight": 0.6,
+        "detail": "og:type=article"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.6
+      }
+    ],
+    "needsSmart": false
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 162
+        },
+        "buttonCount": 1,
+        "cardCount": 115,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "Emergency: 911 | Non-Emergency: 901-545-2677 (COPS)\nSearch\nAbout\nDivisions\nOutreach\nHow Do I\nNews\nPolicy\nCrimestoppers\nJOIN MPD"
+        },
+        "needsSmart": true
+      }
+    ],
+    "counts": {
+      "nav": 1
+    },
+    "readingOrder": [
+      "nav"
+    ]
+  }
+}

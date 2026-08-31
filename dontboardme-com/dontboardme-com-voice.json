@@ -1,0 +1,50 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "balanced",
+  "ctaVerbs": [
+    {
+      "value": "try",
+      "count": 12
+    },
+    {
+      "value": "book",
+      "count": 9
+    },
+    {
+      "value": "pricing",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "try it",
+      "count": 12
+    },
+    {
+      "value": "book now",
+      "count": 9
+    },
+    {
+      "value": "pricing page",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+    "A tired dog is a happy dog!",
+    "OUR SERVICES",
+    "THE CARE YOUR PET DESERVES!",
+    "HAVE QUESTIONS?",
+    "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+    "A tired dog is a happy dog!",
+    "OUR SERVICES",
+    "THE CARE YOUR PET DESERVES!",
+    "HAVE QUESTIONS?"
+  ],
+  "stats": {
+    "buttons": 22,
+    "headings": 10
+  }
+}

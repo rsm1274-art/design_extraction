@@ -1,0 +1,601 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 1666,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#6f6d69",
+        "rgb": {
+          "r": 111,
+          "g": 109,
+          "b": 105,
+          "a": 1
+        },
+        "hsl": {
+          "h": 40,
+          "s": 3,
+          "l": 42
+        },
+        "count": 594,
+        "contexts": [
+          "border",
+          "text",
+          "background"
+        ]
+      },
+      {
+        "hex": "#fbfaf6",
+        "rgb": {
+          "r": 251,
+          "g": 250,
+          "b": 246,
+          "a": 1
+        },
+        "hsl": {
+          "h": 48,
+          "s": 38,
+          "l": 97
+        },
+        "count": 148,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#93908b",
+        "rgb": {
+          "r": 147,
+          "g": 144,
+          "b": 139,
+          "a": 1
+        },
+        "hsl": {
+          "h": 38,
+          "s": 4,
+          "l": 56
+        },
+        "count": 67,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#b3b0a9",
+        "rgb": {
+          "r": 179,
+          "g": 176,
+          "b": 169,
+          "a": 1
+        },
+        "hsl": {
+          "h": 42,
+          "s": 6,
+          "l": 68
+        },
+        "count": 8,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#3b2c00",
+        "rgb": {
+          "r": 59,
+          "g": 44,
+          "b": 0,
+          "a": 0.08
+        },
+        "hsl": {
+          "h": 45,
+          "s": 100,
+          "l": 12
+        },
+        "count": 7,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#ff5f57",
+        "rgb": {
+          "r": 255,
+          "g": 95,
+          "b": 87,
+          "a": 1
+        },
+        "hsl": {
+          "h": 3,
+          "s": 100,
+          "l": 67
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffbd2e",
+        "rgb": {
+          "r": 255,
+          "g": 189,
+          "b": 46,
+          "a": 1
+        },
+        "hsl": {
+          "h": 41,
+          "s": 100,
+          "l": 59
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#28c840",
+        "rgb": {
+          "r": 40,
+          "g": 200,
+          "b": 64,
+          "a": 1
+        },
+        "hsl": {
+          "h": 129,
+          "s": 67,
+          "l": 47
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#0e0aff",
+        "rgb": {
+          "r": 14,
+          "g": 10,
+          "b": 255,
+          "a": 0.25
+        },
+        "hsl": {
+          "h": 241,
+          "s": 100,
+          "l": 52
+        },
+        "count": 2,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#7c00fa",
+        "rgb": {
+          "r": 124,
+          "g": 0,
+          "b": 250,
+          "a": 0.25
+        },
+        "hsl": {
+          "h": 270,
+          "s": 100,
+          "l": 49
+        },
+        "count": 2,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#4137ff",
+        "rgb": {
+          "r": 65,
+          "g": 55,
+          "b": 255,
+          "a": 0.7
+        },
+        "hsl": {
+          "h": 243,
+          "s": 100,
+          "l": 61
+        },
+        "count": 2,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#eeede6",
+        "rgb": {
+          "r": 238,
+          "g": 237,
+          "b": 230,
+          "a": 1
+        },
+        "hsl": {
+          "h": 53,
+          "s": 19,
+          "l": 92
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#dad9d2",
+        "rgb": {
+          "r": 218,
+          "g": 217,
+          "b": 210,
+          "a": 1
+        },
+        "hsl": {
+          "h": 53,
+          "s": 10,
+          "l": 84
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 80,
+        "y": 48,
+        "w": 160,
+        "h": 216
+      },
+      "heading": "Poolside logo",
+      "buttonCount": 2,
+      "cardCount": 18,
+      "className": "w-nav-width top-page-top sticky z-10 flex shrink-0 select-none flex-col self-start max-md:hidden"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 80,
+        "y": 48,
+        "w": 160,
+        "h": 216
+      },
+      "heading": "Poolside logo",
+      "buttonCount": 2,
+      "cardCount": 18,
+      "className": "relative"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 1,
+      "cardCount": 3,
+      "className": "text-nav relative z-30 md:hidden"
+    },
+    {
+      "role": "testimonials",
+      "tag": "main",
+      "bounds": {
+        "x": 240,
+        "y": 48,
+        "w": 960,
+        "h": 3257.4375
+      },
+      "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+      "buttonCount": 5,
+      "cardCount": 19,
+      "className": "min-w-0 flex-1 scroll-mt-20"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 240,
+        "y": 48,
+        "w": 960,
+        "h": 757.4375
+      },
+      "heading": "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+      "buttonCount": 5,
+      "cardCount": 8,
+      "className": "@container flex flex-col gap-8 md:gap-12"
+    },
+    {
+      "role": "sidebar",
+      "tag": "aside",
+      "bounds": {
+        "x": 280,
+        "y": 373.4375,
+        "w": 228.796875,
+        "h": 392
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "sidebar svelte-oxfo6t"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 289,
+        "y": 464.4375,
+        "w": 210.796875,
+        "h": 82
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "svelte-oxfo6t"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 289,
+        "y": 550.4375,
+        "w": 210.796875,
+        "h": 194
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "projects svelte-oxfo6t"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 240,
+        "y": 1001.4375,
+        "w": 960,
+        "h": 586
+      },
+      "heading": "We're building open-weight foundation models and the systems that refine and improve them.",
+      "buttonCount": 0,
+      "cardCount": 5,
+      "className": "section @container  svelte-37agx"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 240,
+        "y": 1783.4375,
+        "w": 960,
+        "h": 702
+      },
+      "heading": "We work in the open. A closer look at the research, the engineering, and the ideas behind our models.",
+      "buttonCount": 0,
+      "cardCount": 6,
+      "className": "section @container  svelte-37agx"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 240,
+        "y": 2681.4375,
+        "w": 960,
+        "h": 624
+      },
+      "heading": "Go further with us. From real-world missions to the path to AGI, and the people building it.",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "section @container @container svelte-37agx"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 80,
+        "y": 3501.4375,
+        "w": 1120,
+        "h": 226
+      },
+      "heading": "Poolside logo",
+      "buttonCount": 3,
+      "cardCount": 21,
+      "className": "flex "
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 80,
+        "y": 3501.4375,
+        "w": 160,
+        "h": 226
+      },
+      "heading": "Poolside logo",
+      "buttonCount": 3,
+      "cardCount": 21,
+      "className": "w-nav-width text-secondary font-sans text-[15px] font-normal leading-[18px] tracking-[-0.01em] max-md:hidden"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "a>span",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "color(display-p3 0.2549 0.2157 1)",
+            "color": "rgb(251, 250, 246)",
+            "padding": "0px 12px 0px 12px",
+            "borderRadius": "0px",
+            "border": "0px solid rgb(251, 250, 246)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 12px 0px 12px",
+            "borderRadius": "0px",
+            "border": "1px solid rgba(54, 41, 0, 0.12)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>img",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "25%",
+            "border": "0px solid rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(111, 109, 105)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px solid rgb(111, 109, 105)",
+            "fontSize": "15px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/7.CONCtgH2.css",
+        "totalBytes": 10282,
+        "usedBytes": 5584,
+        "unusedBytes": 4698,
+        "unusedPercent": 46
+      },
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/blog-illustration.BIEJgghn.css",
+        "totalBytes": 96,
+        "usedBytes": 0,
+        "unusedBytes": 96,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/0.z6e75RG_.css",
+        "totalBytes": 118888,
+        "usedBytes": 102061,
+        "unusedBytes": 16827,
+        "unusedPercent": 14
+      },
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/desktop-window.ksCxQB0n.css",
+        "totalBytes": 13165,
+        "usedBytes": 8632,
+        "unusedBytes": 4533,
+        "unusedPercent": 34
+      },
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/color.SG26dH0S.css",
+        "totalBytes": 138,
+        "usedBytes": 137,
+        "unusedBytes": 1,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://poolside.ai/_app/immutable/assets/video-carousel.7m5oLwkW.css",
+        "totalBytes": 90275,
+        "usedBytes": 1519,
+        "unusedBytes": 88756,
+        "unusedPercent": 98
+      }
+    ],
+    "totalBytes": 232844,
+    "usedBytes": 117933,
+    "unusedBytes": 114911,
+    "unusedPercent": 49,
+    "importantCount": 323,
+    "duplicates": 2303,
+    "vendorPrefixes": {
+      "webkit": 71,
+      "moz": 7,
+      "ms": 2,
+      "o": 1
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        8,
+        3
+      ],
+      "average": [
+        0,
+        2.04,
+        0.22
+      ],
+      "count": 2501
+    },
+    "issues": [
+      "323 !important rules",
+      "2303 duplicate declarations"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "available": true,
+  "roles": {
+    "primary": {
+      "light": "#dcf6f2",
+      "dark": "#dcf6f2"
+    },
+    "secondary": {
+      "light": "#4ee8dd",
+      "dark": "#4ee8dd"
+    },
+    "accent": {
+      "light": "#d45199",
+      "dark": "#d45199"
+    }
+  },
+  "variables": {
+    "colors": {
+      "light": {
+        "--bg": "#07090e",
+        "--bg-soft": "#0b0e15",
+        "--utility-header-bg": "rgba(253, 253, 252, 0.84)"
+      },
+      "dark": {
+        "--bg": "#07090e",
+        "--bg-soft": "#0b0e15",
+        "--utility-header-bg": "rgba(253, 253, 252, 0.84)"
+      }
+    },
+    "spacing": {
+      "light": {
+        "--utility-brand-size": "14px",
+        "--utility-brand-spacing": "0.06em",
+        "--utility-language-size": "10px",
+        "--utility-language-gap": "2px"
+      },
+      "dark": {
+        "--utility-brand-size": "14px",
+        "--utility-brand-spacing": "0.06em",
+        "--utility-language-size": "10px",
+        "--utility-language-gap": "2px"
+      }
+    },
+    "typography": {
+      "light": {
+        "--text": "#edf0f7",
+        "--text-soft": "#a8b1c3",
+        "--text-dim": "#6d7689",
+        "--font-sans": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Noto Sans JP\", \"Yu Gothic\", Meiryo, sans-serif",
+        "--font-display": "\"Avenir Next\", \"Helvetica Neue\", \"Hiragino Sans\", \"Noto Sans JP\", sans-serif",
+        "--font-mono": "\"JetBrains Mono\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, monospace",
+        "--utility-font-mono": "\"SF Mono\", Menlo, Consolas, monospace",
+        "--game-font-ui": "\"Avenir Next\", \"Helvetica Neue\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", sans-serif",
+        "--game-font-poetic": "\"Ishikawa Klee\", \"Klee One\", \"Hannotate SC\", \"HanziPen SC\", \"YuKyokasho\", \"Yu Kyokasho\", cursive",
+        "--game-font-hand-latin": "\"Ishikawa Klee\", \"Klee One\", \"Comic Sans MS\", \"Bradley Hand\", \"Segoe Print\", cursive",
+        "--game-font-mono": "\"SF Mono\", Menlo, Consolas, monospace"
+      },
+      "dark": {
+        "--text": "#edf0f7",
+        "--text-soft": "#a8b1c3",
+        "--text-dim": "#6d7689",
+        "--font-sans": "\"Helvetica Neue\", Arial, \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Noto Sans JP\", \"Yu Gothic\", Meiryo, sans-serif",
+        "--font-display": "\"Avenir Next\", \"Helvetica Neue\", \"Hiragino Sans\", \"Noto Sans JP\", sans-serif",
+        "--font-mono": "\"JetBrains Mono\", \"IBM Plex Mono\", \"SF Mono\", Menlo, Consolas, monospace",
+        "--utility-font-mono": "\"SF Mono\", Menlo, Consolas, monospace",
+        "--game-font-ui": "\"Avenir Next\", \"Helvetica Neue\", \"Hiragino Sans\", \"Yu Gothic UI\", \"Yu Gothic\", Meiryo, \"Noto Sans JP\", sans-serif",
+        "--game-font-poetic": "\"Ishikawa Klee\", \"Klee One\", \"Hannotate SC\", \"HanziPen SC\", \"YuKyokasho\", \"Yu Kyokasho\", cursive",
+        "--game-font-hand-latin": "\"Ishikawa Klee\", \"Klee One\", \"Comic Sans MS\", \"Bradley Hand\", \"Segoe Print\", cursive",
+        "--game-font-mono": "\"SF Mono\", Menlo, Consolas, monospace"
+      }
+    },
+    "shadows": {
+      "light": {
+        "--game-shadow": "rgba(33, 31, 28, 0.12)"
+      },
+      "dark": {
+        "--game-shadow": "rgba(33, 31, 28, 0.12)"
+      }
+    },
+    "radii": {
+      "light": {
+        "--radius": "20px"
+      },
+      "dark": {
+        "--radius": "20px"
+      }
+    },
+    "other": {
+      "light": {
+        "--panel": "rgba(255, 255, 255, 0.032)",
+        "--panel-strong": "rgba(255, 255, 255, 0.06)",
+        "--line": "rgba(255, 255, 255, 0.09)",
+        "--line-strong": "rgba(255, 255, 255, 0.2)",
+        "--teal": "#5eead4",
+        "--indigo": "#8b9cf9",
+        "--pink": "#f0a6ca",
+        "--grad": "linear-gradient(100deg, #5eead4 0%, #8b9cf9 52%, #f0a6ca 100%)",
+        "--grad-soft": "linear-gradient(100deg, rgba(94, 234, 212, 0.7), rgba(139, 156, 249, 0.7))",
+        "--utility-header-height": "60px",
+        "--utility-header-inline": "14px",
+        "--utility-header-filter": "blur(14px) saturate(0.9)",
+        "--shell": "1240px",
+        "--gutter": "clamp(20px, 4vw, 48px)",
+        "--ease-out": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "--ease-snap": "cubic-bezier(0.34, 1.3, 0.4, 1)",
+        "--head-h": "72px",
+        "--game-ink": "#444",
+        "--game-ink-strong": "#1f1f1f",
+        "--game-paper": "#fff",
+        "--game-wash": "#f7f5ef",
+        "--game-blue": "#6fb8c6",
+        "--game-yellow": "#d8b94c",
+        "--game-red": "#c56f5e",
+        "--game-green": "#7aa78e"
+      },
+      "dark": {
+        "--panel": "rgba(255, 255, 255, 0.032)",
+        "--panel-strong": "rgba(255, 255, 255, 0.06)",
+        "--line": "rgba(255, 255, 255, 0.09)",
+        "--line-strong": "rgba(255, 255, 255, 0.2)",
+        "--teal": "#5eead4",
+        "--indigo": "#8b9cf9",
+        "--pink": "#f0a6ca",
+        "--grad": "linear-gradient(100deg, #5eead4 0%, #8b9cf9 52%, #f0a6ca 100%)",
+        "--grad-soft": "linear-gradient(100deg, rgba(94, 234, 212, 0.7), rgba(139, 156, 249, 0.7))",
+        "--utility-header-height": "60px",
+        "--utility-header-inline": "14px",
+        "--utility-header-filter": "blur(14px) saturate(0.9)",
+        "--shell": "1240px",
+        "--gutter": "clamp(20px, 4vw, 48px)",
+        "--ease-out": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "--ease-snap": "cubic-bezier(0.34, 1.3, 0.4, 1)",
+        "--head-h": "72px",
+        "--game-ink": "#444",
+        "--game-ink-strong": "#1f1f1f",
+        "--game-paper": "#fff",
+        "--game-wash": "#f7f5ef",
+        "--game-blue": "#6fb8c6",
+        "--game-yellow": "#d8b94c",
+        "--game-red": "#c56f5e",
+        "--game-green": "#7aa78e"
+      }
+    },
+    "dependencies": {
+      "light": {},
+      "dark": {}
+    },
+    "semantic": {
+      "light": {
+        "success": {
+          "--game-green": "#7aa78e"
+        },
+        "warning": {
+          "--game-yellow": "#d8b94c"
+        },
+        "error": {
+          "--game-red": "#c56f5e"
+        },
+        "info": {
+          "--game-blue": "#6fb8c6"
+        }
+      },
+      "dark": {
+        "success": {
+          "--game-green": "#7aa78e"
+        },
+        "warning": {
+          "--game-yellow": "#d8b94c"
+        },
+        "error": {
+          "--game-red": "#c56f5e"
+        },
+        "info": {
+          "--game-blue": "#6fb8c6"
+        }
+      }
+    }
+  },
+  "pairedVarCount": 8,
+  "audit": {
+    "missingInDark": [],
+    "missingInLight": [],
+    "coverage": "paired"
+  },
+  "tailwind": {
+    "darkMode": "class",
+    "theme": {
+      "extend": {
+        "colors": {
+          "primary": {
+            "DEFAULT": "#dcf6f2",
+            "dark": "#dcf6f2"
+          },
+          "secondary": {
+            "DEFAULT": "#4ee8dd",
+            "dark": "#4ee8dd"
+          },
+          "accent": {
+            "DEFAULT": "#d45199",
+            "dark": "#d45199"
+          }
+        }
+      }
+    }
+  }
+}

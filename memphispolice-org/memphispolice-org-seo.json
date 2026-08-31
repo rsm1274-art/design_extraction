@@ -1,0 +1,61 @@
+{
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "title": "About the MPD - Memphis Police Department",
+    "description": "The mission of the Memphis Police Department is to provide safe environments for the citizens of Memphis, while fostering strong community partnerships.",
+    "url": "https://www.memphispolice.org/about/",
+    "site_name": "Memphis Police Department"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "label1": "Est. reading time",
+    "data1": "4 minutes"
+  },
+  "description": "The mission of the Memphis Police Department is to provide safe environments for the citizens of Memphis, while fostering strong community partnerships.",
+  "canonical": null,
+  "themeColor": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://www.memphispolice.org/wp-content/uploads/2023/11/cropped-Memphis-Police-Department-Seal_2MB-32x32.png",
+      "sizes": "32x32",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.memphispolice.org/wp-content/uploads/2023/11/cropped-Memphis-Police-Department-Seal_2MB-192x192.png",
+      "sizes": "192x192",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.memphispolice.org/wp-content/uploads/2023/11/cropped-Memphis-Police-Department-Seal_2MB-180x180.png",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "manifest": "https://www.memphispolice.org/wp-content/themes/baklon/assets/dist/json/manifest.json",
+  "structuredData": [
+    {
+      "type": "Thing",
+      "name": null,
+      "sample": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.memphispolice.org/about/\",\"url\":\"https://www.memphispolice.org/about/\",\"name\":\"About the MPD - Memphis Police Department\",\"isPartOf\":{\"@id\":\"https://www.memphispolice.org/#website\"},\"datePublished\":\"2020-02-10T07:55:28+00:00\",\"dateModified\":\"2026-05-28T20:39:10+00:00\",\"description\":\"The mission of the Memphis Police D"
+    },
+    {
+      "type": "Thing",
+      "name": null,
+      "sample": "{\"@context\":\"http://schema.org/\"}"
+    }
+  ],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": true,
+    "hasFavicon": true,
+    "hasThemeColor": false
+  }
+}

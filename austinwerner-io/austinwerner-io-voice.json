@@ -1,0 +1,116 @@
+{
+  "tone": "friendly",
+  "pronoun": "we→you",
+  "headingStyle": "Sentence case",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "accept",
+      "count": 2
+    },
+    {
+      "value": "reject",
+      "count": 2
+    },
+    {
+      "value": "skip",
+      "count": 1
+    },
+    {
+      "value": "see",
+      "count": 1
+    },
+    {
+      "value": "send",
+      "count": 1
+    },
+    {
+      "value": "subscribe",
+      "count": 1
+    },
+    {
+      "value": "let",
+      "count": 1
+    },
+    {
+      "value": "strictly",
+      "count": 1
+    },
+    {
+      "value": "performance",
+      "count": 1
+    },
+    {
+      "value": "advertisement",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "accept all",
+      "count": 2
+    },
+    {
+      "value": "reject all",
+      "count": 2
+    },
+    {
+      "value": "skip",
+      "count": 1
+    },
+    {
+      "value": "see the stories of our candidates",
+      "count": 1
+    },
+    {
+      "value": "send",
+      "count": 1
+    },
+    {
+      "value": "subscribe",
+      "count": 1
+    },
+    {
+      "value": "let me choose",
+      "count": 1
+    },
+    {
+      "value": "strictly necessary cookies",
+      "count": 1
+    },
+    {
+      "value": "performance and analytics cookies",
+      "count": 1
+    },
+    {
+      "value": "advertisement and targeting cookies",
+      "count": 1
+    },
+    {
+      "value": "user data advertising cookies",
+      "count": 1
+    },
+    {
+      "value": "personalized advertising cookies",
+      "count": 1
+    },
+    {
+      "value": "save settings",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "People connecting people",
+    "People connecting people",
+    "Who do we partner with?",
+    "Who do we partner with?",
+    "We'd love to connect.",
+    "We'd love to connect.",
+    "Get in touch",
+    "Get in touch"
+  ],
+  "stats": {
+    "buttons": 15,
+    "headings": 8
+  }
+}

@@ -1,0 +1,36 @@
+Build a landing page with this exact visual language.
+COLORS:
+  #000000
+  #e33529
+  #0000ee
+  #693413
+  #f6f6ed
+  #2b6786
+  #ede2e2
+  #edbdd1
+  #f4ced3
+  #925026
+  #afd8fb
+  #eacdef
+  #d8b3df
+  #f0b5be
+FONTS: [object Object], [object Object], [object Object], [object Object]
+SPACING: 1, 18, 21, 24, 28, 36, 39, 43
+RADIUS: 3, 9, 50, 133, 662
+SHADOWS: rgba(221, 198, 202, 0.4) -3px 4px 14px 0px
+MATERIAL LANGUAGE: material-you
+VOICE: Tone: friendly · Headings: Title Case · CTA verbs: [object Object], [object Object], [object Object]
+SECTIONS (in order):
+- faq — heading: "A TIRED DOG IS
+
+A HAPPY DOG!
+
+YOUR TRUSTED IN-HOME PET CARE COMPANIONS!"
+- hero — heading: "OUR SERVICES"
+- steps
+- testimonials — heading: "THE CARE YOUR PET DESERVES!"
+- hero — heading: "HAVE QUESTIONS?"
+- pricing-table
+- faq
+- footer
+Use Tailwind. Match these tokens exactly. Keep the material language consistent.

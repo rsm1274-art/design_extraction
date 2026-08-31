@@ -1,0 +1,270 @@
+{
+  "available": true,
+  "roles": {
+    "primary": {
+      "light": "#d9b915",
+      "dark": "#d9b915"
+    },
+    "secondary": {
+      "light": "#ff6d36",
+      "dark": "#ff6d36"
+    },
+    "accent": {
+      "light": "#ffd100",
+      "dark": "#ffd100"
+    }
+  },
+  "variables": {
+    "colors": {
+      "light": {
+        "--cc-webkit-scrollbar-bg": "#cfd5db",
+        "--cc-bg": "#fff",
+        "--cc-toggle-bg-readonly": "#d5dee2",
+        "--colors-aw-yellow": "#FFD100",
+        "--colors-gradient-3": "linear-gradient(transparent, rgb(6, 6, 6) 100%)",
+        "--colors-aw-companies-turqouise-70": "rgba(43, 198, 217, 0.7)",
+        "--cc-overlay-bg": "rgba(4, 6, 8, .85)",
+        "--colors-aw-companies-turqouise-40": "rgba(43, 198, 217, 0.4)",
+        "--colors-aw-yellow-cookie-consent-hover": "#C5A70D",
+        "--cc-btn-secondary-bg": "#eaeff2",
+        "--cc-toggle-knob-bg": "#fff",
+        "--colors-gray-10": "#171717",
+        "--colors-blue": "#2967BC",
+        "--colors-gradient-2": "linear-gradient(180deg, rgba(83, 83, 83, 1) 50%,rgba(52, 52, 52, 1) 0%)",
+        "--cc-btn-primary-text": "#fff",
+        "--colors-aw-candidates-orange": "#FF6D36",
+        "--colors-gray-9": "#9E9E9E",
+        "--cc-cookie-category-block-bg-hover": "#e9eff4",
+        "--cc-btn-primary-bg": "#2d4156",
+        "--colors-aw-companies-turqouise-30": "rgba(43, 198, 217, 0.3)",
+        "--cc-toggle-bg-on": "#2d4156",
+        "--colors-gray-2": "#484848",
+        "--colors-gray-6-01": "rgba(27, 27, 27, 0.01)",
+        "--colors-gray-5": "#202020",
+        "--colors-aw-yellow-cookie-consent-50": "#D9B91550",
+        "--cc-toggle-bg-off": "#919ea6",
+        "--colors-white-20": "rgba(255, 255, 255, .2)",
+        "--cc-btn-secondary-hover-bg": "#d8e0e6",
+        "--colors-gray-11": "#C4C4C4",
+        "--colors-gray-1-20": "#93939320",
+        "--cc-btn-primary-hover-bg": "#1d2e38",
+        "--colors-gray-7": "#AAAAAA",
+        "--cc-toggle-knob-icon-color": "#ecf2fa",
+        "--colors-white-30": "rgba(255, 255, 255, .3)",
+        "--colors-aw-candidates-orange-50": "rgba(255, 109, 54, 0.5)",
+        "--colors-aw-yellow-cookie-consent": "#D9B915",
+        "--colors-gray-1": "#939393",
+        "--colors-aw-black": "#060606",
+        "--colors-black": "#000",
+        "--colors-aw-candidates-orange-30": "rgba(255, 109, 54, 0.3)",
+        "--colors-aw-companies-turqouise": "#2BC6D9",
+        "--colors-gray-6": "#1B1B1B",
+        "--colors-gradient-1": "linear-gradient(180deg, #0D0D0D 0%, rgba(25, 25, 25, 0) 195.86%)",
+        "--cc-section-border": "#f1f3f5",
+        "--colors-purple": "#A951F0",
+        "--colors-aw-yellow-cookie-consent-20": "#D9B91520",
+        "--cc-cookie-category-block-bg": "#f0f4f7",
+        "--cc-btn-secondary-text": "#2d4156",
+        "--cc-webkit-scrollbar-bg-hover": "#9199a0",
+        "--colors-gray-4": "#191919",
+        "--colors-gradient-candidate-orange": "linear-gradient(0deg, rgba(255, 109, 54, 0) 0%, rgba(255, 109, 54, 1)100%)",
+        "--colors-aw-candidates-orange-40": "rgba(255, 109, 54, 0.4)",
+        "--colors-gray-8": "#8F8F8F",
+        "--colors-aw-candidates-orange-70": "rgba(255, 109, 54, 0.7)",
+        "--colors-gray-3": "#292929",
+        "--colors-red": "#EF0B0B",
+        "--colors-white": "#ffffff",
+        "--cc-cookie-table-border": "#e9edf2",
+        "--colors-gradient-4": "linear-gradient(180.13deg, #1B1B1B -7.95%, #050505 195.54%)",
+        "--colors-aw-companies-turqouise-50": "rgba(43, 198, 217, 0.5)"
+      },
+      "dark": {
+        "--cc-webkit-scrollbar-bg": "#cfd5db",
+        "--cc-bg": "#fff",
+        "--cc-toggle-bg-readonly": "#d5dee2",
+        "--colors-aw-yellow": "#FFD100",
+        "--colors-gradient-3": "linear-gradient(transparent, rgb(6, 6, 6) 100%)",
+        "--colors-aw-companies-turqouise-70": "rgba(43, 198, 217, 0.7)",
+        "--cc-overlay-bg": "rgba(4, 6, 8, .85)",
+        "--colors-aw-companies-turqouise-40": "rgba(43, 198, 217, 0.4)",
+        "--colors-aw-yellow-cookie-consent-hover": "#C5A70D",
+        "--cc-btn-secondary-bg": "#eaeff2",
+        "--cc-toggle-knob-bg": "#fff",
+        "--colors-gray-10": "#171717",
+        "--colors-blue": "#2967BC",
+        "--colors-gradient-2": "linear-gradient(180deg, rgba(83, 83, 83, 1) 50%,rgba(52, 52, 52, 1) 0%)",
+        "--cc-btn-primary-text": "#fff",
+        "--colors-aw-candidates-orange": "#FF6D36",
+        "--colors-gray-9": "#9E9E9E",
+        "--cc-cookie-category-block-bg-hover": "#e9eff4",
+        "--cc-btn-primary-bg": "#2d4156",
+        "--colors-aw-companies-turqouise-30": "rgba(43, 198, 217, 0.3)",
+        "--cc-toggle-bg-on": "#2d4156",
+        "--colors-gray-2": "#484848",
+        "--colors-gray-6-01": "rgba(27, 27, 27, 0.01)",
+        "--colors-gray-5": "#202020",
+        "--colors-aw-yellow-cookie-consent-50": "#D9B91550",
+        "--cc-toggle-bg-off": "#919ea6",
+        "--colors-white-20": "rgba(255, 255, 255, .2)",
+        "--cc-btn-secondary-hover-bg": "#d8e0e6",
+        "--colors-gray-11": "#C4C4C4",
+        "--colors-gray-1-20": "#93939320",
+        "--cc-btn-primary-hover-bg": "#1d2e38",
+        "--colors-gray-7": "#AAAAAA",
+        "--cc-toggle-knob-icon-color": "#ecf2fa",
+        "--colors-white-30": "rgba(255, 255, 255, .3)",
+        "--colors-aw-candidates-orange-50": "rgba(255, 109, 54, 0.5)",
+        "--colors-aw-yellow-cookie-consent": "#D9B915",
+        "--colors-gray-1": "#939393",
+        "--colors-aw-black": "#060606",
+        "--colors-black": "#000",
+        "--colors-aw-candidates-orange-30": "rgba(255, 109, 54, 0.3)",
+        "--colors-aw-companies-turqouise": "#2BC6D9",
+        "--colors-gray-6": "#1B1B1B",
+        "--colors-gradient-1": "linear-gradient(180deg, #0D0D0D 0%, rgba(25, 25, 25, 0) 195.86%)",
+        "--cc-section-border": "#f1f3f5",
+        "--colors-purple": "#A951F0",
+        "--colors-aw-yellow-cookie-consent-20": "#D9B91520",
+        "--cc-cookie-category-block-bg": "#f0f4f7",
+        "--cc-webkit-scrollbar-bg-hover": "#9199a0",
+        "--cc-btn-secondary-text": "#2d4156",
+        "--colors-gray-4": "#191919",
+        "--colors-gradient-candidate-orange": "linear-gradient(0deg, rgba(255, 109, 54, 0) 0%, rgba(255, 109, 54, 1)100%)",
+        "--colors-aw-candidates-orange-40": "rgba(255, 109, 54, 0.4)",
+        "--colors-gray-8": "#8F8F8F",
+        "--colors-red": "#EF0B0B",
+        "--colors-aw-candidates-orange-70": "rgba(255, 109, 54, 0.7)",
+        "--colors-gray-3": "#292929",
+        "--colors-white": "#ffffff",
+        "--cc-cookie-table-border": "#e9edf2",
+        "--colors-gradient-4": "linear-gradient(180.13deg, #1B1B1B -7.95%, #050505 195.54%)",
+        "--colors-aw-companies-turqouise-50": "rgba(43, 198, 217, 0.5)"
+      }
+    },
+    "spacing": {
+      "light": {
+        "--space-gutter": "20px",
+        "--sizes-gutter": "20px"
+      },
+      "dark": {
+        "--space-gutter": "20px",
+        "--sizes-gutter": "20px"
+      }
+    },
+    "typography": {
+      "light": {
+        "--cc-text": "#2d4156",
+        "--cc-block-text": "#2d4156"
+      },
+      "dark": {
+        "--cc-text": "#2d4156",
+        "--cc-block-text": "#2d4156"
+      }
+    },
+    "shadows": {
+      "light": {
+        "--shadows-focusAndError": "0 0 0 2px #EF0B0B",
+        "--shadows-error": "0 0 0 1px #EF0B0B",
+        "--shadows-focus": "0 0 0 2px rgba(120,120,120, 9)"
+      },
+      "dark": {
+        "--shadows-focusAndError": "0 0 0 2px #EF0B0B",
+        "--shadows-error": "0 0 0 1px #EF0B0B",
+        "--shadows-focus": "0 0 0 2px rgba(120,120,120, 9)"
+      }
+    },
+    "radii": {
+      "light": {},
+      "dark": {}
+    },
+    "other": {
+      "light": {
+        "--zIndices-header": "100",
+        "--zIndices-modal": "101",
+        "--transitions-default": "0.3s ease-out",
+        "--zIndices-positive": "1",
+        "--transitions-longer": "0.7s ease-out"
+      },
+      "dark": {
+        "--zIndices-header": "100",
+        "--zIndices-modal": "101",
+        "--transitions-default": "0.3s ease-out",
+        "--zIndices-positive": "1",
+        "--transitions-longer": "0.7s ease-out"
+      }
+    },
+    "dependencies": {
+      "light": {},
+      "dark": {}
+    },
+    "semantic": {
+      "light": {
+        "success": {
+          "--zIndices-positive": "1"
+        },
+        "warning": {
+          "--colors-aw-yellow": "#FFD100",
+          "--colors-aw-yellow-cookie-consent-hover": "#C5A70D",
+          "--colors-aw-yellow-cookie-consent-50": "#D9B91550",
+          "--colors-aw-yellow-cookie-consent": "#D9B915",
+          "--colors-aw-yellow-cookie-consent-20": "#D9B91520"
+        },
+        "error": {
+          "--shadows-focusAndError": "0 0 0 2px #EF0B0B",
+          "--shadows-error": "0 0 0 1px #EF0B0B",
+          "--colors-red": "#EF0B0B"
+        },
+        "info": {
+          "--colors-blue": "#2967BC"
+        }
+      },
+      "dark": {
+        "success": {
+          "--zIndices-positive": "1"
+        },
+        "warning": {
+          "--colors-aw-yellow": "#FFD100",
+          "--colors-aw-yellow-cookie-consent-hover": "#C5A70D",
+          "--colors-aw-yellow-cookie-consent-50": "#D9B91550",
+          "--colors-aw-yellow-cookie-consent": "#D9B915",
+          "--colors-aw-yellow-cookie-consent-20": "#D9B91520"
+        },
+        "error": {
+          "--shadows-focusAndError": "0 0 0 2px #EF0B0B",
+          "--shadows-error": "0 0 0 1px #EF0B0B",
+          "--colors-red": "#EF0B0B"
+        },
+        "info": {
+          "--colors-blue": "#2967BC"
+        }
+      }
+    }
+  },
+  "pairedVarCount": 8,
+  "audit": {
+    "missingInDark": [],
+    "missingInLight": [],
+    "coverage": "paired"
+  },
+  "tailwind": {
+    "darkMode": "class",
+    "theme": {
+      "extend": {
+        "colors": {
+          "primary": {
+            "DEFAULT": "#d9b915",
+            "dark": "#d9b915"
+          },
+          "secondary": {
+            "DEFAULT": "#ff6d36",
+            "dark": "#ff6d36"
+          },
+          "accent": {
+            "DEFAULT": "#ffd100",
+            "dark": "#ffd100"
+          }
+        }
+      }
+    }
+  }
+}

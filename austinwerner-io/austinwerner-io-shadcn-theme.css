@@ -1,0 +1,24 @@
+/* shadcn/ui Theme — extracted from https://austinwerner.io/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 50 82% 47%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 16 100% 61%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 49 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --muted: 0 0% 9%;
+    --muted-foreground: 0 0% 0%;
+    --border: 0 0% 28%;
+    --radius: 6px;
+  }
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 50 82% 47%;
+  }
+}

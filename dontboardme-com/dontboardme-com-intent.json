@@ -1,0 +1,347 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.29,
+    "path": "/",
+    "title": "Main",
+    "description": "We specialize in providing reliable, compassionate, and personalized in-home pet care services tailored to meet the unique needs of your furry friends.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "dom",
+        "type": "legal",
+        "weight": 0.4
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "legal",
+        "score": 0.4
+      },
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "main",
+        "role": "faq",
+        "subrole": null,
+        "confidence": 0.85,
+        "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 11143.1875
+        },
+        "buttonCount": 49,
+        "cardCount": 97,
+        "slots": {
+          "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+          "subheadings": [
+            "A tired dog is a happy dog!",
+            "OUR SERVICES",
+            "THE CARE YOUR PET DESERVES!",
+            "HAVE QUESTIONS?"
+          ],
+          "ctaCount": 49,
+          "lede": "PRICING\nABOUT US\nSERVICES\nBLOG\nCONTACTS"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 64.875
+        },
+        "buttonCount": 3,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 3,
+          "lede": "PRICING\nABOUT US\nSERVICES\nBLOG\nCONTACTS"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 2,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 538.9609375,
+          "y": -542.2308959960938,
+          "w": 202.078125,
+          "h": 384.84375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "PRICING\nABOUT US\nSERVICES\nBLOG\nCONTACTS"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 423.015625,
+          "y": 20,
+          "w": 495.640625,
+          "h": 20.4375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "PRICING"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 1131.5625,
+          "y": 0,
+          "w": 120,
+          "h": 60.4375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "BOOK NOW"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 1111.109375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+          "subheadings": [
+            "A tired dog is a happy dog!"
+          ],
+          "lede": "A TIRED DOG IS"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "OUR SERVICES",
+        "bounds": {
+          "x": 0,
+          "y": 1111.109375,
+          "w": 1280,
+          "h": 1455.328125
+        },
+        "buttonCount": 11,
+        "cardCount": 0,
+        "slots": {
+          "heading": "OUR SERVICES",
+          "ctaCount": 11
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "steps",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 2566.4375,
+          "w": 1280,
+          "h": 4000
+        },
+        "buttonCount": 10,
+        "cardCount": 57,
+        "slots": {
+          "ctaCount": 10,
+          "lede": "2"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "THE CARE YOUR PET DESERVES!",
+        "bounds": {
+          "x": 0,
+          "y": 6566.4375,
+          "w": 1280,
+          "h": 1977.765625
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "THE CARE YOUR PET DESERVES!",
+          "ctaCount": 2,
+          "lede": "THE PERSONALIZED IN- HOME CARE YOUR PET DESERVES!"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "HAVE QUESTIONS?",
+        "bounds": {
+          "x": 0,
+          "y": 8544.203125,
+          "w": 1280,
+          "h": 519.765625
+        },
+        "buttonCount": 5,
+        "cardCount": 0,
+        "slots": {
+          "heading": "HAVE QUESTIONS?",
+          "ctaCount": 5
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "role": "pricing-table",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 9063.96875,
+          "w": 1280,
+          "h": 667.53125
+        },
+        "buttonCount": 18,
+        "cardCount": 31,
+        "slots": {
+          "ctaCount": 18,
+          "lede": "COST OF WALKING"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "role": "faq",
+        "subrole": null,
+        "confidence": 0.85,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 9731.5,
+          "w": 1280,
+          "h": 1411.6875
+        },
+        "buttonCount": 0,
+        "cardCount": 9,
+        "slots": {
+          "lede": "SHARE THE LOVE"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 12,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 10881.703125,
+          "w": 1280,
+          "h": 261.484375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "SAN DIEGO-CARLSBAD, CA METROPOLITAN AREA"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "faq": 2,
+      "nav": 4,
+      "content": 1,
+      "hero": 2,
+      "steps": 1,
+      "testimonials": 1,
+      "pricing-table": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "faq",
+      "nav",
+      "nav",
+      "content",
+      "nav",
+      "hero",
+      "steps",
+      "testimonials",
+      "hero",
+      "pricing-table",
+      "faq",
+      "footer"
+    ]
+  }
+}

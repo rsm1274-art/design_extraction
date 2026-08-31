@@ -1,0 +1,68 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://poolside.ai",
+  "generated": "2026-08-22T02:54:02.597Z",
+  "count": 3,
+  "gradients": [
+    {
+      "raw": "radial-gradient(circle at 100% 0px, rgba(0, 0, 0, 0) 9.25px, rgb(255, 255, 255) 10px)",
+      "type": "radial",
+      "direction": "circle at 100% 0px",
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "9.25px"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "position": "10px"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(rgb(255, 255, 255) 0%, color(srgb 1 1 1 / 0.96) 30%, color(srgb 1 1 1 / 0.72) 62%, rgba(0, 0, 0, 0) 100%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgb(255, 255, 255)",
+          "position": "0%"
+        },
+        {
+          "color": "color(srgb 1 1 1 / 0.96)",
+          "position": "30%"
+        },
+        {
+          "color": "color(srgb 1 1 1 / 0.72)",
+          "position": "62%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(in oklab, rgb(247, 246, 239) 0%, rgb(251, 250, 246) 100%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "in oklab",
+          "position": null
+        },
+        {
+          "color": "rgb(247, 246, 239)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(251, 250, 246)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    }
+  ]
+}

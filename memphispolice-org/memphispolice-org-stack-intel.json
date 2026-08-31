@@ -1,0 +1,11 @@
+{
+  "cms": [
+    "wordpress"
+  ],
+  "analytics": [],
+  "experimentation": [],
+  "signals": {
+    "scriptCount": 29,
+    "metaCount": 19
+  }
+}

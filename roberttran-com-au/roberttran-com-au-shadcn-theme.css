@@ -1,0 +1,24 @@
+/* shadcn/ui Theme — extracted from https://www.roberttran.com.au/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 44 33% 94%;
+    --foreground: 0 0% 0%;
+    --primary: 43 19% 7%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 44 33% 94%;
+    --secondary-foreground: 0 0% 0%;
+    --accent: 41 31% 71%;
+    --accent-foreground: 0 0% 0%;
+    --muted: 50 43% 97%;
+    --muted-foreground: 38 9% 25%;
+    --border: 50 43% 97%;
+    --radius: 7px;
+  }
+  .dark {
+    --background: 44 33% 94%;
+    --foreground: 0 0% 0%;
+    --primary: 43 19% 7%;
+  }
+}

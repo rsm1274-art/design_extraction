@@ -1,0 +1,206 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://www.roberttran.com.au/",
+    "generatedAt": "2026-08-22T02:59:50.745Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#16140f",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "#f4f1e9",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#45413a",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#fbfaf5",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#f4f1e9",
+          "$type": "color"
+        },
+        "bg1": {
+          "$value": "#16140f",
+          "$type": "color"
+        },
+        "bg2": {
+          "$value": "#fbfaf5",
+          "$type": "color"
+        },
+        "bg3": {
+          "$value": "#efeadd",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#16140f",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#a6382c",
+          "$type": "color"
+        },
+        "text3": {
+          "$value": "#45413a",
+          "$type": "color"
+        },
+        "text4": {
+          "$value": "#f4f1e9",
+          "$type": "color"
+        },
+        "text5": {
+          "$value": "#e7e0d0",
+          "$type": "color"
+        },
+        "text6": {
+          "$value": "#c9503f",
+          "$type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "2px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "48px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "56px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "76px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "138px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "7px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "50px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgb(244, 241, 233) 0px 0px 0px 3px inset, rgba(22, 20, 15, 0.5) 0px 0px 0px 4px inset",
+        "$type": "shadow"
+      },
+      "sh1": {
+        "$value": "rgba(166, 56, 44, 0.35) 0px 0px 0px 2px inset, rgba(22, 20, 15, 0.22) 0px 10px 26px 0px",
+        "$type": "shadow"
+      },
+      "sh2": {
+        "$value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(22, 20, 15, 0.14) 0px 2px 14px 0px",
+        "$type": "shadow"
+      },
+      "sh3": {
+        "$value": "rgba(251, 250, 245, 0.16) 2px 0px 0px 0px inset",
+        "$type": "shadow"
+      },
+      "sh4": {
+        "$value": "rgba(22, 20, 15, 0.32) 0px 18px 40px 0px, rgba(22, 20, 15, 0.18) 0px 0px 0px 1px inset",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "caslonText",
+        "$type": "fontFamily"
+      },
+      "f1": {
+        "$value": "franklin",
+        "$type": "fontFamily"
+      },
+      "f2": {
+        "$value": "jetbrainsMono",
+        "$type": "fontFamily"
+      },
+      "f3": {
+        "$value": "caslonDisplay",
+        "$type": "fontFamily"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "caslonText",
+          "fontSize": "104px",
+          "fontWeight": "400",
+          "lineHeight": "95.68px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}",
+        "$type": "shadow"
+      }
+    }
+  }
+}

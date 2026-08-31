@@ -1,0 +1,13 @@
+Clone the design language of this about page and build a fresh equivalent.
+Visual feel: flat. Tone: neutral · Headings: unknown · CTA verbs: [object Object], [object Object], [object Object], [object Object]
+Primary palette: #3a3a3a, #ffffff, #191919, #666666, #e0e0e0.
+Typography: [object Object], [object Object], [object Object], [object Object].
+Corner radius vocabulary: 50.
+Shadow vocabulary: rgba(8, 36, 145, 0.78) 0px 0px 0px 0px | rgba(0, 0, 0, 0) 0px 0px 0px 0px | rgba(219, 171, 0, 0.83) 0px 0px 0px 0px.
+Use: Use Bootstrap 5 utility classes. Customize via CSS variables.
+Page structure:
+- hero
+- features
+- social proof
+- cta
+- footer

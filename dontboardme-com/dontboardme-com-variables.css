@@ -1,0 +1,140 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #2b6786;
+  --color-secondary: #e33529;
+  --color-accent: #f0b5be;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #f6f6ed;
+  --color-neutral-200: #ede2e2;
+  --color-neutral-300: #ffffff;
+
+  /* Colors — Backgrounds */
+  --color-bg: #f4ced3;
+  --color-bg-1: #f3f3e9;
+  --color-bg-2: #f0b5be;
+  --color-bg-3: #f3c3cb;
+  --color-bg-4: #f6d2d8;
+  --color-bg-5: #f3f3f3;
+  --color-bg-6: #e6dfe7;
+  --color-bg-7: #ead9ec;
+  --color-bg-8: #eacdef;
+  --color-bg-9: #d8b3df;
+  --color-bg-10: #f6f6ed;
+  --color-bg-11: #afd8fb;
+  --color-bg-12: #2b6786;
+  --color-bg-13: #f3f0ef;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #e33529;
+  --color-text-2: #0000ee;
+  --color-text-3: #f3f3e9;
+  --color-text-4: #ede2e2;
+
+  /* Typography — Families */
+  --font-sans: 'Times New Roman', sans-serif;
+  --font-heading: 'Bayon', sans-serif;
+  --font-body: 'Neue Montreal', sans-serif;
+  --font-body: 'Arial', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-260.444: 260.444px;
+  --font-size-209.778: 209.778px;
+  --font-size-165.333: 165.333px;
+  --font-size-112: 112px;
+  --font-size-85.3333: 85.3333px;
+  --font-size-67.5556: 67.5556px;
+  --font-size-64: 64px;
+  --font-size-62.2222: 62.2222px;
+  --font-size-37.3333: 37.3333px;
+  --font-size-28.4444: 28.4444px;
+  --font-size-26.6667: 26.6667px;
+  --font-size-14.2222: 14.2222px;
+
+  /* Spacing */
+  --spacing-1: 1px;
+  --spacing-18: 18px;
+  --spacing-21: 21px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-36: 36px;
+  --spacing-39: 39px;
+  --spacing-43: 43px;
+  --spacing-50: 50px;
+  --spacing-57: 57px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-76: 76px;
+  --spacing-84: 84px;
+  --spacing-89: 89px;
+  --spacing-94: 94px;
+  --spacing-101: 101px;
+  --spacing-107: 107px;
+
+  /* Border Radius */
+  --radius-sm: 3px;
+  --radius-md: 9px;
+  --radius-full: 50px;
+  --radius-full: 133px;
+  --radius-full: 662px;
+
+  /* Box Shadows */
+  --shadow-lg: rgba(221, 198, 202, 0.4) -3px 4px 14px 0px;
+
+  /* Original Site Variables */
+  /* — colors — */
+  --swiper-theme-color: #007aff;
+  /* — spacing — */
+  --swiper-navigation-size: 44px;
+  /* — typography — */
+  --font: "HelveticaNeueCyr-Roman";
+  --font-light: "HelveticaNeueCyr-Light";
+  /* — other — */
+  --transition: 0.5s ease-in-out;
+  --transition-fast: 0.3 ease-in-out;
+  --transition-slow: 0.8s ease-in-out;
+  --my-ease: cubic-bezier(0.24,1,0.36,1);
+  --c-brown: #854720;
+  --c-light-brown: #925026;
+  --c-dark-brown: #693413;
+  --c-dark-yellow: #dcc060;
+  --c-yellow: #fff500;
+  --c-ultra-dark-yellow: #cfae3d;
+  --c-dark-yellow-04: #dcc06040;
+  --c-white: #f3f3f3;
+  --c-dark-white: #f6f6ed;
+  --c-dark-white2: #f3f0ef;
+  --c-light-purple: #e6dfe7;
+  --c-light-purple2: #ead9ec;
+  --c-light-purple3: #eacdef;
+  --c-light-purple4: #d8b3df;
+  --c-light-blue: #afd8fb;
+  --c-d-light-blue: #5b93b0;
+  --c-blue: #2b6786;
+  --c-dark-blue: #124e6d;
+  --c-gray: #f4f4ea;
+  --c-gray1: #f3f3e9;
+  --c-gray2: #ede2e2;
+  --c-red: #e33529;
+  --c-red2: #e93225;
+  --c-dark-red: #a02b22;
+  --c-light-pink: #f4ced3;
+  --c-pink: #f3c3cb;
+  --c-dark-pink: #f0b5be;
+  --c-light-pink2: #f6d2d8;
+  --c-light-pink3: #f6d1d8;
+  --z-header: 500;
+  --z-modal: 510;
+  --z-preloader: 1000;
+  --viewport: 1440;
+  --vh: 800px;
+  --vw: 1280px;
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

@@ -1,0 +1,12 @@
+Clone the design language of this landing page and build a fresh equivalent.
+Visual feel: flat. Tone: friendly · Headings: Sentence case · CTA verbs: [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]
+Primary palette: #000000, #ffffff, #939393, #1b1b1b, #484848.
+Typography: [object Object], [object Object], [object Object], [object Object].
+Corner radius vocabulary: 3, 6, 50, 54, 64, 100.
+Shadow vocabulary: rgba(2, 2, 3, 0.28) 0px 10px 30px 0px | rgba(3, 6, 9, 0.26) 0px 13px 27px -5px.
+Page structure:
+- hero — heading: "People connecting people"
+- hero — heading: "Who do we partner with?"
+- hero — heading: "We'd love to connect."
+- testimonial — heading: "Get in touch"
+- footer

@@ -1,0 +1,37 @@
+{
+  "openGraph": {
+    "site_name": "Don't Board Me",
+    "type": "website",
+    "image": "https://api.dontboardme.com/uploads/Opengraph_d02563699c.png",
+    "title": "Main",
+    "description": "We specialize in providing reliable, compassionate, and personalized in-home pet care services tailored to meet the unique needs of your furry friends."
+  },
+  "twitter": {
+    "title": "Main",
+    "description": "We specialize in providing reliable, compassionate, and personalized in-home pet care services tailored to meet the unique needs of your furry friends.",
+    "image": "https://api.dontboardme.com/uploads/Opengraph_d02563699c.png"
+  },
+  "description": "We specialize in providing reliable, compassionate, and personalized in-home pet care services tailored to meet the unique needs of your furry friends.",
+  "canonical": null,
+  "themeColor": null,
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://dontboardme.com/favicon.ico",
+      "sizes": "",
+      "type": "image/ico"
+    }
+  ],
+  "manifest": null,
+  "structuredData": [],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": false
+  }
+}

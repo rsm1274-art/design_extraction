@@ -1,0 +1,19 @@
+# Design brief
+Page type: **blog-post**.
+Material language: **material-you**.
+Voice: Tone: friendly · Headings: Sentence case · CTA verbs: [object Object], [object Object].
+## Tokens
+```ts
+export const tokens = {
+  colors: ['#1f1f1f', '#333735', '#2f302d', '#000000', '#486c62', '#ffffff', '#bcc268', '#5b8b70', '#dcf6f2', '#ebe8c1', '#444444', '#30654a', '#4ee8dd', '#50a4b4'],
+  fonts: ['[object Object]', '[object Object]', '[object Object]', '[object Object]'],
+  radii: ['1', '6', '50', '53', '56', '70'],
+  shadows: ['rgba(188, 194, 104, 0.08) 0px 0px 0px 2px inset', 'rgba(91, 139, 112, 0) 0px 0px 0px 4px', 'rgba(212, 81, 153, 0) 0px 0px 0px 4px'],
+};
+```
+## Sections
+- testimonial — heading: "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa"
+- testimonial — heading: "ishikawa.co — Walkable Atlas by Hidekazu Ishikawa"
+- sidebar
+- sidebar
+- footer

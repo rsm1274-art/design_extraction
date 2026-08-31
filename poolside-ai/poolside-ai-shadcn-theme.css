@@ -1,0 +1,19 @@
+/* shadcn/ui Theme — extracted from https://poolside.ai */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 48 38% 97%;
+    --foreground: 0 0% 0%;
+    --primary: 48 38% 97%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 45 100% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 3 100% 67%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 53 10% 84%;
+    --muted-foreground: 0 0% 0%;
+    --border: 53 19% 92%;
+    --radius: 10px;
+  }
+}

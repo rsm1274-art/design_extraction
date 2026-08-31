@@ -1,0 +1,878 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#3a3a3a",
+        "rgb": {
+          "r": 58,
+          "g": 58,
+          "b": 58,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 23
+        },
+        "count": 866,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 707,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#191919",
+        "rgb": {
+          "r": 25,
+          "g": 25,
+          "b": 25,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 10
+        },
+        "count": 402,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#666666",
+        "rgb": {
+          "r": 102,
+          "g": 102,
+          "b": 102,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 40
+        },
+        "count": 236,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e0e0e0",
+        "rgb": {
+          "r": 224,
+          "g": 224,
+          "b": 224,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 88
+        },
+        "count": 139,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#0d2279",
+        "rgb": {
+          "r": 13,
+          "g": 34,
+          "b": 121,
+          "a": 1
+        },
+        "hsl": {
+          "h": 228,
+          "s": 81,
+          "l": 26
+        },
+        "count": 81,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#2d2f94",
+        "rgb": {
+          "r": 45,
+          "g": 47,
+          "b": 148,
+          "a": 1
+        },
+        "hsl": {
+          "h": 239,
+          "s": 53,
+          "l": 38
+        },
+        "count": 35,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#1e73be",
+        "rgb": {
+          "r": 30,
+          "g": 115,
+          "b": 190,
+          "a": 1
+        },
+        "hsl": {
+          "h": 208,
+          "s": 73,
+          "l": 43
+        },
+        "count": 34,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#0094ea",
+        "rgb": {
+          "r": 0,
+          "g": 148,
+          "b": 234,
+          "a": 1
+        },
+        "hsl": {
+          "h": 202,
+          "s": 100,
+          "l": 46
+        },
+        "count": 28,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#004276",
+        "rgb": {
+          "r": 0,
+          "g": 66,
+          "b": 118,
+          "a": 1
+        },
+        "hsl": {
+          "h": 206,
+          "s": 100,
+          "l": 23
+        },
+        "count": 9,
+        "contexts": [
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 9,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#fcac00",
+        "rgb": {
+          "r": 252,
+          "g": 172,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 41,
+          "s": 100,
+          "l": 49
+        },
+        "count": 7,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#adb5b7",
+        "rgb": {
+          "r": 173,
+          "g": 181,
+          "b": 183,
+          "a": 1
+        },
+        "hsl": {
+          "h": 192,
+          "s": 6,
+          "l": 70
+        },
+        "count": 7,
+        "contexts": [
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#dd4f3d",
+        "rgb": {
+          "r": 221,
+          "g": 79,
+          "b": 61,
+          "a": 1
+        },
+        "hsl": {
+          "h": 7,
+          "s": 70,
+          "l": 55
+        },
+        "count": 6,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 50
+        },
+        "count": 5,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#0866ff",
+        "rgb": {
+          "r": 8,
+          "g": 102,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 217,
+          "s": 100,
+          "l": 52
+        },
+        "count": 2,
+        "contexts": [
+          "background",
+          "border"
+        ]
+      },
+      {
+        "hex": "#1da1f2",
+        "rgb": {
+          "r": 29,
+          "g": 161,
+          "b": 242,
+          "a": 1
+        },
+        "hsl": {
+          "h": 203,
+          "s": 89,
+          "l": 53
+        },
+        "count": 2,
+        "contexts": [
+          "background",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ff0000",
+        "rgb": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 100,
+          "l": 50
+        },
+        "count": 2,
+        "contexts": [
+          "background",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e23367",
+        "rgb": {
+          "r": 226,
+          "g": 51,
+          "b": 103,
+          "a": 1
+        },
+        "hsl": {
+          "h": 342,
+          "s": 75,
+          "l": 54
+        },
+        "count": 2,
+        "contexts": [
+          "background",
+          "border"
+        ]
+      },
+      {
+        "hex": "#9b9b9b",
+        "rgb": {
+          "r": 155,
+          "g": 155,
+          "b": 155,
+          "a": 0.26
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 61
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#1a65a7",
+        "rgb": {
+          "r": 26,
+          "g": 101,
+          "b": 167,
+          "a": 1
+        },
+        "hsl": {
+          "h": 208,
+          "s": 73,
+          "l": 38
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#f0f0f0",
+        "rgb": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 94
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 162
+      },
+      "heading": null,
+      "buttonCount": 1,
+      "cardCount": 115,
+      "className": "uk-scrollspy-inview uk-animation-fade"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "a",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(252, 172, 0)",
+            "color": "rgb(13, 34, 121)",
+            "padding": "0px 20px 0px 20px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(0, 66, 118)",
+            "fontSize": "18px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgb(251, 172, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "2px 16px 2px 16px",
+            "borderRadius": "0px",
+            "border": "0px solid rgb(170, 170, 170)",
+            "fontSize": "24px",
+            "fontWeight": "700"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>div>div",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "40px 40px 40px 40px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(102, 102, 102)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>a",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(58, 58, 58)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(58, 58, 58)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "a>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(252, 172, 0)",
+            "color": "rgb(0, 66, 118)",
+            "padding": "0px 60px 0px 60px",
+            "borderRadius": "0px",
+            "border": "1px solid rgb(0, 66, 118)",
+            "fontSize": "18px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>span>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(221, 79, 61)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(221, 79, 61)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": [
+      {
+        "fg": "#ffffff",
+        "bg": "#fbac00",
+        "ratio": 1.91,
+        "rule": "AA-large",
+        "suggestion": {
+          "replace": "fg",
+          "color": "#000000",
+          "newRatio": 11
+        }
+      }
+    ]
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://www.memphispolice.org/wp-includes/blocks/image/style.min.css",
+        "totalBytes": 8872,
+        "usedBytes": 430,
+        "unusedBytes": 8442,
+        "unusedPercent": 95
+      },
+      {
+        "url": "https://www.memphispolice.org/about/",
+        "totalBytes": 777,
+        "usedBytes": 0,
+        "unusedBytes": 777,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/about/",
+        "totalBytes": 0,
+        "usedBytes": 0,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/dahz-extender/extensions/modules/shortcodes/assets/fonts/vote-reward-badges/vote-reward-badges.css?ver=7.0.4",
+        "totalBytes": 7214,
+        "usedBytes": 509,
+        "unusedBytes": 6705,
+        "unusedPercent": 93
+      },
+      {
+        "url": "https://use.fontawesome.com/releases/v6.7.2/css/all.css?ver=7.9",
+        "totalBytes": 73890,
+        "usedBytes": 843,
+        "unusedBytes": 73047,
+        "unusedPercent": 99
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/ultimate-branding/inc/modules/login-screen/assets/css/signup-password.css?ver=3.4.8",
+        "totalBytes": 344,
+        "usedBytes": 0,
+        "unusedBytes": 344,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/dahz-extender/extensions/modules/shortcodes/assets/css/dahz-shortcodes.min.css?ver=7.0.4",
+        "totalBytes": 250420,
+        "usedBytes": 75,
+        "unusedBytes": 250345,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=2.3.1",
+        "totalBytes": 16245,
+        "usedBytes": 0,
+        "unusedBytes": 16245,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/about/",
+        "totalBytes": 5677,
+        "usedBytes": 119,
+        "unusedBytes": 5558,
+        "unusedPercent": 98
+      },
+      {
+        "url": "wp-img-auto-sizes-contain-inline-css",
+        "totalBytes": 135,
+        "usedBytes": 79,
+        "unusedBytes": 56,
+        "unusedPercent": 41
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/wp-news-and-widget-pro/assets/css/slick.css?ver=2.9",
+        "totalBytes": 1425,
+        "usedBytes": 0,
+        "unusedBytes": 1425,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=7.0.4",
+        "totalBytes": 369,
+        "usedBytes": 0,
+        "unusedBytes": 369,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.min.css?ver=4.3.2",
+        "totalBytes": 30902,
+        "usedBytes": 0,
+        "unusedBytes": 30902,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Merriweather%20Sans:300|Lato:400&&ver=7.0.4#038;subset=latin-ext",
+        "totalBytes": 2430,
+        "usedBytes": 0,
+        "unusedBytes": 2430,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/hustle/assets/hustle-ui/css/hustle-popup.min.css?ver=4.4.13",
+        "totalBytes": 46126,
+        "usedBytes": 1174,
+        "unusedBytes": 44952,
+        "unusedPercent": 97
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/themes/baklon/assets/dist/css/app.min.css?ver=7.0.4",
+        "totalBytes": 475342,
+        "usedBytes": 14915,
+        "unusedBytes": 460427,
+        "unusedPercent": 97
+      },
+      {
+        "url": "wp-emoji-styles-inline-css",
+        "totalBytes": 340,
+        "usedBytes": 0,
+        "unusedBytes": 340,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/wp-socializer/public/css/wpsr.min.css?ver=7.9",
+        "totalBytes": 25359,
+        "usedBytes": 1869,
+        "unusedBytes": 23490,
+        "unusedPercent": 93
+      },
+      {
+        "url": "global-styles-inline-css",
+        "totalBytes": 9183,
+        "usedBytes": 3126,
+        "unusedBytes": 6057,
+        "unusedPercent": 66
+      },
+      {
+        "url": "dahz-framework-app-style-inline-css",
+        "totalBytes": 128056,
+        "usedBytes": 22218,
+        "unusedBytes": 105838,
+        "unusedPercent": 83
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=7.0.4",
+        "totalBytes": 152689,
+        "usedBytes": 0,
+        "unusedBytes": 152689,
+        "unusedPercent": 100
+      },
+      {
+        "url": "/wp-includes/css/dist/block-library/common.min.css",
+        "totalBytes": 3648,
+        "usedBytes": 702,
+        "unusedBytes": 2946,
+        "unusedPercent": 81
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/all-in-one-event-calendar/apiki/dist/styles/theme.css?ver=1754332284",
+        "totalBytes": 4672,
+        "usedBytes": 184,
+        "unusedBytes": 4488,
+        "unusedPercent": 96
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/wp-news-and-widget-pro/assets/css/wpnw-pro-public.min.css?ver=2.9",
+        "totalBytes": 235973,
+        "usedBytes": 0,
+        "unusedBytes": 235973,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/hustle/assets/hustle-ui/css/hustle-info.min.css?ver=4.4.13",
+        "totalBytes": 50394,
+        "usedBytes": 3083,
+        "unusedBytes": 47311,
+        "unusedPercent": 94
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/hustle/assets/hustle-ui/css/hustle-icons.min.css?ver=4.4.13",
+        "totalBytes": 2450,
+        "usedBytes": 407,
+        "unusedBytes": 2043,
+        "unusedPercent": 83
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=7.0.4",
+        "totalBytes": 31000,
+        "usedBytes": 165,
+        "unusedBytes": 30835,
+        "unusedPercent": 99
+      },
+      {
+        "url": "https://www.memphispolice.org/about/",
+        "totalBytes": 322,
+        "usedBytes": 0,
+        "unusedBytes": 322,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Hind:regular,700&display=swap&ver=1.0",
+        "totalBytes": 2330,
+        "usedBytes": 0,
+        "unusedBytes": 2330,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.2.0",
+        "totalBytes": 485416,
+        "usedBytes": 79,
+        "unusedBytes": 485337,
+        "unusedPercent": 100
+      },
+      {
+        "url": "/wp-includes/css/classic-themes.min.css",
+        "totalBytes": 350,
+        "usedBytes": 0,
+        "unusedBytes": 350,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/hustle/assets/hustle-ui/css/hustle-global.min.css?ver=4.4.13",
+        "totalBytes": 44828,
+        "usedBytes": 2280,
+        "unusedBytes": 42548,
+        "unusedPercent": 95
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/all.css?ver=7.0.4",
+        "totalBytes": 70756,
+        "usedBytes": 448,
+        "unusedBytes": 70308,
+        "unusedPercent": 99
+      },
+      {
+        "url": "rs-plugin-settings-inline-css",
+        "totalBytes": 63,
+        "usedBytes": 0,
+        "unusedBytes": 63,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.18",
+        "totalBytes": 59860,
+        "usedBytes": 0,
+        "unusedBytes": 59860,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.memphispolice.org/about/",
+        "totalBytes": 14467,
+        "usedBytes": 5876,
+        "unusedBytes": 8591,
+        "unusedPercent": 59
+      }
+    ],
+    "totalBytes": 2242324,
+    "usedBytes": 58581,
+    "unusedBytes": 2183743,
+    "unusedPercent": 97,
+    "importantCount": 1599,
+    "duplicates": 27641,
+    "vendorPrefixes": {
+      "webkit": 2843,
+      "moz": 929,
+      "ms": 1932,
+      "o": 646
+    },
+    "keyframes": [
+      {
+        "name": "blinker",
+        "steps": 1
+      },
+      {
+        "name": "rev-ani-mouse",
+        "steps": 4
+      },
+      {
+        "name": "tp-rotateplane",
+        "steps": 3
+      },
+      {
+        "name": "tp-scaleout",
+        "steps": 2
+      },
+      {
+        "name": "tp-bouncedelay",
+        "steps": 2
+      },
+      {
+        "name": "tp-rotate",
+        "steps": 3
+      }
+    ],
+    "specificity": {
+      "max": [
+        2,
+        20,
+        39
+      ],
+      "average": [
+        0.03,
+        2.65,
+        0.39
+      ],
+      "count": 27704
+    },
+    "issues": [
+      "1599 !important rules",
+      "27641 duplicate declarations",
+      "97% unused CSS"
+    ]
+  }
+}

@@ -1,0 +1,1340 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 1745,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e33529",
+        "rgb": {
+          "r": 227,
+          "g": 53,
+          "b": 41,
+          "a": 1
+        },
+        "hsl": {
+          "h": 4,
+          "s": 77,
+          "l": 53
+        },
+        "count": 507,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 238,
+          "a": 1
+        },
+        "hsl": {
+          "h": 240,
+          "s": 100,
+          "l": 47
+        },
+        "count": 336,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#693413",
+        "rgb": {
+          "r": 105,
+          "g": 52,
+          "b": 19,
+          "a": 1
+        },
+        "hsl": {
+          "h": 23,
+          "s": 69,
+          "l": 24
+        },
+        "count": 64,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#f6f6ed",
+        "rgb": {
+          "r": 246,
+          "g": 246,
+          "b": 237,
+          "a": 1
+        },
+        "hsl": {
+          "h": 60,
+          "s": 33,
+          "l": 95
+        },
+        "count": 59,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#2b6786",
+        "rgb": {
+          "r": 43,
+          "g": 103,
+          "b": 134,
+          "a": 1
+        },
+        "hsl": {
+          "h": 200,
+          "s": 51,
+          "l": 35
+        },
+        "count": 42,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ede2e2",
+        "rgb": {
+          "r": 237,
+          "g": 226,
+          "b": 226,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 23,
+          "l": 91
+        },
+        "count": 27,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#edbdd1",
+        "rgb": {
+          "r": 237,
+          "g": 189,
+          "b": 209,
+          "a": 1
+        },
+        "hsl": {
+          "h": 335,
+          "s": 57,
+          "l": 84
+        },
+        "count": 22,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#f4ced3",
+        "rgb": {
+          "r": 244,
+          "g": 206,
+          "b": 211,
+          "a": 1
+        },
+        "hsl": {
+          "h": 352,
+          "s": 63,
+          "l": 88
+        },
+        "count": 11,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#925026",
+        "rgb": {
+          "r": 146,
+          "g": 80,
+          "b": 38,
+          "a": 1
+        },
+        "hsl": {
+          "h": 23,
+          "s": 59,
+          "l": 36
+        },
+        "count": 4,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#afd8fb",
+        "rgb": {
+          "r": 175,
+          "g": 216,
+          "b": 251,
+          "a": 1
+        },
+        "hsl": {
+          "h": 208,
+          "s": 90,
+          "l": 84
+        },
+        "count": 4,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#eacdef",
+        "rgb": {
+          "r": 234,
+          "g": 205,
+          "b": 239,
+          "a": 1
+        },
+        "hsl": {
+          "h": 291,
+          "s": 52,
+          "l": 87
+        },
+        "count": 2,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#d8b3df",
+        "rgb": {
+          "r": 216,
+          "g": 179,
+          "b": 223,
+          "a": 1
+        },
+        "hsl": {
+          "h": 290,
+          "s": 41,
+          "l": 79
+        },
+        "count": 2,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#f0b5be",
+        "rgb": {
+          "r": 240,
+          "g": 181,
+          "b": 190,
+          "a": 1
+        },
+        "hsl": {
+          "h": 351,
+          "s": 66,
+          "l": 83
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#5b93b0",
+        "rgb": {
+          "r": 91,
+          "g": 147,
+          "b": 176,
+          "a": 1
+        },
+        "hsl": {
+          "h": 200,
+          "s": 35,
+          "l": 52
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "pricing",
+      "tag": "main",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 11143.1875
+      },
+      "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+      "buttonCount": 49,
+      "cardCount": 97,
+      "className": "main-page"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 64.875
+      },
+      "heading": null,
+      "buttonCount": 3,
+      "cardCount": 0,
+      "className": "header"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 538.9609375,
+        "y": -542.2308959960938,
+        "w": 202.078125,
+        "h": 384.84375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "header-menu__nav-wrap"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 423.015625,
+        "y": 20,
+        "w": 495.640625,
+        "h": 20.4375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "active header__menu-nav"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 1131.5625,
+        "y": 0,
+        "w": 120,
+        "h": 60.4375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "header__right-part"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 1111.109375
+      },
+      "heading": "A TIRED DOG IS\n\nA HAPPY DOG!\n\nYOUR TRUSTED IN-HOME PET CARE COMPANIONS!",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "main-page__content"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 1111.109375,
+        "w": 1280,
+        "h": 1455.328125
+      },
+      "heading": "OUR SERVICES",
+      "buttonCount": 11,
+      "cardCount": 0,
+      "className": "main-page__our-services"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2566.4375,
+        "w": 1280,
+        "h": 4000
+      },
+      "heading": null,
+      "buttonCount": 10,
+      "cardCount": 57,
+      "className": null
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6566.4375,
+        "w": 1280,
+        "h": 1977.765625
+      },
+      "heading": "THE CARE YOUR PET DESERVES!",
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "care-pet"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 8544.203125,
+        "w": 1280,
+        "h": 519.765625
+      },
+      "heading": "HAVE QUESTIONS?",
+      "buttonCount": 5,
+      "cardCount": 0,
+      "className": "book-consultation"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9063.96875,
+        "w": 1280,
+        "h": 667.53125
+      },
+      "heading": null,
+      "buttonCount": 18,
+      "cardCount": 31,
+      "className": "cost-of-walking"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9731.5,
+        "w": 1280,
+        "h": 1411.6875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 9,
+      "className": null
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 0,
+        "y": 10881.703125,
+        "w": 1280,
+        "h": 261.484375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "footer-wrap"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>svg",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "7.11111px 7.11111px 7.11111px 7.11111px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>div",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "13.3333px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>div>div>div",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(227, 53, 41)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "9.77778px 17.7778px 8px 17.7778px",
+            "borderRadius": "133.333px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        },
+        {
+          "css": {
+            "background": "rgb(43, 103, 134)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "9.77778px 17.7778px 8px 17.7778px",
+            "borderRadius": "133.333px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>div>p>div",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 6
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "p",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(237, 226, 226)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(237, 226, 226)",
+            "fontSize": "26.6667px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 6
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 6
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div",
+      "instanceCount": 7,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 7
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>div>div",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(243, 243, 243)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "21.3333px 0px 3.55556px 0px",
+            "borderRadius": "3.55556px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>svg>p",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "p",
+      "instanceCount": 23,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(146, 80, 38)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(146, 80, 38)",
+            "fontSize": "11px",
+            "fontWeight": "500"
+          },
+          "instanceCount": 20
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(43, 103, 134)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(43, 103, 134)",
+            "fontSize": "85.3333px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "p>span",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(105, 52, 19)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(105, 52, 19)",
+            "fontSize": "62.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>img",
+      "instanceCount": 13,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(230, 223, 231)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "2.66667px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "8.88889px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 9
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>div",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(243, 243, 243)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "21.3333px 0px 3.55556px 0px",
+            "borderRadius": "3.55556px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>div>div>div",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>a",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>p>div>p",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(246, 246, 237)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "42.6667px 0px 42.6667px 0px",
+            "borderRadius": "8.88889px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>p>p",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "a>div",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>p>div>p>div",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(246, 246, 237)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "42.6667px 0px 42.6667px 0px",
+            "borderRadius": "8.88889px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>p",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(43, 103, 134)",
+            "color": "rgb(246, 246, 237)",
+            "padding": "6.22222px 10.6667px 5.33333px 10.6667px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(246, 246, 237)",
+            "fontSize": "10.6667px",
+            "fontWeight": "500"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>a",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "structuralHash": "a>p>div",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(43, 103, 134)",
+            "color": "rgb(0, 0, 238)",
+            "padding": "42.6667px 0px 42.6667px 0px",
+            "borderRadius": "8.88889px",
+            "border": "0px none rgb(0, 0, 238)",
+            "fontSize": "14.2222px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://dontboardme.com/_nuxt/usePageMeta.112462f7.css",
+        "totalBytes": 11472,
+        "usedBytes": 4398,
+        "unusedBytes": 7074,
+        "unusedPercent": 62
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 65,
+        "usedBytes": 65,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 5142,
+        "usedBytes": 0,
+        "unusedBytes": 5142,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1229,
+        "usedBytes": 0,
+        "unusedBytes": 1229,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 2758,
+        "usedBytes": 1596,
+        "unusedBytes": 1162,
+        "unusedPercent": 42
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 4529,
+        "usedBytes": 2978,
+        "unusedBytes": 1551,
+        "unusedPercent": 34
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 3455,
+        "usedBytes": 2344,
+        "unusedBytes": 1111,
+        "unusedPercent": 32
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 8045,
+        "usedBytes": 5828,
+        "unusedBytes": 2217,
+        "unusedPercent": 28
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/entry.242f20de.css",
+        "totalBytes": 4916,
+        "usedBytes": 2643,
+        "unusedBytes": 2273,
+        "unusedPercent": 46
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 435,
+        "usedBytes": 0,
+        "unusedBytes": 435,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1169,
+        "usedBytes": 0,
+        "unusedBytes": 1169,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 84,
+        "usedBytes": 0,
+        "unusedBytes": 84,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 2611,
+        "usedBytes": 0,
+        "unusedBytes": 2611,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/CostWalking.539f012a.css",
+        "totalBytes": 2540,
+        "usedBytes": 1263,
+        "unusedBytes": 1277,
+        "unusedPercent": 50
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/swiper-vue.25ac1039.css",
+        "totalBytes": 17809,
+        "usedBytes": 676,
+        "unusedBytes": 17133,
+        "unusedPercent": 96
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 65,
+        "usedBytes": 65,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 169,
+        "usedBytes": 169,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 169,
+        "usedBytes": 169,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 498,
+        "usedBytes": 427,
+        "unusedBytes": 71,
+        "unusedPercent": 14
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1652,
+        "usedBytes": 1277,
+        "unusedBytes": 375,
+        "unusedPercent": 23
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 6412,
+        "usedBytes": 640,
+        "unusedBytes": 5772,
+        "unusedPercent": 90
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 6416,
+        "usedBytes": 3355,
+        "unusedBytes": 3061,
+        "unusedPercent": 48
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/InstagramBlock.60930718.css",
+        "totalBytes": 4467,
+        "usedBytes": 2510,
+        "unusedBytes": 1957,
+        "unusedPercent": 44
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 169,
+        "usedBytes": 169,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 579,
+        "usedBytes": 0,
+        "unusedBytes": 579,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 326,
+        "usedBytes": 0,
+        "unusedBytes": 326,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1788,
+        "usedBytes": 1366,
+        "unusedBytes": 422,
+        "unusedPercent": 24
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 2200,
+        "usedBytes": 1523,
+        "unusedBytes": 677,
+        "unusedPercent": 31
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 325,
+        "usedBytes": 0,
+        "unusedBytes": 325,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 104,
+        "usedBytes": 0,
+        "unusedBytes": 104,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/Footer.d153cfd0.css",
+        "totalBytes": 6147,
+        "usedBytes": 1844,
+        "unusedBytes": 4303,
+        "unusedPercent": 70
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 6899,
+        "usedBytes": 3859,
+        "unusedBytes": 3040,
+        "unusedPercent": 44
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1976,
+        "usedBytes": 1251,
+        "unusedBytes": 725,
+        "unusedPercent": 37
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 389,
+        "usedBytes": 389,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1639,
+        "usedBytes": 36,
+        "unusedBytes": 1603,
+        "unusedPercent": 98
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/ArrowDown.248a5b32.css",
+        "totalBytes": 118,
+        "usedBytes": 117,
+        "unusedBytes": 1,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 117,
+        "usedBytes": 0,
+        "unusedBytes": 117,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 133,
+        "usedBytes": 0,
+        "unusedBytes": 133,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 1477,
+        "usedBytes": 0,
+        "unusedBytes": 1477,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/",
+        "totalBytes": 119,
+        "usedBytes": 0,
+        "unusedBytes": 119,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/index.5a08d054.css",
+        "totalBytes": 33688,
+        "usedBytes": 20524,
+        "unusedBytes": 13164,
+        "unusedPercent": 39
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/about-us.6307543d.css",
+        "totalBytes": 12802,
+        "usedBytes": 0,
+        "unusedBytes": 12802,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/services.6c5c0e8e.css",
+        "totalBytes": 6969,
+        "usedBytes": 0,
+        "unusedBytes": 6969,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/pricing.63b75c4b.css",
+        "totalBytes": 5736,
+        "usedBytes": 0,
+        "unusedBytes": 5736,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/contacts.edff2f11.css",
+        "totalBytes": 4768,
+        "usedBytes": 0,
+        "unusedBytes": 4768,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/validateEmail.c131112d.css",
+        "totalBytes": 1390,
+        "usedBytes": 0,
+        "unusedBytes": 1390,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/index.ecb4b8d9.css",
+        "totalBytes": 5692,
+        "usedBytes": 0,
+        "unusedBytes": 5692,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dontboardme.com/_nuxt/book-now.4ad563fd.css",
+        "totalBytes": 5941,
+        "usedBytes": 0,
+        "unusedBytes": 5941,
+        "unusedPercent": 100
+      }
+    ],
+    "totalBytes": 187598,
+    "usedBytes": 61481,
+    "unusedBytes": 126117,
+    "unusedPercent": 67,
+    "importantCount": 10,
+    "duplicates": 2555,
+    "vendorPrefixes": {
+      "webkit": 19,
+      "moz": 17,
+      "ms": 3,
+      "o": 27
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        6,
+        1
+      ],
+      "average": [
+        0,
+        2.33,
+        0.12
+      ],
+      "count": 1511
+    },
+    "issues": [
+      "10 !important rules",
+      "2555 duplicate declarations",
+      "67% unused CSS"
+    ]
+  }
+}

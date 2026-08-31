@@ -1,0 +1,293 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.29,
+    "path": "/",
+    "title": "Austin Werner | Tech Recruitment Agency | Since 2017",
+    "description": "Austin Werner is Leading tech recruitment agency specializing in Fintech, Web3 & Blockchain. We connect talented people with innovative businesses.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "dom",
+        "type": "legal",
+        "weight": 0.4
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "legal",
+        "score": 0.4
+      },
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 0
+        },
+        "buttonCount": 1,
+        "cardCount": 0,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "JOB LISTINGS"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 142.296875,
+          "y": 35.296875,
+          "w": 978.40625,
+          "h": 14.390625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "JOB LISTINGS"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "People connecting people",
+        "bounds": {
+          "x": 0,
+          "y": 3800,
+          "w": 1280,
+          "h": 1473
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "People connecting people",
+          "ctaCount": 2,
+          "lede": "04"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 3,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "People connecting people",
+        "bounds": {
+          "x": 68,
+          "y": 3920,
+          "w": 1144,
+          "h": 339
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "People connecting people",
+          "lede": "04"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Who do we partner with?",
+        "bounds": {
+          "x": 0,
+          "y": 5273,
+          "w": 1280,
+          "h": 1302
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Who do we partner with?",
+          "ctaCount": 2,
+          "lede": "05"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 5,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Who do we partner with?",
+        "bounds": {
+          "x": 68,
+          "y": 5393,
+          "w": 1144,
+          "h": 293
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Who do we partner with?",
+          "lede": "05"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "We'd love to connect.",
+        "bounds": {
+          "x": 0,
+          "y": 6593,
+          "w": 1280,
+          "h": 1165
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "We'd love to connect.",
+          "ctaCount": 2
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 7,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "We'd love to connect.",
+        "bounds": {
+          "x": 68,
+          "y": 6713,
+          "w": 1144,
+          "h": 162
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "We'd love to connect."
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Get in touch",
+        "bounds": {
+          "x": 0,
+          "y": 7758,
+          "w": 1280,
+          "h": 1391.78125
+        },
+        "buttonCount": 2,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Get in touch",
+          "ctaCount": 2,
+          "lede": "07"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 9,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Get in touch",
+        "bounds": {
+          "x": 68,
+          "y": 7878,
+          "w": 1144,
+          "h": 173
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "Get in touch",
+          "lede": "07"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 9149.78125,
+          "w": 1280,
+          "h": 746.78125
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Quick Links"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "nav": 6,
+      "hero": 3,
+      "testimonial": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "nav",
+      "hero",
+      "nav",
+      "hero",
+      "nav",
+      "hero",
+      "nav",
+      "testimonial",
+      "nav",
+      "footer"
+    ]
+  }
+}

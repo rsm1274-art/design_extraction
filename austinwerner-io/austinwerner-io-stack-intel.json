@@ -1,0 +1,14 @@
+{
+  "cms": [
+    "webflow"
+  ],
+  "analytics": [
+    "google-analytics",
+    "amplitude"
+  ],
+  "experimentation": [],
+  "signals": {
+    "scriptCount": 36,
+    "metaCount": 12
+  }
+}

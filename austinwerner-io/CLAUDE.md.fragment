@@ -1,0 +1,30 @@
+## Design system (via designlang)
+
+Source: https://austinwerner.io/
+Extracted by designlang v7.0.0 on 2026-08-20T19:25:50.282Z
+
+## Semantic tokens (use these)
+- color.action.primary: #d9b915
+- color.surface.default: #ffffff
+- color.text.body: #000000
+- radius.control: 3px
+- typography.body.fontFamily: Times New Roman
+
+## Regions
+- nav
+- nav
+- hero
+- nav
+- hero
+- nav
+- hero
+- nav
+- hero
+- nav
+- footer
+
+## How to use
+- Prefer `semantic.*` tokens over `primitive.*`.
+- Never invent new tokens or hex values; reuse the ones above.
+- When a value is missing, pick the closest existing semantic token and flag the gap.
+- Reference tokens by their dotted path (e.g. `semantic.color.action.primary`).

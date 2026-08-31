@@ -1,0 +1,54 @@
+{
+  "tone": "friendly",
+  "pronoun": "we-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "balanced",
+  "ctaVerbs": [
+    {
+      "value": "use",
+      "count": 2
+    },
+    {
+      "value": "get",
+      "count": 1
+    },
+    {
+      "value": "press",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "get started (desktop, cli, and more)\n→",
+      "count": 1
+    },
+    {
+      "value": "use on openrouter\n↗",
+      "count": 1
+    },
+    {
+      "value": "use on vercel ai gateway\n↗",
+      "count": 1
+    },
+    {
+      "value": "press kit\npress kit",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "Poolside logo",
+    "Poolside logomark",
+    "Poolside press kit ZIP file",
+    "Poolside logo",
+    "Poolside logomark",
+    "Poolside press kit ZIP file",
+    "Build with our open-weight agentic coding models, Laguna \nXS\n2.1\n \n33B PARAMS\nRUNS ON-DEVICE\nand Laguna \nS\n2.1\n \n118B PARAMS\nOUR NEWEST MODEL\ntoday.",
+    "We're building open-weight foundation models and the systems that refine and improve them.",
+    "Laguna\nS\n2.1",
+    "Laguna\nXS\n2.1"
+  ],
+  "stats": {
+    "buttons": 4,
+    "headings": 26
+  }
+}

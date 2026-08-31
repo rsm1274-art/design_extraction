@@ -1,0 +1,644 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 1864,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.05
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 610,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#939393",
+        "rgb": {
+          "r": 147,
+          "g": 147,
+          "b": 147,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 58
+        },
+        "count": 79,
+        "contexts": [
+          "border",
+          "background",
+          "text"
+        ]
+      },
+      {
+        "hex": "#1b1b1b",
+        "rgb": {
+          "r": 27,
+          "g": 27,
+          "b": 27,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 11
+        },
+        "count": 23,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#484848",
+        "rgb": {
+          "r": 72,
+          "g": 72,
+          "b": 72,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 28
+        },
+        "count": 19,
+        "contexts": [
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#2d4156",
+        "rgb": {
+          "r": 45,
+          "g": 65,
+          "b": 86,
+          "a": 1
+        },
+        "hsl": {
+          "h": 211,
+          "s": 31,
+          "l": 26
+        },
+        "count": 17,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#d9b915",
+        "rgb": {
+          "r": 217,
+          "g": 185,
+          "b": 21,
+          "a": 1
+        },
+        "hsl": {
+          "h": 50,
+          "s": 82,
+          "l": 47
+        },
+        "count": 16,
+        "contexts": [
+          "border",
+          "text",
+          "background"
+        ]
+      },
+      {
+        "hex": "#9e9e9e",
+        "rgb": {
+          "r": 158,
+          "g": 158,
+          "b": 158,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 62
+        },
+        "count": 12,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#aaaaaa",
+        "rgb": {
+          "r": 170,
+          "g": 170,
+          "b": 170,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 67
+        },
+        "count": 6,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e9edf2",
+        "rgb": {
+          "r": 233,
+          "g": 237,
+          "b": 242,
+          "a": 1
+        },
+        "hsl": {
+          "h": 213,
+          "s": 26,
+          "l": 93
+        },
+        "count": 6,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#292929",
+        "rgb": {
+          "r": 41,
+          "g": 41,
+          "b": 41,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 16
+        },
+        "count": 5,
+        "contexts": [
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffd100",
+        "rgb": {
+          "r": 255,
+          "g": 209,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 49,
+          "s": 100,
+          "l": 50
+        },
+        "count": 4,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#ff6d36",
+        "rgb": {
+          "r": 255,
+          "g": 109,
+          "b": 54,
+          "a": 1
+        },
+        "hsl": {
+          "h": 16,
+          "s": 100,
+          "l": 61
+        },
+        "count": 2,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#2bc6d9",
+        "rgb": {
+          "r": 43,
+          "g": 198,
+          "b": 217,
+          "a": 1
+        },
+        "hsl": {
+          "h": 187,
+          "s": 70,
+          "l": 51
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#171717",
+        "rgb": {
+          "r": 23,
+          "g": 23,
+          "b": 23,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 9
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 1,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-iWuxMm-css"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 142.296875,
+        "y": 35.296875,
+        "w": 978.40625,
+        "h": 14.390625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-iguiJhM-css"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3800,
+        "w": 1280,
+        "h": 1473
+      },
+      "heading": "People connecting people",
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-iekRKSK-css"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 68,
+        "y": 3920,
+        "w": 1144,
+        "h": 339
+      },
+      "heading": "People connecting people",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-eUusCQ c-eUusCQ-idOOJEM-css"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 5273,
+        "w": 1280,
+        "h": 1302
+      },
+      "heading": "Who do we partner with?",
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-idVtAgC-css"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 68,
+        "y": 5393,
+        "w": 1144,
+        "h": 293
+      },
+      "heading": "Who do we partner with?",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-eUusCQ c-eUusCQ-ijADuNV-css"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6593,
+        "w": 1280,
+        "h": 1165
+      },
+      "heading": "We'd love to connect.",
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-idrRqpm-css"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 68,
+        "y": 6713,
+        "w": 1144,
+        "h": 162
+      },
+      "heading": "We'd love to connect.",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-eUusCQ c-eUusCQ-igxVpDE-css"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 7758,
+        "w": 1280,
+        "h": 1391.78125
+      },
+      "heading": "Get in touch",
+      "buttonCount": 2,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-igRkLtx-css"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 68,
+        "y": 7878,
+        "w": 1144,
+        "h": 173
+      },
+      "heading": "Get in touch",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-eUusCQ"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 0,
+        "y": 9149.78125,
+        "w": 1280,
+        "h": 746.78125
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "c-PJLV c-PJLV-ijmtfSw-css"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>span>div",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "17px 22px 17px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "54px",
+            "border": "1px solid rgb(147, 147, 147)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 4
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>div>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "17px 0px 17px 22px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "structuralHash": "textarea",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(41, 41, 41)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "21px 21px 18px 21px",
+            "borderRadius": "5px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button",
+      "instanceCount": 12,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(217, 185, 21)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px 0px 1px none none solid rgb(45, 65, 86) rgb(45, 65, 86) rgb(217, 185, 21)",
+            "fontSize": "14.4px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgb(217, 185, 21)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "13.12px 22.304px 13.12px 22.304px",
+            "borderRadius": "4px",
+            "border": "2px solid rgb(217, 185, 21)",
+            "fontSize": "13.12px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 4
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "13.12px 22.304px 13.12px 22.304px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(147, 147, 147)",
+            "fontSize": "13.12px",
+            "fontWeight": "600"
+          },
+          "instanceCount": 7
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": [
+      {
+        "fg": "#ffffff",
+        "bg": "#d9b915",
+        "ratio": 1.93,
+        "rule": "AA-normal",
+        "suggestion": {
+          "replace": "fg",
+          "color": "#000000",
+          "newRatio": 10.9
+        }
+      }
+    ]
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://austinwerner.io/",
+        "totalBytes": 117718,
+        "usedBytes": 36256,
+        "unusedBytes": 81462,
+        "unusedPercent": 69
+      },
+      {
+        "url": "https://austinwerner.io/_next/static/css/a4d6a79e6c03ed8c.css",
+        "totalBytes": 8998,
+        "usedBytes": 2689,
+        "unusedBytes": 6309,
+        "unusedPercent": 70
+      },
+      {
+        "url": "https://austinwerner.io/",
+        "totalBytes": 179,
+        "usedBytes": 113,
+        "unusedBytes": 66,
+        "unusedPercent": 37
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css",
+        "totalBytes": 18759,
+        "usedBytes": 8963,
+        "unusedBytes": 9796,
+        "unusedPercent": 52
+      }
+    ],
+    "totalBytes": 145654,
+    "usedBytes": 48021,
+    "unusedBytes": 97633,
+    "unusedPercent": 67,
+    "importantCount": 41,
+    "duplicates": 3434,
+    "vendorPrefixes": {
+      "webkit": 50,
+      "moz": 11,
+      "ms": 2,
+      "o": 1
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        3,
+        7,
+        3
+      ],
+      "average": [
+        0.26,
+        1.33,
+        0.3
+      ],
+      "count": 1251
+    },
+    "issues": [
+      "41 !important rules",
+      "3434 duplicate declarations",
+      "67% unused CSS"
+    ]
+  }
+}

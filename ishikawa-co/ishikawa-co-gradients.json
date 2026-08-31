@@ -1,0 +1,544 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://ishikawa.co/en/",
+  "generated": "2026-08-20T19:24:59.374Z",
+  "count": 25,
+  "gradients": [
+    {
+      "raw": "radial-gradient(circle at 2px 5px, rgba(93, 153, 137, 0.72) 0px, rgba(93, 153, 137, 0.72) 2px, rgba(0, 0, 0, 0) 2.5px)",
+      "type": "radial",
+      "direction": "circle at 2px 5px",
+      "stops": [
+        {
+          "color": "rgba(93, 153, 137, 0.72)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(93, 153, 137, 0.72)",
+          "position": "2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "2.5px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle at 9px 2px, rgba(205, 99, 149, 0.58) 0px, rgba(205, 99, 149, 0.58) 2px, rgba(0, 0, 0, 0) 2.5px)",
+      "type": "radial",
+      "direction": "circle at 9px 2px",
+      "stops": [
+        {
+          "color": "rgba(205, 99, 149, 0.58)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(205, 99, 149, 0.58)",
+          "position": "2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "2.5px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle at 16px 6px, rgba(100, 172, 187, 0.66) 0px, rgba(100, 172, 187, 0.66) 2px, rgba(0, 0, 0, 0) 2.5px)",
+      "type": "radial",
+      "direction": "circle at 16px 6px",
+      "stops": [
+        {
+          "color": "rgba(100, 172, 187, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(100, 172, 187, 0.66)",
+          "position": "2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "2.5px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(55, 73, 68, 0.7) 0px, rgba(55, 73, 68, 0.7) 1.05px, rgba(0, 0, 0, 0) 1.4px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(55, 73, 68, 0.7)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(55, 73, 68, 0.7)",
+          "position": "1.05px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.4px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 34px, rgba(73, 116, 94, 0.06) 35px, rgba(0, 0, 0, 0) 36px)",
+      "type": "repeating-linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "34px"
+        },
+        {
+          "color": "rgba(73, 116, 94, 0.06)",
+          "position": "35px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "36px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(at 50% 52%, rgba(255, 255, 255, 0.98) 0px, rgba(255, 255, 255, 0.98) 42%, rgba(255, 255, 255, 0.78) 66%, rgba(255, 255, 255, 0) 86%)",
+      "type": "radial",
+      "direction": "at 50% 52%",
+      "stops": [
+        {
+          "color": "rgba(255, 255, 255, 0.98)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.98)",
+          "position": "42%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.78)",
+          "position": "66%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "86%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(at 48% 54%, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.48) 28%, rgba(255, 255, 255, 0.2) 52%, rgba(255, 255, 255, 0) 80%)",
+      "type": "radial",
+      "direction": "at 48% 54%",
+      "stops": [
+        {
+          "color": "rgba(255, 255, 255, 0.72)",
+          "position": "0%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.48)",
+          "position": "28%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.2)",
+          "position": "52%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "80%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(to right, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0) 11%, rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0.94))",
+      "type": "linear",
+      "direction": "to right",
+      "stops": [
+        {
+          "color": "rgba(255, 255, 255, 0.98)",
+          "position": null
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "11%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "82%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.94)",
+          "position": null
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0) 18%, rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0.94))",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(255, 255, 255, 0.86)",
+          "position": null
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "18%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0)",
+          "position": "82%"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.94)",
+          "position": null
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(18deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 48%, rgba(80, 164, 180, 0.32) 49%, rgba(80, 164, 180, 0.32) 51%, rgba(0, 0, 0, 0) 52%)",
+      "type": "linear",
+      "direction": "18deg",
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "48%"
+        },
+        {
+          "color": "rgba(80, 164, 180, 0.32)",
+          "position": "49%"
+        },
+        {
+          "color": "rgba(80, 164, 180, 0.32)",
+          "position": "51%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "52%"
+        }
+      ],
+      "classification": "complex"
+    },
+    {
+      "raw": "linear-gradient(-24deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 48%, rgba(191, 145, 75, 0.28) 49%, rgba(191, 145, 75, 0.28) 51%, rgba(0, 0, 0, 0) 52%)",
+      "type": "linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "-24deg",
+          "position": null
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "48%"
+        },
+        {
+          "color": "rgba(191, 145, 75, 0.28)",
+          "position": "49%"
+        },
+        {
+          "color": "rgba(191, 145, 75, 0.28)",
+          "position": "51%"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "52%"
+        }
+      ],
+      "classification": "complex"
+    },
+    {
+      "raw": "linear-gradient(90deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.86))",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgba(255, 255, 255, 0.98)",
+          "position": null
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.86)",
+          "position": null
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(91, 139, 112, 0.66) 0px, rgba(91, 139, 112, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(91, 139, 112, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(91, 139, 112, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(91, 139, 112, 0.24) 0px, rgba(91, 139, 112, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(91, 139, 112, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(91, 139, 112, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 3px, rgba(255, 255, 255, 0.32) 4px)",
+      "type": "repeating-linear",
+      "direction": null,
+      "stops": [
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "3px"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.32)",
+          "position": "4px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(212, 81, 153, 0.66) 0px, rgba(212, 81, 153, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(212, 81, 153, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(212, 81, 153, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(212, 81, 153, 0.24) 0px, rgba(212, 81, 153, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(212, 81, 153, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(212, 81, 153, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(98, 170, 190, 0.66) 0px, rgba(98, 170, 190, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(98, 170, 190, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(98, 170, 190, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(98, 170, 190, 0.24) 0px, rgba(98, 170, 190, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(98, 170, 190, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(98, 170, 190, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(178, 180, 100, 0.66) 0px, rgba(178, 180, 100, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(178, 180, 100, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(178, 180, 100, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(178, 180, 100, 0.24) 0px, rgba(178, 180, 100, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(178, 180, 100, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(178, 180, 100, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(213, 128, 155, 0.66) 0px, rgba(213, 128, 155, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(213, 128, 155, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(213, 128, 155, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(213, 128, 155, 0.24) 0px, rgba(213, 128, 155, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(213, 128, 155, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(213, 128, 155, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(105, 107, 116, 0.66) 0px, rgba(105, 107, 116, 0.66) 1.2px, rgba(0, 0, 0, 0) 1.45px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(105, 107, 116, 0.66)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(105, 107, 116, 0.66)",
+          "position": "1.2px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.45px"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "radial-gradient(circle, rgba(105, 107, 116, 0.24) 0px, rgba(105, 107, 116, 0.24) 1px, rgba(0, 0, 0, 0) 1.3px)",
+      "type": "radial",
+      "direction": "circle",
+      "stops": [
+        {
+          "color": "rgba(105, 107, 116, 0.24)",
+          "position": "0px"
+        },
+        {
+          "color": "rgba(105, 107, 116, 0.24)",
+          "position": "1px"
+        },
+        {
+          "color": "rgba(0, 0, 0, 0)",
+          "position": "1.3px"
+        }
+      ],
+      "classification": "bold"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.31,
+    "path": "/",
+    "title": "Robert Tran - Brisbane Web Developer",
+    "description": "Robert Tran is a Brisbane web developer building full-stack web applications with Next.js, React, Tailwind, Supabase, AWS, and Vercel.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Robert Tran\nTHE PERSONAL RECORD OF A WEB DEVELOPER",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 216.546875
+        },
+        "buttonCount": 0,
+        "cardCount": 2,
+        "slots": {
+          "heading": "Robert Tran\nTHE PERSONAL RECORD OF A WEB DEVELOPER",
+          "lede": "BRISBANE, AUSTRALIA\nTHE INVESTIGATION EDITION\nEST. 2023\nRobert Tran\nTHE PERSONAL RECORD OF A WEB DEVELOPER\nSATURDAY 22 AUGUST 2026\nSATURDAY 22 AUGUST 2026\nVOL. III\nSELECTED WORKS & NOTES\nPRICE: ONE COFFEE"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 80,
+          "y": 216.546875,
+          "w": 1120,
+          "h": 55.25
+        },
+        "buttonCount": 1,
+        "cardCount": 5,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "Robert Tran\nWORK\nSTACK\nCONTACT\nHIRE HIM"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "A Brisbane web developer who likes building things — front to back.",
+        "bounds": {
+          "x": 0,
+          "y": 273.796875,
+          "w": 1280,
+          "h": 842.25
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "heading": "A Brisbane web developer who likes building things — front to back.",
+          "lede": "FRONT PAGE\nFILED UNDER: OPEN INVESTIGATIONS\nCASE NO. 43 — FINDINGS PUBLISHED\nA Brisbane web developer who likes building things — front to back."
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Selected Works",
+        "bounds": {
+          "x": 0,
+          "y": 1120.046875,
+          "w": 1280,
+          "h": 1891.09375
+        },
+        "buttonCount": 0,
+        "cardCount": 61,
+        "slots": {
+          "heading": "Selected Works",
+          "subheadings": [
+            "Caitlyn Nails Studio",
+            "Pakko Shop",
+            "Pakko Quote",
+            "Pakko IDP"
+          ],
+          "lede": "THE EVIDENCE\nSelected Works\nEXHIBITS A – G · ENTERED 2023 – NOW\nCONFIRMED\nEXHIBIT A\nrecovered from www.caitlynnails.com.au\nEXHIBIT A\nCLIENT · CAITLYNNAILS.COM.AU\nCaitlyn Nails Studio"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "The Lab Report",
+        "bounds": {
+          "x": 0,
+          "y": 3011.140625,
+          "w": 1280,
+          "h": 854.90625
+        },
+        "buttonCount": 0,
+        "cardCount": 21,
+        "slots": {
+          "heading": "The Lab Report"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "The Career Ledger",
+        "bounds": {
+          "x": 0,
+          "y": 3866.046875,
+          "w": 1280,
+          "h": 631.15625
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "heading": "The Career Ledger"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "pricing",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Letters & Commissions",
+        "bounds": {
+          "x": 0,
+          "y": 4497.203125,
+          "w": 1280,
+          "h": 886.90625
+        },
+        "buttonCount": 1,
+        "cardCount": 6,
+        "slots": {
+          "heading": "Letters & Commissions",
+          "subheadings": [
+            "Put it in writing"
+          ],
+          "ctaCount": 1,
+          "lede": "SUBMIT A TIP\nLetters & Commissions\nTHE DESK IS OPEN FOR SELECT WORK — 2026\nPut it in writing"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 7,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5384.109375,
+          "w": 1280,
+          "h": 550.296875
+        },
+        "buttonCount": 1,
+        "cardCount": 4,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "Robert Tran"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "nav": 2,
+      "testimonial": 4,
+      "pricing": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "nav",
+      "testimonial",
+      "testimonial",
+      "testimonial",
+      "testimonial",
+      "pricing",
+      "footer"
+    ]
+  }
+}

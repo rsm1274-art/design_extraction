@@ -1,0 +1,72 @@
+{
+  "openGraph": {
+    "title": "Robert Tran - Brisbane Web Developer",
+    "description": "Robert Tran is a Brisbane web developer building full-stack web applications with Next.js, React, Tailwind, Supabase, AWS, and Vercel.",
+    "url": "https://roberttran.com.au",
+    "site_name": "Robert Tran",
+    "locale": "en_AU",
+    "image": "https://roberttran.com.au/opengraph-image?4f2e16504495bb8b",
+    "image:type": "image/png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "Robert Tran - Brisbane Web Developer",
+    "type": "profile"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Robert Tran - Brisbane Web Developer",
+    "description": "Robert Tran is a Brisbane web developer building full-stack web applications with Next.js, React, Tailwind, Supabase, AWS, and Vercel.",
+    "image": "https://roberttran.com.au/twitter-image?73d24cd490d3a68d",
+    "image:alt": "Robert Tran - Brisbane Web Developer",
+    "image:type": "image/png",
+    "image:width": "1200",
+    "image:height": "630"
+  },
+  "description": "Robert Tran is a Brisbane web developer building full-stack web applications with Next.js, React, Tailwind, Supabase, AWS, and Vercel.",
+  "canonical": null,
+  "themeColor": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://www.roberttran.com.au/favicon.ico?favicon.1m8c3xdkjizmi.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.roberttran.com.au/icon1.png?icon1.374wos14tykfd.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.roberttran.com.au/icon2.png?icon2.3fogdae5xsyrr.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.roberttran.com.au/apple-icon.png?apple-icon.0zh1i_8iv6yrf.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "manifest": "https://www.roberttran.com.au/manifest.webmanifest",
+  "structuredData": [
+    {
+      "type": "Thing",
+      "name": null,
+      "sample": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://roberttran.com.au/#person\",\"name\":\"Robert Tran\",\"url\":\"https://roberttran.com.au\",\"image\":\"https://roberttran.com.au/images/robert-portrait.png\",\"jobTitle\":\"Web Developer\",\"email\":\"mailto:nguyenvtt.dev@gmail.com\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Brisbane\",\"addressRegion\":\"QLD\",\"addressCountry\":\"AU\"},\"s"
+    }
+  ],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": true,
+    "hasFavicon": true,
+    "hasThemeColor": false
+  }
+}

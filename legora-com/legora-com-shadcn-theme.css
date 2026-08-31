@@ -1,0 +1,19 @@
+/* shadcn/ui Theme — extracted from https://legora.com/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 60 9% 98%;
+    --foreground: 0 0% 0%;
+    --primary: 158 100% 16%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 100% 47%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 157 100% 12%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 36 2% 55%;
+    --muted-foreground: 0 0% 0%;
+    --border: 0 0% 20%;
+    --radius: 2px;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "tone": "neutral",
+  "pronoun": "third-person",
+  "headingStyle": "unknown",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "view",
+      "count": 2
+    },
+    {
+      "value": "join",
+      "count": 1
+    },
+    {
+      "value": "close",
+      "count": 1
+    },
+    {
+      "value": "more",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "view organizational chart",
+      "count": 2
+    },
+    {
+      "value": "join mpd",
+      "count": 1
+    },
+    {
+      "value": "close this module",
+      "count": 1
+    },
+    {
+      "value": "more information",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [],
+  "stats": {
+    "buttons": 5,
+    "headings": 0
+  }
+}
