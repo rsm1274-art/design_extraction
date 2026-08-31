@@ -1,0 +1,76 @@
+/* Santioni Spirits — CSS Custom Properties
+   Extracted via static analysis of https://santionispirits.com/ (inlined critical CSS + Hydrax UIL config) */
+
+:root {
+  /* Core */
+  --color-ink: #121212;
+  --color-black: #1d1d1d;
+  --color-pure-black: #000000;
+  --color-white: #ffffff;
+  --color-brand-red: #c82924;
+
+  /* Red family (accent variants) */
+  --color-red-600: #be261e;
+  --color-red-700: #971d16;
+  --color-red-800: #bc251c;
+  --color-red-900: #c0261d;
+  --color-red-950: #990b06;
+
+  /* Environment tones */
+  --color-gold: #dfaf49;
+  --color-stone: #ae9c74;
+  --color-taupe: #927a73;
+
+  /* Product/liquid flavor accents */
+  --color-flavor-blue: #63c6f8;
+  --color-flavor-blue-alt: #2fb5f9;
+  --color-flavor-blue-light: #72c5f6;
+  --color-flavor-blue-deep: #345bf9;
+  --color-flavor-blue-dark: #00378f;
+  --color-flavor-mint: #6dd993;
+  --color-flavor-mint-light: #97f3ad;
+  --color-flavor-mint-deep: #07cf4d;
+  --color-flavor-yellow: #fbeb7f;
+  --color-flavor-violet: #5900ff;
+  --color-flavor-magenta: #ff0040;
+  --color-flavor-magenta-dark: #240023;
+
+  /* Typography */
+  --font-display: "Charles Rosie Regular", sans-serif;
+  --font-label: "PPNikkeiMaru-Ultrabold", sans-serif;
+  --font-label-regular: "PPNikkeiMaru-Regular", sans-serif;
+  --font-body: "GT-Era-Text-Light", sans-serif;
+
+  --tracking-base: 0.005em;
+
+  --fs-heading1-min: 70px;
+  --fs-heading1-max: 217px;
+  --fs-heading2-min: 70px;
+  --fs-heading2-max: 200px;
+  --fs-heading3-min: 40px;
+  --fs-heading3-max: 82px;
+  --fs-body-bold-min: 12px;
+  --fs-body-bold-max: 15px;
+  --fs-body-regular: 15px;
+
+  /* Breakpoints (reference only — used inside fluid calc() interpolation, not fixed steps) */
+  --bp-xs: 320px;
+  --bp-sm: 390px;
+  --bp-sm-alt: 400px;
+  --bp-md: 768px;
+  --bp-md-alt: 960px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1920px;
+
+  /* Motion */
+  --ease-hover: ease-out;
+  --duration-fast: 0.1s;
+  --duration-base: 0.2s;
+  --duration-slow: 0.3s;
+  --duration-slower: 0.4s;
+
+  /* Radius */
+  --radius-pill: 2em;
+  --radius-circle: 50%;
+}
