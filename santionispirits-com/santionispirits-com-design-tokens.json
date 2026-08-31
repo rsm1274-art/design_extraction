@@ -1,0 +1,116 @@
+{
+  "$description": "Santioni Spirits design tokens (W3C Design Tokens format). Extracted via static analysis of https://santionispirits.com/",
+  "color": {
+    "ink": { "$type": "color", "$value": "#121212" },
+    "black": { "$type": "color", "$value": "#1d1d1d" },
+    "pure-black": { "$type": "color", "$value": "#000000" },
+    "white": { "$type": "color", "$value": "#ffffff" },
+    "brand-red": {
+      "default": { "$type": "color", "$value": "#c82924" },
+      "600": { "$type": "color", "$value": "#be261e" },
+      "700": { "$type": "color", "$value": "#971d16" },
+      "800": { "$type": "color", "$value": "#bc251c" },
+      "900": { "$type": "color", "$value": "#c0261d" },
+      "950": { "$type": "color", "$value": "#990b06" }
+    },
+    "gold": { "$type": "color", "$value": "#dfaf49" },
+    "stone": { "$type": "color", "$value": "#ae9c74" },
+    "taupe": { "$type": "color", "$value": "#927a73" },
+    "flavor": {
+      "blue": { "$type": "color", "$value": "#63c6f8" },
+      "blue-alt": { "$type": "color", "$value": "#2fb5f9" },
+      "blue-light": { "$type": "color", "$value": "#72c5f6" },
+      "blue-deep": { "$type": "color", "$value": "#345bf9" },
+      "blue-dark": { "$type": "color", "$value": "#00378f" },
+      "mint": { "$type": "color", "$value": "#6dd993" },
+      "mint-light": { "$type": "color", "$value": "#97f3ad" },
+      "mint-deep": { "$type": "color", "$value": "#07cf4d" },
+      "yellow": { "$type": "color", "$value": "#fbeb7f" },
+      "violet": { "$type": "color", "$value": "#5900ff" },
+      "magenta": { "$type": "color", "$value": "#ff0040" },
+      "magenta-dark": { "$type": "color", "$value": "#240023" }
+    }
+  },
+  "font": {
+    "display": { "$type": "fontFamily", "$value": ["Charles Rosie Regular", "sans-serif"] },
+    "label": { "$type": "fontFamily", "$value": ["PPNikkeiMaru-Ultrabold", "sans-serif"] },
+    "label-regular": { "$type": "fontFamily", "$value": ["PPNikkeiMaru-Regular", "sans-serif"] },
+    "body": { "$type": "fontFamily", "$value": ["GT-Era-Text-Light", "sans-serif"] }
+  },
+  "typography": {
+    "heading1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": { "min": "70px", "max": "217px" },
+        "fontWeight": 400,
+        "letterSpacing": "0.005em",
+        "lineHeight": 1.2,
+        "textTransform": "uppercase"
+      }
+    },
+    "heading2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": { "min": "70px", "max": "200px" },
+        "fontWeight": 400,
+        "letterSpacing": "0.005em",
+        "lineHeight": 1.2,
+        "textTransform": "uppercase"
+      }
+    },
+    "heading3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": { "min": "40px", "max": "82px" },
+        "fontWeight": 400,
+        "letterSpacing": "0.005em",
+        "lineHeight": 1.2,
+        "textTransform": "uppercase"
+      }
+    },
+    "body-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.label}",
+        "fontSize": { "min": "12px", "max": "15px" },
+        "fontWeight": 800,
+        "letterSpacing": "0.005em",
+        "lineHeight": 1.2,
+        "textTransform": "uppercase"
+      }
+    },
+    "body-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.body}",
+        "fontSize": "15px",
+        "fontWeight": 300,
+        "letterSpacing": "0.005em",
+        "lineHeight": 1.5
+      }
+    }
+  },
+  "breakpoint": {
+    "xs": { "$type": "dimension", "$value": "320px" },
+    "sm": { "$type": "dimension", "$value": "390px" },
+    "sm-alt": { "$type": "dimension", "$value": "400px" },
+    "md": { "$type": "dimension", "$value": "768px" },
+    "md-alt": { "$type": "dimension", "$value": "960px" },
+    "lg": { "$type": "dimension", "$value": "1024px" },
+    "xl": { "$type": "dimension", "$value": "1280px" },
+    "2xl": { "$type": "dimension", "$value": "1920px" }
+  },
+  "radius": {
+    "pill": { "$type": "dimension", "$value": "2em" },
+    "circle": { "$type": "dimension", "$value": "50%" }
+  },
+  "duration": {
+    "fast": { "$type": "duration", "$value": "100ms" },
+    "base": { "$type": "duration", "$value": "200ms" },
+    "slow": { "$type": "duration", "$value": "300ms" },
+    "slower": { "$type": "duration", "$value": "400ms" }
+  }
+}

@@ -1,0 +1,68 @@
+/* Santioni Spirits — shadcn/ui theme
+   Extracted via static analysis of https://santionispirits.com/
+   Mapped onto shadcn's semantic token set; brand red as primary/destructive-adjacent accent. */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 7%;            /* #121212 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
+
+    --primary: 1 68% 46%;             /* #c82924 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 11%;            /* #1d1d1d */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 39 61% 60%;             /* #dfaf49 gold */
+    --accent-foreground: 0 0% 7%;
+
+    --destructive: 3 66% 36%;         /* #971d16 */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 1 68% 46%;
+
+    --radius: 0.5rem;
+    --radius-pill: 2em;
+  }
+
+  .dark {
+    --background: 0 0% 11%;           /* #1d1d1d */
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 7%;                  /* #121212 */
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 1 68% 46%;             /* #c82924 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 7%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 39 61% 60%;
+    --accent-foreground: 0 0% 7%;
+
+    --destructive: 3 66% 36%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 1 68% 46%;
+  }
+}

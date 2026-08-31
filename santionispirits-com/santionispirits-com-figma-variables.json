@@ -1,0 +1,70 @@
+{
+  "$description": "Santioni Spirits — Figma Variables import. Extracted via static analysis of https://santionispirits.com/",
+  "collections": [
+    {
+      "name": "Color",
+      "modes": ["Default"],
+      "variables": [
+        { "name": "ink", "type": "COLOR", "valuesByMode": { "Default": "#121212" } },
+        { "name": "black", "type": "COLOR", "valuesByMode": { "Default": "#1d1d1d" } },
+        { "name": "pure-black", "type": "COLOR", "valuesByMode": { "Default": "#000000" } },
+        { "name": "white", "type": "COLOR", "valuesByMode": { "Default": "#ffffff" } },
+        { "name": "brand-red/default", "type": "COLOR", "valuesByMode": { "Default": "#c82924" } },
+        { "name": "brand-red/600", "type": "COLOR", "valuesByMode": { "Default": "#be261e" } },
+        { "name": "brand-red/700", "type": "COLOR", "valuesByMode": { "Default": "#971d16" } },
+        { "name": "brand-red/800", "type": "COLOR", "valuesByMode": { "Default": "#bc251c" } },
+        { "name": "brand-red/900", "type": "COLOR", "valuesByMode": { "Default": "#c0261d" } },
+        { "name": "brand-red/950", "type": "COLOR", "valuesByMode": { "Default": "#990b06" } },
+        { "name": "gold", "type": "COLOR", "valuesByMode": { "Default": "#dfaf49" } },
+        { "name": "stone", "type": "COLOR", "valuesByMode": { "Default": "#ae9c74" } },
+        { "name": "taupe", "type": "COLOR", "valuesByMode": { "Default": "#927a73" } },
+        { "name": "flavor/blue", "type": "COLOR", "valuesByMode": { "Default": "#63c6f8" } },
+        { "name": "flavor/blue-alt", "type": "COLOR", "valuesByMode": { "Default": "#2fb5f9" } },
+        { "name": "flavor/blue-light", "type": "COLOR", "valuesByMode": { "Default": "#72c5f6" } },
+        { "name": "flavor/blue-deep", "type": "COLOR", "valuesByMode": { "Default": "#345bf9" } },
+        { "name": "flavor/blue-dark", "type": "COLOR", "valuesByMode": { "Default": "#00378f" } },
+        { "name": "flavor/mint", "type": "COLOR", "valuesByMode": { "Default": "#6dd993" } },
+        { "name": "flavor/mint-light", "type": "COLOR", "valuesByMode": { "Default": "#97f3ad" } },
+        { "name": "flavor/mint-deep", "type": "COLOR", "valuesByMode": { "Default": "#07cf4d" } },
+        { "name": "flavor/yellow", "type": "COLOR", "valuesByMode": { "Default": "#fbeb7f" } },
+        { "name": "flavor/violet", "type": "COLOR", "valuesByMode": { "Default": "#5900ff" } },
+        { "name": "flavor/magenta", "type": "COLOR", "valuesByMode": { "Default": "#ff0040" } },
+        { "name": "flavor/magenta-dark", "type": "COLOR", "valuesByMode": { "Default": "#240023" } }
+      ]
+    },
+    {
+      "name": "Typography",
+      "modes": ["Default"],
+      "variables": [
+        { "name": "font/display", "type": "STRING", "valuesByMode": { "Default": "Charles Rosie Regular" } },
+        { "name": "font/label", "type": "STRING", "valuesByMode": { "Default": "PPNikkeiMaru-Ultrabold" } },
+        { "name": "font/label-regular", "type": "STRING", "valuesByMode": { "Default": "PPNikkeiMaru-Regular" } },
+        { "name": "font/body", "type": "STRING", "valuesByMode": { "Default": "GT-Era-Text-Light" } },
+        { "name": "size/heading1-min", "type": "FLOAT", "valuesByMode": { "Default": 70 } },
+        { "name": "size/heading1-max", "type": "FLOAT", "valuesByMode": { "Default": 217 } },
+        { "name": "size/heading2-min", "type": "FLOAT", "valuesByMode": { "Default": 70 } },
+        { "name": "size/heading2-max", "type": "FLOAT", "valuesByMode": { "Default": 200 } },
+        { "name": "size/heading3-min", "type": "FLOAT", "valuesByMode": { "Default": 40 } },
+        { "name": "size/heading3-max", "type": "FLOAT", "valuesByMode": { "Default": 82 } },
+        { "name": "size/body-bold-min", "type": "FLOAT", "valuesByMode": { "Default": 12 } },
+        { "name": "size/body-bold-max", "type": "FLOAT", "valuesByMode": { "Default": 15 } },
+        { "name": "size/body-regular", "type": "FLOAT", "valuesByMode": { "Default": 15 } },
+        { "name": "letter-spacing/base", "type": "FLOAT", "valuesByMode": { "Default": 0.005 } }
+      ]
+    },
+    {
+      "name": "Breakpoint",
+      "modes": ["Default"],
+      "variables": [
+        { "name": "xs", "type": "FLOAT", "valuesByMode": { "Default": 320 } },
+        { "name": "sm", "type": "FLOAT", "valuesByMode": { "Default": 390 } },
+        { "name": "sm-alt", "type": "FLOAT", "valuesByMode": { "Default": 400 } },
+        { "name": "md", "type": "FLOAT", "valuesByMode": { "Default": 768 } },
+        { "name": "md-alt", "type": "FLOAT", "valuesByMode": { "Default": 960 } },
+        { "name": "lg", "type": "FLOAT", "valuesByMode": { "Default": 1024 } },
+        { "name": "xl", "type": "FLOAT", "valuesByMode": { "Default": 1280 } },
+        { "name": "2xl", "type": "FLOAT", "valuesByMode": { "Default": 1920 } }
+      ]
+    }
+  ]
+}

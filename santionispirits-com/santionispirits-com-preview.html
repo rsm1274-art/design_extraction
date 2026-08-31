@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Santioni Spirits — Design Language Preview</title>
+<style>
+  @font-face { font-family: 'Charles Rosie Regular'; src: url('https://santionispirits.com/assets/fonts/CharlesRosie.woff2') format('woff2'); font-display: swap; }
+  @font-face { font-family: 'PPNikkeiMaru-Ultrabold'; src: url('https://santionispirits.com/assets/fonts/PPNikkeiMaru-Ultrabold.woff2') format('woff2'); font-display: swap; }
+  @font-face { font-family: 'GT-Era-Text-Light'; src: url('https://santionispirits.com/assets/fonts/GT-Era-Text-Light.woff2') format('woff2'); font-display: swap; }
+
+  :root{
+    --ink:#121212; --black:#1d1d1d; --pure-black:#000; --white:#fff; --red:#c82924;
+    --red-600:#be261e; --red-700:#971d16; --gold:#dfaf49; --stone:#ae9c74;
+    --f-blue:#63c6f8; --f-mint:#6dd993; --f-yellow:#fbeb7f; --f-violet:#5900ff; --f-magenta:#ff0040;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--white);color:var(--ink);font-family:'GT-Era-Text-Light',sans-serif;font-weight:300;letter-spacing:.005em}
+  header{background:var(--black);color:var(--white);padding:64px 32px;text-align:center}
+  header h1{font-family:'Charles Rosie Regular',sans-serif;text-transform:uppercase;font-size:clamp(40px,8vw,96px);margin:0;letter-spacing:.005em}
+  header p{opacity:.7;font-size:14px;margin-top:12px}
+  section{padding:48px 32px;max-width:1100px;margin:0 auto}
+  h2{font-family:'PPNikkeiMaru-Ultrabold',sans-serif;text-transform:uppercase;font-size:15px;font-weight:800;letter-spacing:.005em;border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:12px;margin-bottom:24px}
+  .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px}
+  .swatch{border-radius:8px;overflow:hidden;border:1px solid rgba(0,0,0,.08)}
+  .swatch .fill{height:80px}
+  .swatch .meta{padding:8px 10px;font-size:11px;font-family:monospace;background:#fafafa}
+  .type-row{margin-bottom:28px}
+  .type-row .label{font-family:'PPNikkeiMaru-Ultrabold',sans-serif;font-size:11px;text-transform:uppercase;opacity:.5;margin-bottom:6px}
+  .h1-demo{font-family:'Charles Rosie Regular',sans-serif;text-transform:uppercase;font-size:clamp(40px,10vw,110px);line-height:1.1;letter-spacing:.005em;margin:0}
+  .h2-demo{font-family:'Charles Rosie Regular',sans-serif;text-transform:uppercase;font-size:clamp(32px,7vw,80px);line-height:1.1;letter-spacing:.005em;margin:0}
+  .h3-demo{font-family:'Charles Rosie Regular',sans-serif;text-transform:uppercase;font-size:clamp(24px,5vw,50px);line-height:1.2;letter-spacing:.005em;margin:0}
+  .bold-demo{font-family:'PPNikkeiMaru-Ultrabold',sans-serif;text-transform:uppercase;font-size:15px;font-weight:800;letter-spacing:.005em}
+  .body-demo{font-family:'GT-Era-Text-Light',sans-serif;font-size:15px;font-weight:300;line-height:1.5;max-width:560px}
+  .btn-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+  .btn-bordered{width:96px;height:48px;border:3px solid var(--ink);background:none;display:flex;align-items:center;justify-content:center;font-family:'PPNikkeiMaru-Ultrabold',sans-serif;font-size:12px;text-transform:uppercase;cursor:pointer;transition:.1s ease-in-out}
+  .btn-bordered:hover{color:var(--red);border-color:var(--red)}
+  .pill{width:220px;height:10px;border:2px solid var(--white);border-radius:2em;background:var(--black);overflow:hidden}
+  .pill .fill-bar{width:60%;height:100%;background:var(--white)}
+  .dark-demo{background:var(--black);padding:32px;border-radius:8px}
+  footer{background:var(--black);color:var(--white);padding:32px;text-align:center;font-size:12px;opacity:.6}
+  code{background:#f0f0f0;padding:2px 6px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Santioni Spirits</h1>
+  <p>Design language preview — static extraction from santionispirits.com</p>
+</header>
+
+<section>
+  <h2>Core colors</h2>
+  <div class="swatches">
+    <div class="swatch"><div class="fill" style="background:var(--ink)"></div><div class="meta">ink<br>#121212</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--black)"></div><div class="meta">black<br>#1d1d1d</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--pure-black)"></div><div class="meta">pure-black<br>#000000</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--white);border-bottom:1px solid #eee"></div><div class="meta">white<br>#ffffff</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--red)"></div><div class="meta">brand-red<br>#c82924</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--red-600)"></div><div class="meta">red-600<br>#be261e</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--red-700)"></div><div class="meta">red-700<br>#971d16</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--gold)"></div><div class="meta">gold<br>#dfaf49</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--stone)"></div><div class="meta">stone<br>#ae9c74</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Flavor accents (product/liquid)</h2>
+  <div class="swatches">
+    <div class="swatch"><div class="fill" style="background:var(--f-blue)"></div><div class="meta">flavor-blue<br>#63c6f8</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--f-mint)"></div><div class="meta">flavor-mint<br>#6dd993</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--f-yellow)"></div><div class="meta">flavor-yellow<br>#fbeb7f</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--f-violet)"></div><div class="meta">flavor-violet<br>#5900ff</div></div>
+    <div class="swatch"><div class="fill" style="background:var(--f-magenta)"></div><div class="meta">flavor-magenta<br>#ff0040</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Type scale</h2>
+  <div class="type-row"><div class="label">Heading 1 · Charles Rosie Regular · 70–217px</div><div class="h1-demo">Indulge</div></div>
+  <div class="type-row"><div class="label">Heading 2 · Charles Rosie Regular · 70–200px</div><div class="h2-demo">Atone Later</div></div>
+  <div class="type-row"><div class="label">Heading 3 · Charles Rosie Regular · 40–82px</div><div class="h3-demo">Ready to Pour</div></div>
+  <div class="type-row"><div class="label">Body Bold · PPNikkeiMaru-Ultrabold · 12–15px, 800</div><div class="bold-demo">Explore the Collection</div></div>
+  <div class="type-row"><div class="label">Body Regular · GT-Era-Text-Light · 15px, 300</div><div class="body-demo">Choose pleasure with Santioni Spirits: where intentional indulgence meets effortless enjoyment. Refined, ready-to-pour cocktails to help you savor the moment.</div></div>
+</section>
+
+<section>
+  <h2>Components</h2>
+  <div class="btn-row">
+    <button class="btn-bordered">Yes</button>
+    <button class="btn-bordered">No</button>
+  </div>
+  <br>
+  <div class="dark-demo">
+    <div class="pill"><div class="fill-bar"></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Fonts &amp; tokens reference</h2>
+  <p class="body-demo">
+    Display: <code>Charles Rosie Regular</code> · Label: <code>PPNikkeiMaru-Ultrabold</code> / <code>PPNikkeiMaru-Regular</code> · Body: <code>GT-Era-Text-Light</code><br><br>
+    Breakpoints: <code>320 390 400 768 960 1024 1280 1920</code> (fluid <code>calc(vw+px)</code> interpolation, not fixed steps)<br><br>
+    Radius: <code>2em</code> pill, <code>50%</code> circular controls · Letter-spacing: <code>0.005em</code> global
+  </p>
+</section>
+
+<footer>Extracted via static analysis — santionispirits.com is a WebGL/Hydrax experience; full rendered capture blocked by site WAF.</footer>
+
+</body>
+</html>
