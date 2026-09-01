@@ -1,0 +1,159 @@
+/* Drop-in motion system extracted from aspensearch.com.
+ * Requires the easing/animation tokens from aspensearch-com-variables.css.
+ */
+
+/* ---------------------------------------------------------------
+ * 1. Theme sweep — View Transitions API
+ * Add .theme-sweep-ltr / .theme-sweep-rtl to <html> around a
+ * document.startViewTransition(() => setTheme(next)) call.
+ * ------------------------------------------------------------- */
+html.theme-sweep-ltr::view-transition-old(root),
+html.theme-sweep-rtl::view-transition-old(root) {
+  z-index: 1;
+  animation: none;
+}
+html.theme-sweep-ltr::view-transition-new(root) {
+  animation: theme-sweep-ltr 1.2s var(--ease-in-out) both;
+  z-index: 2;
+  mix-blend-mode: normal;
+}
+html.theme-sweep-rtl::view-transition-new(root) {
+  animation: theme-sweep-rtl 1.2s var(--ease-in-out) both;
+  z-index: 2;
+  mix-blend-mode: normal;
+}
+/* Opt an element out of the snapshot (e.g. a running marquee) */
+html.theme-sweep-ltr .vt-exclude,
+html.theme-sweep-rtl .vt-exclude { view-transition-name: none; }
+
+/* ---------------------------------------------------------------
+ * 2. Ambient loops
+ * ------------------------------------------------------------- */
+.animate-hero-logo-coin { animation: var(--animate-hero-logo-coin); }
+.animate-typewriter-cursor { animation: var(--animate-typewriter-cursor); }
+
+/* ---------------------------------------------------------------
+ * 3. Marquee (marqy) — attribute-driven, four directions.
+ * Markup:
+ *   <div data-marqy data-direction="left" data-pause-on-hover>
+ *     <div data-marqy-inner>
+ *       <div data-marqy-content style="animation-duration:30s">
+ *         <div data-marqy-item>…</div>
+ *       </div>
+ *       <div data-marqy-content aria-hidden="true" style="animation-duration:30s">
+ *         <div data-marqy-item>…</div>
+ *       </div>
+ *     </div>
+ *   </div>
+ * ------------------------------------------------------------- */
+[data-marqy] { width: 100%; position: relative; }
+[data-marqy][data-direction="left"],
+[data-marqy][data-direction="right"] { overflow-x: clip; }
+[data-marqy][data-direction="up"],
+[data-marqy][data-direction="down"] { overflow-y: clip; }
+
+[data-marqy-inner] {
+  display: flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+[data-marqy-inner]::-webkit-scrollbar { display: none; }
+
+[data-marqy][data-direction="up"] [data-marqy-inner],
+[data-marqy][data-direction="down"] [data-marqy-inner],
+[data-marqy][data-direction="up"] [data-marqy-content],
+[data-marqy][data-direction="down"] [data-marqy-content] { flex-direction: column; }
+
+[data-marqy][data-direction="down"] [data-marqy-inner],
+[data-marqy][data-direction="down"] [data-marqy-content] { justify-content: flex-end; }
+
+[data-marqy-content] {
+  display: flex;
+  flex: 1 0 auto;
+  will-change: transform;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+[data-marqy-item] { flex-grow: 0; }
+
+[data-marqy][data-direction="left"]  [data-marqy-content] { animation-name: marqyL; }
+[data-marqy][data-direction="right"] [data-marqy-content] { animation-name: marqyR; }
+[data-marqy][data-direction="up"]    [data-marqy-content] { animation-name: marqyU; }
+[data-marqy][data-direction="down"]  [data-marqy-content] { animation-name: marqyD; }
+
+[data-marqy-static] [data-marqy-content] { animation: none !important; }
+[data-marqy][data-pause-on-hover]:hover > [data-marqy-inner] > [data-marqy-content] {
+  animation-play-state: paused;
+}
+
+/* ---------------------------------------------------------------
+ * 4. Split-text line reveal (the primary entrance)
+ * Wrap each line in .line-mask > .line, then add .is-revealed
+ * to the container when it enters the viewport.
+ * ------------------------------------------------------------- */
+.line-mask { overflow: hidden; display: block; }
+.line {
+  display: block;
+  transform: translateY(100%);
+  transition-property: transform, opacity;
+  transition-duration: 0.65s;
+  transition-timing-function: var(--ease-out);
+}
+.is-revealed .line { transform: translateY(0); }
+
+/* Per-line stagger; pair with --line-index set inline or by JS. */
+.line { transition-delay: calc(var(--line-index, 0) * 0.1s + var(--block-delay, 0s)); }
+
+/* Lighter variant for non-text blocks */
+.fade-up {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.56s var(--ease-out), transform 0.56s var(--ease-out);
+}
+.is-revealed .fade-up, .fade-up.is-revealed { opacity: 1; transform: translateY(0); }
+
+/* ---------------------------------------------------------------
+ * 5. Micro-interactions
+ * ------------------------------------------------------------- */
+.hover-invert {
+  transition: background-color var(--default-transition-duration) var(--ease-in-out),
+              color var(--default-transition-duration) var(--ease-in-out);
+}
+.hover-invert:hover {
+  background-color: rgb(var(--theme-fg));
+  color: rgb(var(--theme-bg));
+}
+
+.underline-draw { position: relative; }
+.underline-draw::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: rgb(var(--theme-fg));
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s var(--ease-out);
+}
+.underline-draw:hover::after { transform: scaleX(1); }
+
+.hover-spring { transition: transform 0.45s var(--ease-overshoot); }
+
+/* SVG icons pivot on the glyph, not the viewBox */
+.icon-rotate { transform-box: fill-box; transform-origin: center; }
+
+/* ---------------------------------------------------------------
+ * 6. Reduced motion — restore END states, don't just stop motion.
+ * ------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+  .line { transform: translateY(0); }
+  .fade-up { opacity: 1; transform: none; }
+  .underline-draw::after { transform: scaleX(1); }
+}
