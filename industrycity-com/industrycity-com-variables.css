@@ -1,0 +1,189 @@
+/* Design tokens extracted from industrycity.com
+ * The theme authors sizes in rem against a 16px root but writes values as if
+ * 1rem ~= 10px (body copy is 1.6rem). Values below are reproduced as authored.
+ */
+
+:root {
+  /* --- Fonts (Abolition + Proxima Nova via Adobe Typekit; Neue Machina self-hosted) --- */
+  --proxima-font: "proxima-nova", sans-serif;   /* body, UI, buttons */
+  --abolition-font: "Abolition", sans-serif;    /* condensed display — h1/h2/h4-h6 */
+  --nueue-font: "Neue Machina", sans-serif;     /* h3, eyebrows, technical labels */
+
+  /* --- Structure --- */
+  --border: 2px solid #000;
+  --border-width: 2px;
+  --rule: #000;
+
+  /* --- Core palette --- */
+  --bg: #FBF9F5;          /* warm paper ground */
+  --white: #FFFFFF;
+  --black: #000000;
+
+  /* --- Warm accent family --- */
+  --amber: #fab36a;       /* primary accent */
+  --cream: #fbe6c1;       /* bottom bar, button hover text */
+  --burnt-orange: #e05829;/* button wipe, nav underline */
+  --orange-loader: #e5813a;
+
+  /* --- Cool / secondary --- */
+  --teal: #DCEBD7;        /* pale sage-mint */
+  --blue: #417878;
+  --green: #34AD5C;
+  --green-button: #4daa60;
+  --sage: #e5e7da;
+  --olive: #7e8742;
+  --olive-light: #b2b792;
+
+  /* --- Peach tints (photo overlays) --- */
+  --peach-10: #fcd1a5;
+  --peach-20: #fbc791;
+  --peach-30: #f4b47c;
+  --peach-40: #f1b486;
+  --peach-50: #ebb598;
+
+  /* --- Mobile CTA column ramp --- */
+  --cta-1: #f1684b;
+  --cta-2: #f0593c;
+  --cta-3: #e95134;
+  --cta-4: #ef492d;
+
+  /* --- Muted --- */
+  --grey: #6a6b6b;
+  --grey-light: #989898;
+  --pill-free: #E7E971;
+
+  /* --- Scrims --- */
+  --scrim-brand: rgba(224, 88, 41, 0.89);
+  --scrim-hover: rgba(0, 0, 0, 0.3);
+
+  /* --- Motion --- */
+  --transition-interaction: all 0.3s ease;  /* the house default */
+  --transition-structure: all 1s ease;      /* page-load rule draws */
+  --transition-fast: color 0.1s ease-in-out;
+  --transition-panel: 0.3s ease-in-out;     /* height/width/transform panels */
+
+  /* --- Fluid padding idiom used throughout --- */
+  --pad-section: clamp(3rem, 3vw, 3vw);
+  --pad-cell: clamp(3rem, 2vw, 2vw);
+}
+
+/* --- Base --- */
+html { font-size: 16px; background-color: #FBF9F5; }
+
+body {
+  position: relative;
+  z-index: 1;
+  color: var(--black);
+  font-family: var(--proxima-font);
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+  background: var(--bg);
+  overflow-x: hidden;
+}
+
+/* --- Heading scale ---
+ * Note the theme's clamp() idiom: clamp(<mobile floor>, <vw>, <same vw>) —
+ * a hard mobile minimum that then scales purely with viewport width.
+ */
+h1, .h1 {
+  margin: 0 0 clamp(3rem, 2vw, 2vw);
+  font-family: var(--abolition-font);
+  font-size: clamp(6rem, 6vw, 6vw);
+  line-height: 1.1;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+h2, .h2 {
+  margin: 0 0 clamp(3rem, 2vw, 2vw);
+  font-family: var(--abolition-font);
+  font-size: clamp(4rem, 3vw, 3vw);
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+h3, .h3 {
+  margin: 0 0 clamp(1rem, 1vw, 1vw);
+  font-family: var(--nueue-font);
+  font-size: clamp(1.8rem, 0.7vw, 0.7vw);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin: 0 0 clamp(1rem, 1vw, 1vw);
+  font-family: var(--abolition-font);
+  font-size: clamp(3rem, 2vw, 2vw);
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+/* --- Buttons --- */
+.basic-button {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding: 1.2rem 4rem 1.2rem 1.5rem;
+  margin: 0 3rem 3rem 0;
+  border: none;
+  font-family: var(--proxima-font);
+  font-size: clamp(1.3rem, 0.8vw, 0.8rem);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--bg);
+  background: var(--black);
+}
+.basic-button.green { background: var(--green-button); color: var(--black); }
+
+/* --- Links --- */
+.underline-link {
+  position: relative;
+  text-transform: uppercase;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+  padding-right: 4rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  transition: var(--transition-interaction);
+}
+.underline-link::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: var(--black);
+  transition: var(--transition-interaction);
+}
+
+/* --- Grid cells: the 2px rule system ---
+ * Cells carry borders on the right and bottom only; nth-child rules strip the
+ * outer edges so rules never double up.
+ */
+.grid-cell {
+  position: relative;
+  border: var(--border);
+  border-width: 0 var(--border-width) var(--border-width) 0;
+  overflow: hidden;
+}
+
+/* --- Breakpoints (UIkit 3) --- */
+/* --uk-breakpoint-s: 480px; --uk-breakpoint-m: 769px;
+   --uk-breakpoint-l: 1024px; --uk-breakpoint-xl: 1280px;
+   theme mobile split: 960/961px */
