@@ -1,0 +1,158 @@
+/* Design tokens extracted from aspensearch.com
+ * Framework-agnostic CSS custom properties.
+ * Base unit --spacing is 1px, so `calc(var(--spacing) * 24)` == 24px.
+ */
+
+:root {
+  /* --- Fonts --- */
+  --font-sans: "Suisse Intl", ui-sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-mono: "Suisse Intl Mono", ui-monospace, monospace;
+
+  /* --- Base unit & layout range --- */
+  --spacing: 0.0625rem; /* 1px */
+  --layout-min-w: 375;
+  --layout-max-w: 1600;
+  --site-header-height: calc(var(--spacing) * 60); /* 60px */
+
+  /* Fluid interpolation slope: 375px viewport -> 1600px viewport */
+  --fluid-min-w: var(--layout-min-w);
+  --fluid-max-w: var(--layout-max-w);
+  --fluid-slope: calc((100vw - calc(var(--spacing) * var(--fluid-min-w))) / (var(--fluid-max-w) - var(--fluid-min-w)));
+
+  /* --- Brand colors --- */
+  --color-black: #232323;
+  --color-black-deep: #000000;
+  --color-white: #ffffff;
+  --color-mint: #a1ffcb;
+  --color-grey: #d9d9d9;
+
+  /* --- Themed surface pair (RGB triplets, consumed via rgb()) --- */
+  --theme-bg: 255 255 255;
+  --theme-fg: 35 35 35;
+  --color-theme-bg: rgb(var(--theme-bg));
+  --color-theme-fg: rgb(var(--theme-fg));
+
+  /* --- Weights --- */
+  --font-weight-book: 450; /* the workhorse weight */
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* --- Type scale (fluid where a clamp is present) --- */
+  --text-caption-10: calc(var(--spacing) * 12);
+  --text-caption-10--font-weight: 400;
+  --text-caption-10--line-height: 1.1;
+  --text-caption-10--letter-spacing: -4%;
+
+  --text-caption-20: calc(var(--spacing) * 14);
+  --text-caption-20--font-weight: 400;
+  --text-caption-20--line-height: 1;
+  --text-caption-20--letter-spacing: -4%;
+
+  --text-body-10: calc(var(--spacing) * 16);
+  --text-body-10--font-weight: 450;
+  --text-body-10--line-height: 1.3;
+  --text-body-10--letter-spacing: -4%;
+
+  --text-body-20: calc(var(--spacing) * 24);
+  --text-body-20--font-weight: 450;
+  --text-body-20--line-height: 1.1;
+  --text-body-20--letter-spacing: -2%;
+
+  --text-body-30: clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (32 - 24) * var(--fluid-slope), calc(var(--spacing) * 32));
+  --text-body-30--font-weight: 450;
+  --text-body-30--line-height: 1.1;
+  --text-body-30--letter-spacing: -2%;
+
+  --text-headline-10: clamp(calc(var(--spacing) * 24), calc(var(--spacing) * 24) + (40 - 24) * var(--fluid-slope), calc(var(--spacing) * 40));
+  --text-headline-10--font-weight: 450;
+  --text-headline-10--line-height: 1.1;
+  --text-headline-10--letter-spacing: -4%;
+
+  --text-headline-20: clamp(calc(var(--spacing) * 32), calc(var(--spacing) * 32) + (48 - 32) * var(--fluid-slope), calc(var(--spacing) * 48));
+  --text-headline-20--font-weight: 450;
+  --text-headline-20--line-height: 1;
+  --text-headline-20--letter-spacing: -4%;
+
+  --text-headline-30: clamp(calc(var(--spacing) * 40), calc(var(--spacing) * 40) + (56 - 40) * var(--fluid-slope), calc(var(--spacing) * 56));
+  --text-headline-30--font-weight: 450;
+  --text-headline-30--line-height: 1;
+  --text-headline-30--letter-spacing: -4%;
+
+  --text-headline-40: clamp(calc(var(--spacing) * 40), calc(var(--spacing) * 40) + (100 - 40) * var(--fluid-slope), calc(var(--spacing) * 100));
+  --text-headline-40--font-weight: 450;
+  --text-headline-40--line-height: 1;
+  --text-headline-40--letter-spacing: -4%;
+
+  --text-headline-50: clamp(calc(var(--spacing) * 52), calc(var(--spacing) * 52) + (200 - 52) * var(--fluid-slope), calc(var(--spacing) * 200));
+  --text-headline-50--font-weight: 450;
+  --text-headline-50--line-height: 0.8;
+  --text-headline-50--letter-spacing: -4%;
+
+  --text-digit-10: calc(var(--spacing) * 80);
+  --text-digit-10--font-weight: 450;
+  --text-digit-10--line-height: 1;
+  --text-digit-10--letter-spacing: -4%;
+
+  --text-digit-20: clamp(calc(var(--spacing) * 80), calc(var(--spacing) * 80) + (120 - 80) * var(--fluid-slope), calc(var(--spacing) * 120));
+  --text-digit-20--font-weight: 450;
+  --text-digit-20--line-height: 1;
+  --text-digit-20--letter-spacing: -4%;
+
+  --text-digit-30: clamp(calc(var(--spacing) * 80), calc(var(--spacing) * 80) + (140 - 80) * var(--fluid-slope), calc(var(--spacing) * 140));
+  --text-digit-30--font-weight: 450;
+  --text-digit-30--line-height: 1;
+  --text-digit-30--letter-spacing: -4%;
+
+  /* --- Radius (that's the whole set) --- */
+  --radius-4: calc(var(--spacing) * 4); /* 4px */
+
+  /* --- Easing --- */
+  --ease-in: cubic-bezier(0.55, 0, 1, 0.45);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-overshoot: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --default-transition-duration: 0.15s;
+  --default-transition-timing-function: var(--ease-in-out);
+
+  /* --- Named animations --- */
+  --animate-hero-logo-coin: hero-logo-coin 20s linear infinite;
+  --animate-typewriter-cursor: typewriter-cursor-blink 1s step-end infinite;
+
+  /* --- Custom scrollbar --- */
+  --sb-track-color: var(--color-theme-fg);
+  --sb-thumb-color: var(--color-theme-bg);
+  --sb-divider-color: var(--color-theme-fg);
+  --sb-size: 6px;
+}
+
+:root[data-theme="light"] { --theme-bg: 255 255 255; --theme-fg: 35 35 35; }
+:root[data-theme="dark"]  { --theme-bg: 35 35 35;    --theme-fg: 255 255 255; }
+
+html, body {
+  background-color: rgb(var(--theme-bg));
+  color: rgb(var(--theme-fg));
+}
+
+::selection {
+  background-color: rgb(var(--theme-fg));
+  color: rgb(var(--theme-bg));
+}
+
+/* --- Keyframes --- */
+@keyframes theme-sweep-ltr { 0% { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0); } }
+@keyframes theme-sweep-rtl { 0% { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0); } }
+@keyframes hero-logo-coin { 0% { transform: translateZ(1px) rotateY(0); } to { transform: translateZ(1px) rotateY(-360deg); } }
+@keyframes typewriter-cursor-blink { 0%, 44% { opacity: 1; } 56%, to { opacity: 0; } }
+@keyframes marqyL { 0% { transform: translate(0, 0); } to { transform: translate(-100%); } }
+@keyframes marqyR { 0% { transform: translate(0, 0); } to { transform: translate(100%); } }
+@keyframes marqyU { 0% { transform: translate(0, 0); } to { transform: translateY(-100%); } }
+@keyframes marqyD { 0% { transform: translateY(-100%); } to { transform: translate(0, 0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition-duration: 1ms !important;
+  }
+}
