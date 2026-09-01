@@ -1,0 +1,302 @@
+/* Drop-in motion system extracted from industrycity.com.
+ * Requires the tokens in industrycity-com-variables.css.
+ *
+ * Differences from the original: a prefers-reduced-motion block has been added
+ * (the source site ships none) and it restores end states rather than only
+ * stopping motion.
+ */
+
+/* ---------------------------------------------------------------
+ * 1. Page-load: the 2px rule grid draws itself in.
+ * Add .loaded to the chrome elements on DOM ready:
+ *   $('.top-bar, .sidebar, .bottom-bar, .site, #masthead').addClass('loaded');
+ * ------------------------------------------------------------- */
+
+/* horizontal rule under the masthead — draws right-to-left */
+.masthead::after {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--rule, #000);
+  transition: var(--transition-structure, all 1s ease);
+  transition-delay: 0.2s;
+}
+.masthead.loaded::after { width: 100%; }
+
+/* rule above the bottom bar — draws left-to-right */
+.bottom-bar::before {
+  position: absolute;
+  left: 0;
+  top: -2px;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--rule, #000);
+  transition: var(--transition-structure, all 1s ease);
+  transition-delay: 0.2s;
+}
+.bottom-bar.loaded::before { width: 100%; }
+
+/* vertical divider in the top bar — draws downward, later */
+.top-bar::before {
+  position: absolute;
+  top: 0;
+  left: 21.5rem;
+  content: "";
+  display: block;
+  width: 2px;
+  height: 0;
+  background: var(--rule, #000);
+  transition: all 0.9s ease;
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+.top-bar.loaded::before { height: 100%; }
+
+/* right edge of the sidebar — draws downward, immediately */
+.sidebar::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "";
+  width: 2px;
+  height: 0;
+  background: var(--rule, #000);
+  transition: var(--transition-structure, all 1s ease);
+  transition-delay: 0s;
+}
+.sidebar.loaded::after { height: 100%; }
+
+/* the brand mark drops in last */
+.sidebar .site-branding {
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+  transform: translateY(-10rem);
+  transition: all 0.5s ease;
+  transition-duration: 0.3s;
+  transition-delay: 1s;
+}
+.sidebar.loaded .site-branding { opacity: 1; transform: translateY(0); }
+
+/* ---------------------------------------------------------------
+ * 2. Full-page navigation transition.
+ * JS: on an internal link click, addClass('invisible') after 100ms,
+ *     navigate at 300ms. On load, addClass('visible').
+ * ------------------------------------------------------------- */
+body #page,
+body .site-footer {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+body.visible #page,
+body.visible .site-footer { opacity: 1; pointer-events: all; }
+body.invisible #page,
+body.invisible .site-footer { opacity: 0; pointer-events: none; }
+
+body .page-loader {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+body.visible .page-loader { opacity: 0; }
+body.invisible .page-loader { opacity: 1; }
+
+body.visible { overflow: auto; }
+body.invisible { overflow: hidden; }
+
+/* ---------------------------------------------------------------
+ * 3. Hero gallery — slides land zoomed and settle to 1:1
+ * ------------------------------------------------------------- */
+.gallery-swiper .swiper-slide {
+  transform: scale(1.3);
+  transition: transform 0.5s ease;
+}
+.loaded .gallery-swiper .swiper-slide { transform: scale(1); }
+
+/* ---------------------------------------------------------------
+ * 4. Ken Burns
+ * Note: the source animates background-size (repaints every frame).
+ * The transform variant below composites instead — prefer it.
+ * ------------------------------------------------------------- */
+@keyframes kenBurns { 0% { background-size: 100% 100%; } 100% { background-size: 150% 150%; } }
+.ken-burns { animation: kenBurns 30s infinite alternate; }
+
+@keyframes kenBurnsTransform { 0% { transform: scale(1); } 100% { transform: scale(1.5); } }
+.ken-burns-gpu > img { animation: kenBurnsTransform 30s infinite alternate; will-change: transform; }
+
+/* ---------------------------------------------------------------
+ * 5. Vertical rotated headline
+ * ------------------------------------------------------------- */
+.fixed-headline {
+  position: absolute;
+  z-index: 9;
+  font-size: 10rem;
+  left: -16.5rem;
+  bottom: 5rem;
+  margin: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  display: inline-block;
+  overflow: visible;
+  color: var(--amber, #fab36a);
+}
+
+/* ---------------------------------------------------------------
+ * 6. Hover system — all at .3s ease
+ * ------------------------------------------------------------- */
+
+/* a. Button: burnt-orange wipe across the black fill */
+.basic-button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 0%;
+  height: 100%;
+  background: var(--burnt-orange, #e05829);
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.basic-button:hover::before { width: 100%; }
+.basic-button:hover { color: var(--cream, #fbe6c1); text-decoration: none; }
+/* keep the label above the wipe */
+.basic-button > * { position: relative; z-index: 1; }
+
+/* b. Nav link: underline grows from the left */
+.nav-link { position: relative; }
+.nav-link::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--burnt-orange, #e05829);
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.nav-link:hover::before { width: 100%; }
+
+/* c. .underline-link: amber rule flips to black, arrow at the end */
+.underline-link::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-81%);
+  content: "";
+  width: 2.5rem;
+  height: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.underline-link.left-side-arrow { padding-left: 4rem; padding-right: 0; }
+.underline-link.left-side-arrow::after {
+  right: auto;
+  left: 0;
+  transform: translateY(-81%) rotate(180deg);
+}
+.underline-link.accent::before { background: var(--amber, #fab36a); }
+.underline-link.accent:hover::before { background: var(--black, #000); }
+
+/* d. Image cells: inverse zoom — parked over-scaled, relaxes on hover */
+.img-wrp { position: relative; overflow: hidden; }
+.img-wrp img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.03);
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.img-wrp:hover img,
+.grid-cell:hover .img-wrp img { transform: scale(1); }
+
+/* e. CTA columns: brand scrim flips to black, photo scales up slightly */
+.cta-column { position: relative; overflow: hidden; }
+.cta-column img {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.cta-column::before {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  display: block;
+  content: "";
+  background: var(--scrim-brand, rgba(224, 88, 41, 0.89));
+  transition: var(--transition-interaction, all 0.3s ease);
+}
+.cta-column:hover { cursor: pointer; }
+.cta-column:hover img { opacity: 1; transform: scale(1.02); }
+.cta-column:hover::before { background: var(--scrim-hover, rgba(0, 0, 0, 0.3)); pointer-events: none; }
+
+/* ---------------------------------------------------------------
+ * 7. Loaders
+ * ------------------------------------------------------------- */
+@keyframes l1 { to { transform: rotate(0.5turn); } }
+.loader {
+  width: 5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 0.8rem solid;
+  border-color: var(--teal, #DCEBD7) transparent;
+  animation: l1 1s infinite;
+}
+
+@keyframes loading { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.video-container::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 6px solid var(--black, #000);
+  border-top-color: var(--orange-loader, #e5813a);
+  opacity: 0.6;
+  animation: loading 1.5s linear infinite;
+}
+
+/* ---------------------------------------------------------------
+ * 8. Reduced motion — NOT present on the source site. Added here.
+ * Restores end states rather than leaving elements mid-animation.
+ * (Swiper autoplay must also be disabled in JS.)
+ * ------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+  .masthead::after,
+  .bottom-bar::before { width: 100%; }
+  .top-bar::before,
+  .sidebar::after { height: 100%; }
+  .sidebar .site-branding { opacity: 1; transform: none; }
+  .gallery-swiper .swiper-slide { transform: none; }
+  .img-wrp img { transform: none; }
+  body #page, body .site-footer { opacity: 1; pointer-events: all; }
+  body .page-loader { opacity: 0; }
+}
