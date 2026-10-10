@@ -1,0 +1,18 @@
+/* shadcn/ui Theme — extracted from https://manhattan.institute/ */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 228 100% 97%;
+    --foreground: 0 0% 0%;
+    --primary: 230 72% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 100% 50%;
+    --secondary-foreground: 0 0% 0%;
+    --accent: 189 100% 41%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 0%;
+    --muted-foreground: 0 0% 10%;
+    --border: 0 0% 0%;
+  }
+}
