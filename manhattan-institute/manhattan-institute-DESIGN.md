@@ -1,0 +1,145 @@
+---
+site: "Manhattan Institute | Creative. Bold. Independent."
+url: "https://manhattan.institute/"
+generated_at: "2026-10-10T03:03:39.295Z"
+generator: "designlang@13.3.2"
+intent: landing
+material: flat
+tokens:
+  colors:
+    primary: "#2c48dc"
+    secondary: "#ff8000"
+    accent: "#00afcf"
+    background: "#f0f3ff"
+    foreground: "#000000"
+  typography:
+    sans: GT America
+    base: 12
+  spacing:
+    base: 5
+    scale: "[1, 20, 25, 30, 40, 50, 57, 70, 75, 80]"
+  shadows:
+    md: "rgba(0, 0, 0, 0.08) 0px 2px 8px 0px"
+---
+
+# Overview
+
+A **landing** page (heuristic confidence 0.31), dressed in **flat** material.
+
+> "How States Can Cut Rules and Regulations—and Make It Stick"
+
+The author writes in a **friendly** voice; headings tend to be **Title Case** case and **verbose**.
+
+Reading order detected on the source: `testimonial → nav → nav → nav`.
+
+Source: <https://manhattan.institute/>.
+
+# Colors
+
+| role | hex | usage |
+|---|---|---|
+| primary | `#2c48dc` | 33 |
+| secondary | `#ff8000` | 4 |
+| accent | `#00afcf` | 3 |
+| background | `#f0f3ff` | — |
+| foreground | `#000000` | — |
+
+**Neutrals:** `#1a1a1a` · `#ffffff` · `#aeb0b7` · `#000000`
+
+**Tonal ramps** (OKLCH, base step in bold)
+- primary: 50 `#cef2ff` · 100 `#bfe6ff` · 200 `#a9d3ff` · 300 `#8bb8ff` · 400 `#6692ff` · 500 `#4971ff` · 600 `#385ae6` · **700 `#2c48dc`** · 800 `#1f35a6` · 900 `#17288b` · 950 `#091257`
+- secondary: 50 `#ffe1af` · 100 `#ffd39b` · 200 `#ffbf7f` · 300 `#ffa155` · **400 `#ff8000`** · 500 `#d35800` · 600 `#b64200` · 700 `#972f00` · 800 `#7f2200` · 900 `#6a1800` · 950 `#400700`
+- accent: 50 `#bcffff` · 100 `#aaf8ff` · 200 `#8fe9ff` · 300 `#66d1ed` · **400 `#00afcf`** · 500 `#0093b2` · 600 `#007b98` · 700 `#00647e` · 800 `#005269` · 900 `#004357` · 950 `#002533`
+- neutral: 50 `#f4f5fa` · 100 `#e8eaee` · 200 `#d7d9de` · **300 `#aeb0b7`** · 400 `#9d9fa6` · 500 `#808288` · 600 `#6a6c72` · 700 `#55565c` · 800 `#45464b` · 900 `#37383d` · 950 `#1e1f21`
+
+**Measured pairs**
+| role | bg | fg | contrast |
+|---|---|---|---|
+| surface.page | `#f0f3ff` | `#000000` | 18.97:1 AAA |
+| surface.raised | `#e1e6fa` | `#000000` | 16.9:1 AAA |
+| action.primary | `#2c48dc` | `#ffffff` | 6.85:1 AA |
+| action.secondary | `#ff8000` | `#000000` | 8.34:1 AAA |
+| action.accent | `#00afcf` | `#000000` | 8.03:1 AAA |
+
+**Dominance (share of painted area):** `#f0f3ff` 45% · `#20222e` 20% · `#e1e6fa` 18% · `#ff8000` 8%
+
+**Total unique colors detected:** 10.
+
+# Typography
+
+**Families**
+- `GT America` · 357 uses
+- `Le Monde Livre` · 52 uses
+
+**Body size:** `12px` / line-height `18px`.
+
+**Scale ratio:** `1.125` (major second) from `22px` — 100% of sizes on the ladder.
+**Measure:** ~72 characters per line (comfortable).
+**Fluid type:** none — fixed sizes per breakpoint.
+
+**Named scale**
+| role | size | weight | line-height |
+|---|---|---|---|
+| display | `128px` | `700` | `76.8px` |
+| title-1 | `64px` | `700` | `64px` |
+| title-2 | `48px` | `700` | `43.2px` |
+| h3 | `46px` | `300` | `46px` |
+| title-3 | `40px` | `700` | `46px` |
+| title-4 | `36px` | `700` | `41.4px` |
+| h2 | `32px` | `300` | `36.8px` |
+| title-5 | `28px` | `400` | `30.8px` |
+| title-6 | `24px` | `700` | `27.6px` |
+| title-7 | `22px` | `300` | `25.3px` |
+
+# Layout
+
+**Spacing base:** `5px` increments.
+**Scale:** `1px` · `20px` · `25px` · `30px` · `40px` · `50px` · `57px` · `70px` · `75px` · `80px`
+
+**Content column:** `1790px` (full-bleed shell)
+**Column system:** 2 columns.
+**Gap scale:** `5px` · `8px` · `10px` · `12px` · `15px` · `20px` · `25px` · `30px`
+
+**Layout primitives:** 179 grid containers · 31 flex containers.
+
+**Breakpoints:** `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px` · `[object Object]px`
+
+# Elevation and Depth
+
+**Elevation ladder**
+- `xs` — `rgba(0, 0, 0, 0.08) 0px 2px 8px 0px`
+
+**Shadow system:** 1 levels from 1 raw values (redundancy 1×) · neutral tint.
+
+**Z-index layers:** 8
+
+# Shapes
+
+_No discrete radius tokens detected — sharp/brutalist shapes._
+
+# Components
+
+**Detected patterns:** `buttons` · `cards` · `links` · `navigation` · `footer` · `modals` · `dropdowns` · `badges` · `tabs` · `progressBars` · `switches`
+
+**Anatomy**
+| kind | variants | sizes | instances |
+|---|---|---|---|
+| button | primary | large | 85 |
+| card | — | — | 28 |
+
+# Do's and Don'ts
+
+**Do's**
+- Use `stay`, `support`, `city` as the primary verbs in CTAs — these dominate the source.
+- Write headings in **Title Case** case, **verbose** length.
+- Address the reader with the pronoun posture **you-only**.
+- Stay inside the **flat** material — match shadow and radius habits.
+
+**Don'ts**
+- Don't 118 !important rules — prefer specificity over overrides.
+- Don't 86% of css is unused — consider purging.
+- Don't 6913 duplicate css declarations.
+
+---
+_Generated by [designlang](https://github.com/Manavarya09/design-extract) v13.3.2 from <https://manhattan.institute/>._
+_Compatible with the DESIGN.md convention pioneered by [design-extractor.com](https://www.design-extractor.com) — extended with intent, material, voice, anatomy, and library detection._
